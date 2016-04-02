@@ -3,6 +3,7 @@
 
 {% block content %} 
 
+
 <!-- Adds the navigation partial -->
 {% include "partials/navigation.nunjucks" %}
 

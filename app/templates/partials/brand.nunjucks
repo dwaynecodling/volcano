@@ -1,5 +1,5 @@
 <!-- brand.nunjucks -->
-<section class="brand">
+<section id="about" class="brand">
       <h2>Branding + Identity
 </h2>
 <p>Volcano provides infintate branding solutions for SME and Start-up companies that create that ever important first impression and business ethic. </p>

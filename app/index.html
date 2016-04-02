@@ -13,7 +13,6 @@
 
     <!-- build:css css/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -40,39 +39,43 @@
   <!-- You write code for this content block in another file -->
    
 
+
 <!-- Adds the navigation partial -->
 <!-- navigation.nunjucks -->
 <nav class="row" >
-  <div class ="column column-12">
-        
-        <ul class="column column-10">
-          <li><img class="logo" src="http://placehold.it/50x50"></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#contact">Contact</a></li>
-         </ul>
+  <div class =" top-menu column column-12">
+        <div class="column column-1">
+          <a href="#home"><img class="logo" src="http://placehold.it/50x50"></a>
+         </div>
+       
 
-        <ul class="social-media column column-2"> 
-          <li class ="twitter"><a href="#twitter"> 
+        <div class="column column-9">        
+          <a class="active" href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+         </div>
+
+        <div class="social-media column column-2"> 
+          <a href="#twitter"> 
             <span class="fa-stack fa-1x">
             <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
             <i class="fa fa-twitter fa-2 fa-stack-1x "></i></span>
             </a>
-          </li>
-          <li class ="facebook"><a href="#facebook"> 
+       
+          <a href="#facebook"> 
             <span class="fa-stack fa-1x">
             <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
             <i class="fa fa-facebook fa-2 fa-stack-1x "></i></span>
             </a>
-          </li>
-           <li class ="vimeo"><a href="#vimeo"> 
+      
+         <a href="#vimeo"> 
             <span class="fa-stack fa-1x">
             <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
             <i class="fa fa-vimeo fa-2 fa-stack-1x "></i></span>
             </a>
-         </li>
-         
-    </ul>
+     
+                
+    </div>
   </div> 
 
       </nav>
@@ -95,9 +98,11 @@
 <img class="logo" src="http://placehold.it/70x50">
     </section>
 
+    
+
 <!-- Adds the brand partial -->
 <!-- brand.nunjucks -->
-<section class="brand">
+<section id="about" class="brand">
       <h2>Branding + Identity
 </h2>
 <p>Volcano provides infintate branding solutions for SME and Start-up companies that create that ever important first impression and business ethic. </p>
