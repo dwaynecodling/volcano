@@ -1,0 +1,35 @@
+<!-- navigation.nunjucks -->
+<nav class="row" >
+  <div class ="column column-12">
+        
+        <ul class="column column-10">
+          <li><img class="logo" src="http://placehold.it/50x50"></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+         </ul>
+
+        <ul class="social-media column column-2"> 
+          <li class ="twitter"><a href="#twitter"> 
+            <span class="fa-stack fa-1x">
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-twitter fa-2 fa-stack-1x "></i></span>
+            </a>
+          </li>
+          <li class ="facebook"><a href="#facebook"> 
+            <span class="fa-stack fa-1x">
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-facebook fa-2 fa-stack-1x "></i></span>
+            </a>
+          </li>
+           <li class ="vimeo"><a href="#vimeo"> 
+            <span class="fa-stack fa-1x">
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-vimeo fa-2 fa-stack-1x "></i></span>
+            </a>
+         </li>
+         
+    </ul>
+  </div> 
+
+      </nav>

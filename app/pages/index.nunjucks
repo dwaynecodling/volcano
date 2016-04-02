@@ -1,0 +1,21 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %} 
+
+<!-- Adds the navigation partial -->
+{% include "partials/navigation.nunjucks" %}
+
+<!-- Adds the intro partial -->
+{% include "partials/intro.nunjucks" %}
+
+<!-- Adds the process partial -->
+{% include "partials/process.nunjucks" %}
+
+<!-- Adds the brand partial -->
+{% include "partials/brand.nunjucks" %}
+
+<!-- Adds the design partial -->
+{% include "partials/design.nunjucks" %}
+
+{% endblock %}
