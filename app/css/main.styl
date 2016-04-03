@@ -43,7 +43,24 @@ nav
 	background: url('/images/content-bg.jpg') no-repeat;
 	background-position: 50% 50%;
 	background-size: cover;
-	position: relative;	
+	height:1900px;
+
+.content-top
+	margin: 0;
+	position: relative;
+	top: 0%;
+	transform: translateY(-0%);
+	z-index: 1;
+	
+.content-top.is--fixed
+	margin: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	transform: translateY(0);
+	
+		
 	
 .welcome 
 	padding: 30px 20px 0 20px;
