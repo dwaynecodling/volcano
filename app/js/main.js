@@ -42,19 +42,19 @@ $(function(){
 
 // Grab as much info as possible 
 // outside the scroll handler for performace reasons.
-var header             = document.querySelector('.content-bg'),
+var header             = document.querySelector('.content-top'),
     header_height      = getComputedStyle(header).height.split('px')[0],
-    title              = header.querySelector('.content-top'),
+    title              = header.querySelector('.header'),
     title_height       = getComputedStyle(title).height.split('px')[0],
     fix_class          = 'is--fixed';
 
 function stickyScroll(e) {
 
-  if( window.pageYOffset > (header_height - title_height ) / 9.8 ) {
+  if( window.pageYOffset > (header_height - title_height ) / 0.6 ) {
     title.classList.add(fix_class);
   }
 
-  if( window.pageYOffset < (header_height - title_height ) / 9.8 ) {
+  if( window.pageYOffset < (header_height - title_height ) / 0.6 ) {
     title.classList.remove(fix_class);
   }
 }
