@@ -1,24 +1,28 @@
 <!-- index.nunjucks -->
 {% extends "layout.nunjucks" %}
 
-{% block content %} 
-
+{% block navigation %} 
 <!-- Adds the opener partial -->
-{% include "partials/opener.nunjucks" %}
+{% include "partials/navigation/opener.nunjucks" %}
 
 <!-- Adds the navigation partial -->
-{% include "partials/navigation.nunjucks" %}
+{% include "partials/navigation/navigation.nunjucks" %}
+{% endblock %}
+
+
+
+{% block content %} 
 
 <!-- Adds the intro partial -->
-{% include "partials/intro.nunjucks" %}
+{% include "partials/intro-content/intro.nunjucks" %}
 
 <!-- Adds the process partial -->
-{% include "partials/process.nunjucks" %}
+{% include "partials/intro-content/process.nunjucks" %}
 
 <!-- Adds the brand partial -->
-{% include "partials/brand.nunjucks" %}
+{% include "partials/intro-content/branding.nunjucks" %}
 
 <!-- Adds the design partial -->
-{% include "partials/design.nunjucks" %}
+{% include "partials/intro-content/design.nunjucks" %}
 
 {% endblock %}

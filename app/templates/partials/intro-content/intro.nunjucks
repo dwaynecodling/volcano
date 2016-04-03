@@ -1,0 +1,8 @@
+ <!-- intro.nunjucks -->
+<section class="intro row">
+	<div class="welcome column column-6">
+    <h1>Welcome to Volcano </h1>
+    <h2>We’re an UK design partnership based in the </br> East-Midlands, 
+    creating nice things to make you look nice.  </h2>
+     </div>
+    </section>

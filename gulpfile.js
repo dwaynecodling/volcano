@@ -174,6 +174,8 @@ gulp.task('serve', ['stylesheet', 'javascript', 'fonts', 'nunjucks'], function (
    gulp.watch('app/pages/*.nunjucks', ['nunjucks']);
    gulp.watch('app/templates/*.nunjucks', ['nunjucks']);
     gulp.watch('app/templates/partials/*.nunjucks', ['nunjucks']);
+    gulp.watch('app/templates/partials/intro-content/*.nunjucks', ['nunjucks']);
+    gulp.watch('app/templates/partials/navigation/*.nunjucks', ['nunjucks']);
   gulp.watch('bower.json', ['wiredep', 'fonts']);
 });
 

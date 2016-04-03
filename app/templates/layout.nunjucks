@@ -37,7 +37,8 @@
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 
   <!-- You write code for this content block in another file -->
-  {% block content %} {% endblock %}
+    {% block navigation %} {% endblock %}
+  <div class="content-bg">{% block content %} {% endblock %}</div>
 
 
   <script>
