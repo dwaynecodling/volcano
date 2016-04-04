@@ -1,12 +1,13 @@
 <!-- design.nunjucks -->
 <section class="design row">
-	<div class="web-design column column-3">
+	<div class ="column column-12">
+	<div class="web-design column column-5">
       <h2>Web Design + Development 
 </h2>
+<img class="logo" src="images/svg/web-design.svg">
 <p>We develop great looking, dynamic and responsive websites designed to adapt to desktop & mobile devices.  Full hosting, SEO and support packages are also available for all projects</p>
 </div>
-<div class="web-design column-4">
-<img class="logo" src="http://placehold.it/70x50">
+
 </div>
     </section>
 </div>

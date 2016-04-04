@@ -25,4 +25,6 @@
 <!-- Adds the design partial -->
 {% include "partials/intro-content/design.nunjucks" %}
 
+<!-- Adds the footer partial -->
+{% include "partials/intro-content/footer.nunjucks" %}
 {% endblock %}

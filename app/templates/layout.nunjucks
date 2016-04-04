@@ -58,6 +58,7 @@
 
 
   <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/scrollmagic/scrollmagic/minified/ScrollMagic.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

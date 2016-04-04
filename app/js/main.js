@@ -40,24 +40,15 @@ $(function(){
       })();
 
 
-// Grab as much info as possible 
-// outside the scroll handler for performace reasons.
-var header             = document.querySelector('.content-top'),
-    header_height      = getComputedStyle(header).height.split('px')[0],
-    title              = header.querySelector('.header'),
-    title_height       = getComputedStyle(title).height.split('px')[0],
-    fix_class          = 'is--fixed';
+// init controller
+var controller = new ScrollMagic.Controller();
 
-function stickyScroll(e) {
+// create a scene
+new ScrollMagic.Scene({
+        duration: 320,  // the scene should last for a scroll distance of 100px
+        offset: 200      // start this scene after scrolling for 50px
+    })
+    .setPin(".header") // pins the element for the the scene's duration
+    .addTo(controller); // assign the scene to the controller
 
-  if( window.pageYOffset > (header_height - title_height ) / 0.6 ) {
-    title.classList.add(fix_class);
-  }
 
-  if( window.pageYOffset < (header_height - title_height ) / 0.6 ) {
-    title.classList.remove(fix_class);
-  }
-}
-
-// Scroll handler to toggle classes.
-window.addEventListener('scroll', stickyScroll, false);

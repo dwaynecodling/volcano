@@ -5,6 +5,8 @@
 
 html
    font-family: 'Lato', sans-serif;
+h2
+	font-weight: 400;   
 
 .opener 
 	background: url('/images/splash-screen-1.jpg') no-repeat;
@@ -40,26 +42,24 @@ nav
 		padding: 1px;
 
 .content-bg 
+	position:relative;
 	background: url('/images/content-bg.jpg') no-repeat;
 	background-position: 50% 50%;
 	background-size: cover;
-	height:1900px;
+	height:1100px;
+	margin-bottom: 400px;
+	
 
 .header
-	margin: 0;
-	position: relative;
-	top: 0%;
-	transform: translateY(-0%);
-	z-index: 1;
+	color: #fff;
+	z-index: 2;
 	
-.header.is--fixed
-	margin: 0;
-	position: fixed;
-	top: 30px;
-	left: 0;
-	width: 100%;
-	transform: translateY(0);
+
 	
+.header p
+	font-weight: 300;
+	font-size: 	1em;
+	line-height: 2em;
 		
 	
 .welcome 
@@ -69,31 +69,41 @@ nav
 	h2 
 		word-break: keep-all;
 		font-weight: 300;
+		
 	
 .process
 	margin-left: 20px;
-	padding: 20px;
+	padding: 20px 20px 0 20px;
 	background: #4ad9d9;
 	img
-		padding-top:130px;
+		float: right;
+		
+		
 	
 .branding
 	margin-left: 20px;
-	padding: 20px;
+	padding: 20px 20px 0 20px;
 	background: #4cd87b;
 	img
-		padding-top:110px;
+		float: right;
 			
 
 .web-design
 	margin-left: 20px;
-	padding: 20px;
+	padding: 20px 20px 0 20px;
 	background: #595b59;
 	img
-		padding-top:135px;	
+		float: right;
 					
-
-
+.intro-footer
+	background: #4cd87b;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	z-index: -1;
+	
 
 	
 	

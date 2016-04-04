@@ -1,13 +1,12 @@
 <!-- brand.nunjucks -->
 <section id="about" class="row ">
-	
-	<div class="branding column column-3">
+	<div class ="column column-12">
+	<div class="branding column column-5">
       <h2>Branding + Identity
 </h2>
+<img class="logo" src="images/svg/branding.svg">
 <p>Volcano provides infintate branding solutions for SME and Start-up companies that create that ever important first impression and business ethic. </p>
 </div>
-<div class="branding column-4">
-<img class="logo" src="http://placehold.it/70x50">
 </div>
 
     </section>
