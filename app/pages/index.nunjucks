@@ -28,3 +28,12 @@
 <!-- Adds the footer partial -->
 {% include "partials/intro-content/footer.nunjucks" %}
 {% endblock %}
+
+
+
+{% block services %} 
+<!-- Adds the services partial -->
+{% include "partials/services/services.nunjucks" %}
+
+{% endblock %}
+

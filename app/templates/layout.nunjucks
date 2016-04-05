@@ -39,6 +39,7 @@
   <!-- You write code for this content block in another file -->
     {% block navigation %} {% endblock %}
   <div class="content-bg"><div class="content-top" >{% block content %} {% endblock %}</div></div>
+   {% block services %} {% endblock %}
 
 
   <script>
