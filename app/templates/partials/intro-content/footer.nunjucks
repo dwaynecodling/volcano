@@ -1,9 +1,14 @@
 <!-- footer.nunjucks -->
 </div>
-<section class="intro-footer">
-	<div class="diamond">
-		<h2 class="diamond-text"> THIS IS WHAT WE DO</h2>
+<section class="intro-footer row">
+	<div class="column column-12">
+	
+
+		<div class="diamond">
+		<h2 class="diamond-text"> <span> THIS IS WHAT WE DO</span></h2>
 	</div>
-	<div class="army-chevron"></div>
+	
+</div>
+	
 	
 </section>	
