@@ -52,3 +52,15 @@ new ScrollMagic.Scene({
     .addTo(controller); // assign the scene to the controller
 
 
+// init controller
+var controller = new ScrollMagic.Controller();
+
+// create a scene
+new ScrollMagic.Scene({
+        duration: 255,  // the scene should last for a scroll distance of 100px
+        offset: 1000      // start this scene after scrolling for 50px
+    })
+    .setPin(".intro-footer") // pins the element for the the scene's duration
+    .addTo(controller); // assign the scene to the controller
+
+
