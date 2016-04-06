@@ -1,6 +1,6 @@
 <!-- design.nunjucks -->
 <section class="design row">
-	<div class ="column column-12">
+	
 	<div class="web-design column column-5">
       <h2>Web Design + Development 
 </h2>
@@ -8,6 +8,6 @@
 <p>We develop great looking, dynamic and responsive websites designed to adapt to desktop & mobile devices.  Full hosting, SEO and support packages are also available for all projects</p>
 </div>
 
-</div>
+
     </section>
 </div>

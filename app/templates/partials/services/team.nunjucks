@@ -1,0 +1,35 @@
+
+<!-- team.nunjucks -->
+<section class= "team-section row ">
+<div class ="team-top column column-12">
+
+<h2>Meet the Team</h2>
+<h2>We’re a UK design partnership based in the<br/> 
+East-Midlands, creating nice things to make you look nice. </h2>
+</div>
+
+<div class= "team-top row ">
+<div class="member-bio1 column column-2">
+<img src="http://placehold.it/200x150/595b59">
+</div>
+<div class="column column-4">
+<p class="bio-text">We have over 10 years experience in delivering high quality, relevant and up to date design. Through creative
+consultation and collaboration, we get to understand your project needs, the needs of your company and most importantly, the needs of
+your customers.</p>	
+
+</div>
+
+<div class="member-bio2 column column-2">
+<img src="http://placehold.it/200x150/595b59">
+</div>
+<div class="column column-4">
+<p class="bio-text">We have over 10 years experience in delivering high quality, relevant and up to date design. Through creative
+consultation and collaboration, we get to understand your project needs, the needs of your company and most importantly, the needs of
+your customers.</p>	
+
+</div>
+
+
+</div>
+
+</section>

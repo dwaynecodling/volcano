@@ -1,6 +1,6 @@
 <!-- navigation.nunjucks -->
 <nav class="row" >
-  <div class ="column column-12">
+  
         <div class="column column-6">
           <a href="#home"><img class="logo" src="images/svg/volcano_logo.svg"></a>
          </div>
@@ -34,6 +34,6 @@
      
                 
     </div>
-  </div> 
+ 
 
       </nav>

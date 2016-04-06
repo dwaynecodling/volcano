@@ -34,6 +34,9 @@
 {% block services %} 
 <!-- Adds the services partial -->
 {% include "partials/services/services.nunjucks" %}
-
 {% endblock %}
 
+{% block team %} 
+<!-- Adds the team partial -->
+{% include "partials/services/team.nunjucks" %}
+{% endblock %}

@@ -1,16 +1,12 @@
 <!-- process.nunjucks -->
 <div class="header">
 <section class=" process-top row ">
-	<div class ="column column-12">
+
 	<div class="process column column-5">
       <h2>Our Process
 </h2>
 <img class="logo" src="images/svg/process.svg">
 <p>We spend time to understand and define a clear vision for the project; exploring the most effective visual strategies and translating these into innovative yet functional design.</p>
-
-</div>
-
-
 
 </div>
 
