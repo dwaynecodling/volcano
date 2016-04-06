@@ -15,17 +15,16 @@
 
 </section>
 
-<section class= "services-bottom row ">
-<div class ="column column-12">
+<section class= "row ">
+<div class ="services-bottom column column-12">
 
-<div class= "services-image column column-6">	
+
 <img src="images/services-bg.jpg">
-</div>
-<div class="services-text column column-5">
-<p>We have over 10 years experience in delivering high quality, relevant and up to date design. Through creative
+
+<p class="services-text">We have over 10 years experience in delivering high quality, relevant and up to date design. Through creative
 consultation and collaboration, we get to understand your project needs, the needs of your company and most importantly, the needs of
 your customers.</p>	
-</div>
+
 </div>
 
 </section>
