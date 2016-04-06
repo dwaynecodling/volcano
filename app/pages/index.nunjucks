@@ -40,3 +40,8 @@
 <!-- Adds the team partial -->
 {% include "partials/services/team.nunjucks" %}
 {% endblock %}
+
+{% block webdesign %} 
+<!-- Adds the webdesign partial -->
+{% include "partials/services/webdesign.nunjucks" %}
+{% endblock %}

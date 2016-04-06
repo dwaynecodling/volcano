@@ -1,0 +1,12 @@
+<!-- webdesign.nunjucks -->
+<section class="row">
+<div class="clip-wrap column column-12">
+<img class="clip-svg" src="images/webdesign-bg.jpg"/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="0" height="0">
+  <clipPath id="svgClip">
+    <path id="svgPath" d="M961,267 L963,0 339,-1 207,0 z"/>
+  </clipPath>
+  <path id="svgMask" d="M961,267 L963,0 339,-1 207,0 z"  />
+</svg>
+</div>
+</section>

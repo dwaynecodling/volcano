@@ -1,19 +1,19 @@
 <!-- navigation.nunjucks -->
 <nav class="row" >
   
-        <div class="column column-6">
+        <div class="column column-2">
           <a href="#home"><img class="logo" src="images/svg/volcano_logo.svg"></a>
          </div>
        
 
-        <div class="top-menu column column-4">        
+        <div class="top-menu column column-7">        
           <a class="active" href="#about">About</a>
           <a href="#services">Services</a>
           <a href="#contact">Contact</a>
           <a href="#giving-back">Giving Back</a>
          </div>
 
-        <div class=" top-menu social-media column column-2"> 
+        <div class=" top-menu social-media column column-3"> 
           <a href="#twitter"> 
             <span class="fa-stack fa-1x">
             <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
