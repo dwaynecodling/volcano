@@ -60,7 +60,18 @@
 
 
   <script src="bower_components/jquery/dist/jquery.js"></script>
-  <script src="bower_components/scrollmagic/scrollmagic/minified/ScrollMagic.min.js"></script>
+     <script src=" https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TimelineMax.min.js"></script>
+     <script src=" https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.js"></script>
+      <script src="bower_components/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
+  
+    
+            <script src="bower_components/scrollmagic/scrollmagic/uncompressed/plugins/animation.velocity.js"></script>
+            <script src="bower_components/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+            <script src="bower_components/scrollmagic/scrollmagic/uncompressed/plugins/jquery.ScrollMagic.js"></script>
+
+
+
+      
   <script src="js/main.js"></script>
 </body>
 </html>

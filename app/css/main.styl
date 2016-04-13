@@ -96,7 +96,36 @@ nav
 .intro-footer
 	background: #4cd87b;
 	
-	
+/*
+ * ==== Losange
+ */
+.losange, .losange div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+}
+.losange {
+  transform: rotate(45deg) translateY(10px);
+  transform: rotateX(45deg) rotateZ(45deg);
+}
+.losange .los1 {
+  width: 355px;
+  height: 355px;
+  background: #fff;
+  transform: rotateX(45deg) rotateZ(45deg);
+  transform: rotate(-45deg) translateY(-74px);
+}
+.losange .los1 img {
+  width: 100%;
+  height: auto;
+}
+.part {
+  padding: 50px 20px 85px;
+  background: #4cd87b;
+  
+}	
 	
 	
 .diamond
@@ -104,14 +133,9 @@ nav
 	h2
 		text-align: center;
 		color: #4cd87b;
-		font-size: 2em;
-		font-weight: 400;
-		span
-			background-color: #fff;
-			border-radius: 40px 40px;
-			padding:10px;
-			
-			
+		font-size: 1.4em;
+		font-weight: 400;margin-top: 160px;opacity: 0;
+		
 
 .services
 	background: #fff;	

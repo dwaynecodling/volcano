@@ -54,7 +54,6 @@ new ScrollMagic.Scene({
 
 // init controller
 var controller = new ScrollMagic.Controller();
-
 // create a scene
 new ScrollMagic.Scene({
         duration: 110,  // the scene should last for a scroll distance of 100px
@@ -62,6 +61,21 @@ new ScrollMagic.Scene({
     })
     .setPin(".intro-footer") // pins the element for the the scene's duration
     .addTo(controller); // assign the scene to the controller
+
+
+
+// init controller
+var controller = new ScrollMagic.Controller();
+
+// build scene
+var scene = new ScrollMagic.Scene({triggerElement: ".diamond h2"})
+
+// trigger a velocity opaticy animation
+    .setVelocity(".diamond h2", {opacity: 1}, {duration: 400})
+
+	.addIndicators() // add indicators (requires plugin)
+	.addTo(controller);
+
 
 
 
