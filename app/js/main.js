@@ -68,7 +68,7 @@ new ScrollMagic.Scene({
 var controller = new ScrollMagic.Controller();
 
 // build scene
-var scene = new ScrollMagic.Scene({triggerElement: ".diamond h2"})
+var scene = new ScrollMagic.Scene({triggerElement: ".diamond-text"})
 
 // trigger a velocity opaticy animation
     .setVelocity(".diamond h2", {opacity: 1}, {duration: 400})
