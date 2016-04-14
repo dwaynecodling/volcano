@@ -64,17 +64,6 @@ new ScrollMagic.Scene({
 
 
 
-// init controller
-var controller = new ScrollMagic.Controller();
-
-// build scene
-var scene = new ScrollMagic.Scene({triggerElement: ".diamond-text"})
-
-// trigger a velocity opaticy animation
-    .setVelocity(".diamond h2", {opacity: 1}, {duration: 400})
-
-	.addIndicators() // add indicators (requires plugin)
-	.addTo(controller);
 
 
 
