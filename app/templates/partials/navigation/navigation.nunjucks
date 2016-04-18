@@ -7,10 +7,10 @@
        
 
         <div class="top-menu column column-7">        
-          <a class="active" href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#contact">Contact</a>
-          <a href="#giving-back">Giving Back</a>
+          <a class="active" href="#about">ABOUT</a>
+          <a href="#services">SERVICES</a>
+          <a href="#contact">CONTACT</a>
+          <a href="#giving-back">GIVING BACK</a>
          </div>
 
         <div class=" top-menu social-media column column-3"> 

@@ -19,12 +19,7 @@ $(function() {
 
 
 
-$(function(){
-  $('nav a').click(function(){
-    $('nav a').removeClass("active");
-    $(this).addClass("active");
-});
-});
+
 
 // Intro Full Screen page Section  
 

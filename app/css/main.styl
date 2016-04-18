@@ -12,12 +12,19 @@ h2
 nav 
 	
 	background: #3b3d3b;
-	padding: 40px 20px 0 20px;
+	padding: 15px 0 15px 0;
 	
 	a 
 		text-decoration: none;
 		color: #fff;
-		padding: 15px 15px 15px 0;
+		padding: 15px 15px 15px 0;font-weight:bold;font-size: 13pt;
+        
+        
+nav a:hover{
+        color: aqua;
+        
+}
+        
 		
 	.top-menu 
 		margin-top: 15px;
@@ -26,9 +33,7 @@ nav
 		
 		max-width: 100%;
 			
-	.active 
-		color: #f2385a;
-	
+
 	.social-media a 
 		color:#000;
 		padding: 1px;
@@ -39,6 +44,8 @@ nav
 .content-top {
     padding-bottom: 50px;
 }
+
+
 .content-bg 
 	position:relative;
 	background: url('../images/content-bg.jpg') no-repeat;
@@ -51,17 +58,20 @@ nav
 		
 .header p
 	font-weight: 300;
-	font-size: 	1em;
+	font-size: 	14pt;
 	line-height: 2em;
 		
-	
+.welcome h1 {
+    font-size: 31pt;
+}
+    
 .welcome 
 	padding: 30px 20px 0 20px;
 	color: #fff;
-	
+    
 	h2 
 		word-break: keep-all;
-		font-weight: 300;
+		font-weight: 300;font-size: 30pt;
 		
 	
 .process
@@ -94,68 +104,54 @@ nav
 .intro-footer
 	background: #4cd87b;
 	
-/*
- * ==== Losange
- */
-.losange, .losange div {
-  margin: 0 auto;
-  transform-origin: 50% 50%;
+.diamond, .diamond div {
+    margin: 0 auto;
+    transform-origin: 50% 50%;
   overflow: hidden;
-  width: 250px;
-  height: 250px;
-}
-.losange {
-  transform: rotate(45deg) translateY(10px);
-  transform: rotateX(45deg) rotateZ(45deg);
-}
-.losange .los1 {
-  width: 355px;
-  height: 355px;
-  background: #fff;
-  transform: rotateX(45deg) rotateZ(45deg);
-  transform: rotate(-45deg) translateY(-74px);
-}
-.losange .los1 img {
-  width: 100%;
-  height: auto;
+  width: 350px;
+  height: 350px;
+  position: relative;
+    z-index: 1;
+    margin-top: -11%;
 }
 
-
-.part {
-  
-
-  
-  background: 
-
-    linear-gradient(
-      rgba(76, 216, 123, 0.85), 
-      rgba(76, 216, 123, 0.85)
-    ),
-   
-    url(../images/diamond-bg.png);
- background-size: 60px 60px;  
- padding: 40px;
+.diamond {
+    transform: rotate(45deg) translateY(10px);
+    transform: rotateX(60deg) rotateZ(45deg);
+    background-color: #fff;
+    
 }
 
-
-	
-.diamond
-	
-	h2
-		text-align: center;
-		color: #4cd87b;
-		font-size:2.2em;
-		font-weight: 300;margin-top: 160px;
-		
-
-.services
-	background: #fff;	
+.diamond .diamond-text {
+    width: 400px;
+    height:400px;
+    transform: rotate(-45deg) translateY(-74px);
+}
+    
+.services-h1 
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin-top: -13%;
+    margin-bottom: 100px;
+    font-weight: 300;
+    font-size: 34.42pt;
+    color: #4cd87b;
+    
+    
+.services-top
+	background-color: #4cd87b;	
 	font-size: 1.8em;
 	font-weight: 300;
-
+    
+.services
+    background-image: url("../images/diamond-bg.png");
+    background-size: 100px 100px;
+    
 
 .services ul
 	text-align: center;
+    color: #fff;
 	
 	
 	li
@@ -167,7 +163,7 @@ nav
 	
 	
 	img
-		float: left;
+		max-width: 100%;
 		
 		
 	
@@ -178,7 +174,6 @@ nav
 	text-align: center;padding:30px;
 	margin-top: 1em;text-transform: uppercase;
 .logo-only
-    display:block;
     padding: 50px;
     width: 205px;
 
