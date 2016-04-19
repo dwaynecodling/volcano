@@ -1,0 +1,65 @@
+<!-- graphicdesign.nunjucks -->
+<section class="graphic-design row">
+    <div class= "graphic-interior">
+<div class="column column-6">
+    <h2>Graphic Design</h2>
+    <div>
+    <p>Volcano are passionate about graphic design. We  produce  innovative and graphic designers who can produce fresh, original and exciting design which is memorable, adds value and reinforces your unique branding and corporate identity.</p>
+    </div>
+    <div>
+    <p>Here are some of the graphic design services we offer?</p>
+    </div>
+    <div>
+    <ul>
+        <li>Logo Design</li>
+        <li>Business Cards, Letterheads and Merchandising</li>
+        <li>Flyers, Posters and Brochures</li>
+        <li>360o Start-up Packages</li>
+        <li>Powerpoint & Keynote Design</li>
+        <li>Mail Merge, B2B Communications... and much more</li>
+        
+    </ul>
+    </div>
+    <div>
+    <button>See Our Work</button>
+    </div>
+
+</div>
+
+<div class="gif-box column column-4">
+    <img src="http://placehold.it/318x394/4cd87b">	
+
+    </div> 
+    </div>    
+</section>
+
+<section class="graphic-bottom row" >
+    <div class="impact-text column column-12">
+    <h2>Make an impact with a living brand</h2>
+    </div>
+
+</section>
+
+<section class="graphic-table row">
+    <div class=" first column column-4">
+    <h3>Set yourself apart</h3>
+    <p>Volcano specialises in building instantly recognisable and inspiring brands. By adopting a process of creative consultation and collaboration, we get to understand your project needs, the needs of your company and most importantly, the needs of your customers. </p>    
+    
+    </div>
+     <div class="second column column-4">
+    <h3>Just starting out?</h3>
+    <p>If you’re a new start-up business, establishing your brand is something you want to get right first time!   Volcano can deliver the creative spark needed to get your business off the ground in style, with our full 360&deg; Start-up Service; helping you realise your goals and bring your brilliant ideas into the real world. </p>    
+    
+    </div>
+     <div class="third column column-4">
+    <h3>Already established?</h3>
+    <p>Is your current business identity not making the kind of impact it deserves?  We can help you re-align and strengthen your visual presence with an injection of dynamic promotional campaigns, fresh online content and some new creative communication ideas that will let you do what you do best.... running your business.</p>    
+    
+    </div>
+
+</section>
+<section class="row">
+    <div class="graphic-image column column-12">
+    <img src="../images/graphic-design-bg.jpg"/>
+    </div>
+</section>

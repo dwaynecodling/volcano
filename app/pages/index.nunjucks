@@ -41,7 +41,7 @@
 {% include "partials/services/team.nunjucks" %}
 {% endblock %}
 
-{% block webdesign %} 
+{% block graphicdesign %} 
 <!-- Adds the webdesign partial -->
-{% include "partials/services/webdesign.nunjucks" %}
+{% include "partials/services/graphicdesign.nunjucks" %}
 {% endblock %}

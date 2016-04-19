@@ -46,7 +46,7 @@
   <div class="content-bg"><div class="content-top" >{% block content %} {% endblock %}</div></div>
    {% block services %} {% endblock %}
 {% block team %} {% endblock %}
-{% block webdesign %} {% endblock %}
+{% block graphicdesign %} {% endblock %}
 
   <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
