@@ -42,6 +42,11 @@
 {% endblock %}
 
 {% block graphicdesign %} 
-<!-- Adds the webdesign partial -->
+<!-- Adds the graphic design partial -->
 {% include "partials/services/graphicdesign.nunjucks" %}
+{% endblock %}
+
+{% block webdesign %} 
+<!-- Adds the web design partial -->
+{% include "partials/services/webdesign.nunjucks" %}
 {% endblock %}
