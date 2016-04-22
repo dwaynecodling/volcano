@@ -125,11 +125,10 @@ nav a:hover{
     margin: 0 auto;
     transform-origin: 50% 50%;
   overflow: hidden;
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height:300px;
   position: relative;
     z-index: 1;
-    margin-top: -11%;
 }
 
 .diamond {
@@ -140,8 +139,8 @@ nav a:hover{
 }
 
 .diamond .diamond-text {
-    width: 400px;
-    height:400px;
+    width: 260px;
+    height:260px;
     transform: rotate(-45deg) translateY(-74px);
 }
     
@@ -149,7 +148,7 @@ nav a:hover{
     position: relative;
     z-index: 2;
     text-align: center;
-    margin-top: -13%;
+    margin-top: -11%;
     margin-bottom: 100px;
     font-weight: 300;
     font-size: 46px;
@@ -185,14 +184,13 @@ nav a:hover{
 		
 	
 .services-text
-	font-size: 72px;line-height: 82px;
-	font-weight: 200;
+	font-size: 72px;line-height: 82px;font-weight: 200;
 	color: #fff;
 	text-align: center;padding:30px;
-	margin-top: 1em;text-transform: uppercase;font-family: 'LatoWebHairline';
+	margin-top: 1em; margin-bottom: 1em;text-transform: uppercase;font-family: 'LatoWebHairline';
 .logo-only
-    padding: 50px;
-    width: 205px;
+    text-align: center;
+    
 
 .team-section
     background-color: #fff;
@@ -307,6 +305,8 @@ nav a:hover{
     color: #fff;
     padding-top: 40px;
     padding-bottom: 50px;
+    margin-right: -25px;
+    width: 33.3%;
     
     h3
         font-size: 26px;
@@ -318,8 +318,18 @@ nav a:hover{
         font-size: 19px;
         line-height: 26px;
         font-family: 'LatoWebLight';
+@media only screen and (max-width: 550px) {
+    
+
+    .first, .second, .third {
+     margin-right: 0;
+    width: auto;
+}
+} 
+       
 .graphic-image
     width: 100%;
+    background-color: #595B59;
     img
         max-width: 100%;
 
