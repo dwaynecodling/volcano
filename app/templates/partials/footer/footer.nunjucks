@@ -1,50 +1,51 @@
 <!-- footer.nunjucks -->
-<section class="footer" >
+<section class=" footer row">
+<div class="footer-container">
 <!-- first -->	
 <div class="column column-3 ">
 
 <div class="row">
 	<h3>Get in touch</h3>
-	<div class= "column column-1">
+	<div class= "column column-2">
 	<a href="tel:07921397893">
 		<span class="fa-stack fa-1x">
-            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-circle-thin fa-stack-2x fa-inverse"></i>
             <i class="fa fa-phone fa-2 fa-stack-1x "></i>
         </span>
          </a>
        </div>
-       <div class= "column column-2">
+       <div class= "column column-6">
         <a href="tel:07921397893">07921397893 </a>
         </div>    
    </div>
    <div class="row">
 	
-	<div class= "column column-1">
+	<div class= "column column-2">
 	<a href="mailto:hello@wearevolcano.com">
 		<span class="fa-stack fa-1x">
-            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-circle-thin fa-stack-2x fa-inverse"></i>
             <i class="fa fa-envelope fa-2 fa-stack-1x "></i>
         </span>
          </a>
        </div>
-       <div class= "column column-2">
+       <div class= "column column-6">
         <a href="mailto:hello@wearevolcano.com">hello@wearevolcano.com </a>
         </div>    
    </div>
 
       <div class="row">
 	
-	<div class= "column column-1">
+	<div class= "column column-2">
 	<a href="map@wearevolcano.com">
 		<span class="fa-stack fa-1x">
-            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-circle-thin fa-stack-2x fa-inverse"></i>
             <i class="fa fa-map-marker fa-2 fa-stack-1x "></i>
         </span>
          </a>
        </div>
-       <div class= "column column-6">
-       	<p class="bold">Volcano</p>
-        <address>
+       <div class= "column column-8">
+       	<address>
+       		<span class="bold">Volcano</span></br>        
         	12, Devonshire Drive <br>
         	Stapleford, Nottingham <br>
         	United Kingdon, NG98GY <br>
@@ -62,44 +63,44 @@
 
 <div class="row">
 	<h3>Social Media</h3>
-	<div class= "column column-1">
+	<div class= "column column-2">
 	<a href="#facebook">
 		<span class="fa-stack fa-1x">
-            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-circle-thin fa-stack-2x fa-inverse"></i>
             <i class="fa fa-facebook fa-2 fa-stack-1x "></i>
         </span>
          </a>
        </div>
-       <div class= "column column-4">
+       <div class= "column column-6">
         <a href="#facebook">Like us on Facebook</a>
         </div>    
    </div>
    <div class="row">
 	
-	<div class= "column column-1">
+	<div class= "column column-2">
 	<a href="#twitter">
 		<span class="fa-stack fa-1x">
-            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-circle-thin fa-stack-2x fa-inverse"></i>
             <i class="fa fa-twitter fa-2 fa-stack-1x "></i>
         </span>
          </a>
        </div>
-       <div class= "column column-4">
+       <div class= "column column-6">
         <a href="#twitter">Follow us on Twitter </a>
         </div>    
    </div>
 
       <div class="row">
 	
-	<div class= "column column-1">
+	<div class= "column column-2">
 	<a href="#linkedin">
 		<span class="fa-stack fa-1x">
-            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-circle-thin fa-stack-2x fa-inverse"></i>
             <i class="fa fa-linkedin fa-2 fa-stack-1x "></i>
         </span>
          </a>
        </div>
-       <div class= "column column-4">
+       <div class= "column column-6">
         <a href="#linkedin">Find us on Linkedin</a>
         </div>    
    </div>
@@ -112,18 +113,15 @@
 
 	<form action="action_page.php">
  
-  <input type="text" name="services"  id="services" placeholder="What service are you interested in? "><br>
-  
+  <input type="text" name="services"  id="services" placeholder="What service are you interested in? "><br>  
   <input type="text" name="details"  id="details" placeholder="Additional Details"><br>
-
-  <input type="text" name="name" id="contact-name" placeholder="Contact Name"> <input type="tel" name="tel" id="tel" placeholder="Telephone Number" required><br>
+  <input type="text" name="name" id="contact-name" placeholder="Contact Name"> <input type="tel" name="tel" id="tel" placeholder="Telephone Number" required>
   <input type="email" name="email" id="email" placeholder="Email Address">
-
   <input type="submit" class="fa-paper-plane" value="&#xf1d8;" >SUBMIT ENQUIRY 
 </form>
 	</div>
 
 
-
+</div>	
 
    </section> 
