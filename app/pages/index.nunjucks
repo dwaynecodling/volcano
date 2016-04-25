@@ -50,3 +50,8 @@
 <!-- Adds the web design partial -->
 {% include "partials/services/webdesign.nunjucks" %}
 {% endblock %}
+
+{% block footer %} 
+<!-- Adds the footer design partial -->
+{% include "partials/footer/footer.nunjucks" %}
+{% endblock %}

@@ -1,0 +1,48 @@
+<!-- footer.nunjucks -->
+<section id="footer" class="row ">
+<!-- first -->
+<div class="column column-3">
+	<h3>Get in touch</h3>
+	<ul>
+	<li><a href="tel:07921397893">
+		<span class="fa-stack fa-1x">
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-phone fa-2 fa-stack-1x "></i>
+        </span>
+       <p>07921397893  </p>     
+    </a>
+    </li>
+    <li>
+    <a href="mailto:hello@wearevolcano.com">
+		<span class="fa-stack fa-1x">
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-envelope fa-2 fa-stack-1x "></i>
+        </span>
+       <p>hello@wearevolcano.com</p> 
+    </a>
+    </li>
+    <li>
+    	<a href="mailto:hello@wearevolcano.com">
+		<span class="fa-stack fa-1x">
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-map-marker  fa-2 fa-stack-1x "></i>
+        </span>
+        <p class="bold">Volcano</p>
+        <p>12, Devonshire Drive</p>
+        <p>Stapleford, Nottingham</p>
+        <p>United Kingdon, NG98GY</p>
+    </a>
+    </li>
+</ul>
+</div>
+
+<!-- second -->
+<div class="column column-3"></div>
+
+<!-- third -->
+<div class="column column-6"></div>
+
+
+
+
+    </section>
