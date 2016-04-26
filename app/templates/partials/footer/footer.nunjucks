@@ -14,7 +14,7 @@
         </span>
          </a>
        </div>
-       <div class= "column column-6">
+       <div class= "column column-10">
         <a href="tel:07921397893">07921397893 </a>
         </div>    
    </div>
@@ -28,7 +28,7 @@
         </span>
          </a>
        </div>
-       <div class= "column column-6">
+       <div class= "column column-10">
         <a href="mailto:hello@wearevolcano.com">hello@wearevolcano.com </a>
         </div>    
    </div>
@@ -43,7 +43,7 @@
         </span>
          </a>
        </div>
-       <div class= "column column-8">
+       <div class= "column column-10">
        	<address>
        		<span class="bold">Volcano</span></br>        
         	12, Devonshire Drive <br>
@@ -71,7 +71,7 @@
         </span>
          </a>
        </div>
-       <div class= "column column-6">
+       <div class= "column column-10">
         <a href="#facebook">Like us on Facebook</a>
         </div>    
    </div>
@@ -85,7 +85,7 @@
         </span>
          </a>
        </div>
-       <div class= "column column-6">
+       <div class= "column column-10">
         <a href="#twitter">Follow us on Twitter </a>
         </div>    
    </div>
@@ -100,7 +100,7 @@
         </span>
          </a>
        </div>
-       <div class= "column column-6">
+       <div class= "column column-10">
         <a href="#linkedin">Find us on Linkedin</a>
         </div>    
    </div>
