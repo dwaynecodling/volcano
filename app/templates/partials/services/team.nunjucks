@@ -12,15 +12,16 @@
 <div class= "team-table row">
 
 <div class="team-bio">
-<a href="#test-popup" class="open-popup-link"><div class="member-bio column column-4">
+<!-- Start of Dwayne Popup -->	
+<a href="#dwayne-popup" class="open-popup-link"><div class="member-bio column column-4">
 <img src="images/dwayne-profile-img.jpg">	
 <p class="bio-name"> Dwayne Codling</p>
     <p class="bio-title">Designer & Web Developer</p>   
 
 </div></a>
 
-<!-- Start of Dwayne Popup -->
-<div id="test-popup" class="white-popup mfp-hide row">
+
+<div id="dwayne-popup" class="white-popup mfp-hide row">
   <div class= "column column-5">
   	
   	<img src="http://placehold.it/350x550">
@@ -36,19 +37,51 @@
 
 </div>
 <!-- End of Dwayne Popup -->
-<div class="member-bio column column-4">
+
+<!-- Start of Rudy Popup -->
+<a href="#rudy-popup" class="open-popup-link"><div class="member-bio column column-4">
 <img src="images/rudy-profile-img.jpg">	
 <p class="bio-name">Rudy Butler</p>	
     <p class="bio-title">Designer & Project Manager</p>
 
-</div>
+</div></a>
 
-    <div class="member-bio column column-4">
+
+<div id="rudy-popup" class="white-popup mfp-hide row">
+  <div class= "column column-5">
+  	
+  	<img src="http://placehold.it/350x550">
+  </div>
+  <div class="column column-7">
+  	
+  	<h3>Rudy Butler</h3>
+  	<h4>Designer & Project Manager</h4>
+  	<p>I’m a graphic, brand and motion graphic specialist, but more importantly, I’m a creative enthusiast.  Before forming Volcano, I worked for 12 years as a design lecturer and freelance designer; producing creative work for a number of clients from start-ups to blue chip companies including Zizzis, Pizza Express, HSBC, and Legal & General.  I will help bring your brand to life through my passion for perfection and creative visual storytelling. </p>
+  </div>
+
+  </div>
+<!-- End of Rudy Popup -->
+
+<!-- Start of Liam Popup -->
+   <a href="#liam-popup" class="open-popup-link"> <div class="member-bio column column-4">
 <img src="images/liam-profile-img.jpg">	
 <p class="bio-name">Liam Sheppard</p>	
     <p class="bio-title">Illustrator & Photographer</p>
 
-</div>
+</div></a>
+
+<div id="liam-popup" class="white-popup mfp-hide row">
+  <div class= "column column-5">
+  	
+  	<img src="http://placehold.it/350x550">
+  </div>
+  <div class="column column-7">
+  	
+  	<h3>Liam Sheppard</h3>
+  	<h4>Illustrator & Photographer</h4>
+  	<p>I’m a graphic, brand and motion graphic specialist, but more importantly, I’m a creative enthusiast.  Before forming Volcano, I worked for 12 years as a design lecturer and freelance designer; producing creative work for a number of clients from start-ups to blue chip companies including Zizzis, Pizza Express, HSBC, and Legal & General.  I will help bring your brand to life through my passion for perfection and creative visual storytelling. </p>
+  </div>
+
     </div>
 </div>
    
