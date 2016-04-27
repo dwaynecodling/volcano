@@ -56,7 +56,7 @@ $(function() {
         menu.slideToggle();
     });
 });
-
+var menu        = $('nav ul');
 $(window).resize(function(){
     var w = $(window).width();
     if(w > 320 && menu.is(':hidden')) {
