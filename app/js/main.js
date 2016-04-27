@@ -41,3 +41,25 @@ $('.open-popup-link').magnificPopup({
   type:'inline',
   midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
 });
+
+// responsive navigation
+
+
+
+$(function() {
+    var pull        = $('#pull');
+    var menu        = $('nav ul');
+    var menuHeight  = menu.height();
+ 
+    $(pull).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle();
+    });
+});
+
+$(window).resize(function(){
+    var w = $(window).width();
+    if(w > 320 && menu.is(':hidden')) {
+        menu.removeAttr('style');
+    }
+}); 

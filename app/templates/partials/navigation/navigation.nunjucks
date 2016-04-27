@@ -1,39 +1,39 @@
 <!-- navigation.nunjucks -->
-<nav class="row" >
-  
-        <div class="column column-2">
-          <a href="#home"><img class="logo" src="images/svg/volcano_logo.svg"></a>
-         </div>
-       
+<header>
+   
+   <a href="#home"><img class="logo" src="images/svg/volcano_logo.svg"></a>
 
-        <div class="top-menu column column-7">        
-          <a class="active" href="#about">ABOUT</a>
-          <a href="#services">SERVICES</a>
-          <a href="#contact">CONTACT</a>
-          <a href="#giving-back">GIVING BACK</a>
-         </div>
-
-        <div class=" top-menu social-media column column-3"> 
-          <a href="#twitter"> 
+<nav class="clearfix">
+    <ul class="clearfix">
+        <li><a class="active" href="#about">ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#givingback">GIVING BACK</a></li>
+       </ul>
+       <ul class=" social-menu clearfix">
+        <li class="social-media"><a href="#twitter"> 
             <span class="fa-stack fa-1x">
             <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
             <i class="fa fa-twitter fa-2 fa-stack-1x "></i></span>
-            </a>
-       
-          <a href="#facebook"> 
+            </a></li>
+        <li class="social-media"><a href="#facebook"> 
             <span class="fa-stack fa-1x">
             <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
             <i class="fa fa-facebook fa-2 fa-stack-1x "></i></span>
-            </a>
-      
-         <a href="#vimeo"> 
+            </a></li>
+        <li class="social-media"> <a href="#vimeo"> 
             <span class="fa-stack fa-1x">
             <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
             <i class="fa fa-vimeo fa-2 fa-stack-1x "></i></span>
-            </a>
-     
-                
-    </div>
- 
+            </a></li>  
+    </ul>
+    <a href="#" id="pull"></a>
+</nav>
 
-      </nav>
+
+</header>
+
+
+
+
+

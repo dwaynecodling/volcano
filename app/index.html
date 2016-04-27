@@ -30,7 +30,7 @@
 
     <!-- build:js js/vendor/modernizr.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
-    
+
 
 
 
@@ -52,44 +52,44 @@
 
 <!-- Adds the navigation partial -->
 <!-- navigation.nunjucks -->
-<nav class="row" >
-  
-        <div class="column column-2">
-          <a href="#home"><img class="logo" src="images/svg/volcano_logo.svg"></a>
-         </div>
-       
+<header>
+   
+   <a href="#home"><img class="logo" src="images/svg/volcano_logo.svg"></a>
 
-        <div class="top-menu column column-7">        
-          <a class="active" href="#about">ABOUT</a>
-          <a href="#services">SERVICES</a>
-          <a href="#contact">CONTACT</a>
-          <a href="#giving-back">GIVING BACK</a>
-         </div>
-
-        <div class=" top-menu social-media column column-3"> 
-          <a href="#twitter"> 
+<nav class="clearfix">
+    <ul class="clearfix">
+        <li><a class="active" href="#about">ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#givingback">GIVING BACK</a></li>
+       </ul>
+       <ul class=" social-menu clearfix">
+        <li class="social-media"><a href="#twitter"> 
             <span class="fa-stack fa-1x">
             <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
             <i class="fa fa-twitter fa-2 fa-stack-1x "></i></span>
-            </a>
-       
-          <a href="#facebook"> 
+            </a></li>
+        <li class="social-media"><a href="#facebook"> 
             <span class="fa-stack fa-1x">
             <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
             <i class="fa fa-facebook fa-2 fa-stack-1x "></i></span>
-            </a>
-      
-         <a href="#vimeo"> 
+            </a></li>
+        <li class="social-media"> <a href="#vimeo"> 
             <span class="fa-stack fa-1x">
             <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
             <i class="fa fa-vimeo fa-2 fa-stack-1x "></i></span>
-            </a>
-     
-                
-    </div>
- 
+            </a></li>  
+    </ul>
+    <a href="#" id="pull"></a>
+</nav>
 
-      </nav>
+
+</header>
+
+
+
+
+
 
 
   <div class="content-bg"><div class="content-top" > 
@@ -112,7 +112,7 @@
 	<div class="process column column-5">
       <h3>Our Process
 </h3>
-<img class="logo" src="images/gifs/lighthouse.gif">
+<img class="process-img" src="images/gifs/lighthouse.gif">
 <p>We spend time to understand, define and realise your vision; exploring effective visual strategies and translating them into functional design.</p>
 
 </div>
@@ -128,7 +128,7 @@
 	<div class="branding column column-5">
       <h3>Branding + Identity
 </h3>
-<img class="logo" src="images/gifs/cup.gif">
+<img class="cup" src="images/gifs/cup.gif">
 <p>Volcano provides creative branding solutions for companies of all sizes to create that ever important first impression and business ethic.</p>
 </div>
 
@@ -142,7 +142,7 @@
 	<div class="web-design column column-5">
       <h3>Web Design + Development 
 </h3>
-<img class="logo" src="images/gifs/interface.gif">
+<img class="interface" src="images/gifs/interface.gif">
 <p>We develop and host great looking, dynamic and responsive websites designed to adapt to desktop & mobile devices.</p>
         
 </div>
@@ -570,6 +570,7 @@ experience delivering high quality, relevant and Fresh design.
         <script src="/bower_components/jquery/dist/jquery.js"></script>
          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="bower_components/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+
      
             <script src="js/main.js"></script>
     <!-- endbower -->

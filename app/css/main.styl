@@ -25,37 +25,168 @@ h3
 	background-size: cover;
 	position: relative;
 	 
-nav 
-	
-	background: #3b3d3b;
-	padding: 45px 30px 15px 30px;   
-	
-	a 
-		text-decoration: none;
-		color: #fff;
-		padding: 15px 15px 15px 0;font-weight:400;font-size: 17px;font-family: 'LatoWebBold';
-        
-        
-nav a:hover{
-        color: aqua;
-        
+header 
+    background: #424242;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+.logo{
+    float: left;
+    z-index: 3;
+    position: relative;
+    width: 222px;
+    margin-top: 5px;
 }
+nav {
+    height: 60px;
+    width: 100%;
+    background: #424242;
+    font-size: 17px;
+    font-family: 'LatoWebBold';
+    position: relative;
+    border-bottom: 2px solid #283744;
+    
+}
+nav ul {
+    padding: 0;
+    
+    margin: 0 auto;
+    float:left;
+    height: 40px;
+}
+
+.social-menu
+    float: right;
+    margin: 0 auto;
+    a
+        width: 30px;
         
-		
-	.top-menu 
-		margin-top: 15px;
-	
-	.logo 
-		
-		max-width: 100%;
-			
 
-	.social-media a 
-		color:#000;
-		padding: 1px;
+nav a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 110px;
+    text-align: center;
+    line-height: 40px;
+    padding: 10px;
+    text-shadow: 1px 1px 0px #283744;
+    margin-right: -10px;
+}
 
-.social-media
-    text-align: right
+nav li {
+    display: inline;
+    float: left;
+}
+
+nav a:hover, nav a:active {
+    text-decoration: underline;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+.social-media a {
+    color: #424242;
+}
+
+nav a#pull {
+    display: none;
+}  
+
+
+
+@media screen and (max-width: 600px) {
+    nav { 
+        height: auto;
+    }
+    nav ul {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    nav li {
+        width: 50%;
+        float: left;
+        position: relative;
+    }
+
+    nav a {
+        text-align: left;
+        width: 100%;
+    
+    }
+    
+
+    .social-menu {
+        margin: 0 auto;
+        
+    }
+    .social-menu ul{
+    width: 100%;
+        display: block;
+        height: auto;
+}
+.social-menu li {
+    width: 30%;
+    float: left;
+}
+    
+    .social-menu a{
+        width: 62px;
+        text-indent: 0;
+        }
+}
+
+
+
+@media only screen and (max-width : 480px) {
+    nav {
+        border-bottom: 0;
+    }
+    nav ul {
+        display: none;
+        height: auto;
+    }
+    nav a#pull {
+        display: block;
+        background-color: #424242;
+        width: 100%;
+        position: relative;
+    }
+    nav a#pull:after {
+        content:"\f0c9";
+        font-family: 'FontAwesome';
+        
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+}
+
+
+@media only screen and (max-width : 320px) {
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    
+}
+
 
 .content-top {
     padding-bottom: 50px;
