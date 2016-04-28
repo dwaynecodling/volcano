@@ -1,7 +1,7 @@
 <!-- navigation.nunjucks -->
 <header>
    
-   <a href="#home"><img class="logo" src="images/svg/volcano_logo.svg"></a>
+   <a href="/"><img class="logo" src="images/svg/volcano_logo.svg"></a>
 
 <nav class="clearfix">
     <ul class="clearfix">

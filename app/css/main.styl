@@ -511,7 +511,7 @@ margin-top: -20%;
     font-family: 'LatoWebLight';
     font-style: italic;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 26px;color: #000;
     
 #rudy-popup
     h3
@@ -568,8 +568,31 @@ margin-top: -20%;
     font-family: 'LatoWebMedium';
     
     
-.gif-box
-    text-align: center;
+
+
+@media only screen and (max-width : 600px)  {
+    
+
+.gif-box {
+    background: url('../images/gifs/small-size-graphic-design.gif')
+    background-repeat: no-repeat;
+    height: 375px;
+    background-position: center center;
+    }
+    
+}  
+
+@media only screen and (min-width : 601px) and (max-width : 1980px)   {
+    
+
+.gif-box {
+    background: url('../images/gifs/main-size-graphic-design.gif')
+    background-repeat: no-repeat;
+    height: 375px;
+    background-position: center center;
+    }
+    
+}      
 
 .graphic-bottom
     background-color: #f2385a;
@@ -737,3 +760,4 @@ input[type="submit"] {
   }
   
 }
+
