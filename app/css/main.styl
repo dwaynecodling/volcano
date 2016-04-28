@@ -1,3 +1,6 @@
+body
+    margin-top: -20px;
+    
 html
    font-family: 'LatoWeb', sans-serif;
 p
@@ -24,12 +27,14 @@ h3
 	background-position: 50% 50%;
 	background-size: cover;
 	position: relative;
+    
 	 
 header 
     background: #424242;
     padding-top: 15px;
     padding-left: 30px;
     padding-right: 30px;
+    
 .logo{
     float: left;
     z-index: 3;
@@ -43,13 +48,13 @@ nav {
     background: #424242;
     font-size: 17px;
     font-family: 'LatoWebBold';
+    letter-spacing: 1px;
     position: relative;
-    border-bottom: 2px solid #283744;
+    
     
 }
 nav ul {
     padding: 0;
-    
     margin: 0 auto;
     float:left;
     height: 40px;
@@ -66,12 +71,13 @@ nav a {
     color: #fff;
     text-decoration: none;
     display: inline-block;
-    width: 110px;
+    width: 130px;
     text-align: center;
     line-height: 40px;
     padding: 10px;
     text-shadow: 1px 1px 0px #283744;
     margin-right: -10px;
+    
 }
 
 nav li {
@@ -79,8 +85,9 @@ nav li {
     float: left;
 }
 
-nav a:hover, nav a:active {
-    text-decoration: underline;
+nav a span:hover, nav a span:active {
+     border-bottom: 5px #000 solid;
+    padding-bottom: 5px;
 }
 
 
@@ -104,9 +111,19 @@ nav a#pull {
     display: none;
 }  
 
+/* Start of Navigation Responsive CSS */  
 
+@media screen and (min-width : 600px)and (max-width: 900px) {
+    nav { 
+        height: 160px;
+    }
+    
+    .social-menu {
+        margin-right: 0;        
+    }
+}
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width : 480px) and (max-width: 600px) {
     nav { 
         height: auto;
     }
@@ -150,8 +167,10 @@ nav a#pull {
 
 
 
-@media only screen and (max-width : 480px) {
-    nav {
+
+@media only screen and (min-width : 320px)and (max-width : 480px) {
+    
+     nav {
         border-bottom: 0;
     }
     nav ul {
@@ -175,10 +194,6 @@ nav a#pull {
         right: 15px;
         top: 10px;
     }
-}
-
-
-@media only screen and (max-width : 320px) {
     nav li {
         display: block;
         float: none;
@@ -187,6 +202,7 @@ nav a#pull {
     
 }
 
+/* End of Navigation Responsive CSS */  
 
 .content-top {
     padding-bottom: 50px;
@@ -254,6 +270,21 @@ nav a#pull {
 					
 .intro-footer
 	background: #4cd87b;
+ 
+
+ /* Start of Intro Responsive CSS */   
+     
+@media only screen and (min-width : 320px) and (max-width : 480px){
+    
+.process img, .branding img, .web-design img {
+    display: none;
+    
+
+} 
+    
+}
+
+ /* End of Intro Responsive CSS */            
 	
 .diamond, .diamond div {
     margin: 0 auto;
@@ -303,8 +334,7 @@ nav a#pull {
     background-image: url("../images/services-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    
-    min-height: 100vh;
+    min-height: 80vh;
     
 .services ul
 	text-align: center;color: #fff;
@@ -315,22 +345,104 @@ nav a#pull {
 		padding: 10px;
 		
 .services-bottom
-	background: #595b59;
-	
-	
+    	
 	img
 		max-width: 100%;
 		
-		
+.services-text-bg
+    background-color: #595b59;
+    float: right;
+    width: 40%;
+    text-align: center;
 	
 .services-text
 	font-size: 53px;line-height: 82px;font-weight: 200;
 	color: #fff;
-	text-align: center;padding:30px;
+	
 	margin-top: 1em; margin-bottom: 1em;text-transform: uppercase;font-family: 'LatoWebHairline';
 .logo-only
     text-align: center;
+
+/* Start of Services Responsive CSS */    
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
     
+    .diamond, .diamond div {   
+    width: 220px;
+    height:220px;
+ 
+}
+
+.services-h1 {
+
+    text-align: center;
+    margin-top: -33%;
+    margin-bottom: 100px;   
+    font-size: 38px;   
+    
+    }
+    
+    .services-text-bg {
+        
+        width: 100%;
+    }
+    
+} 
+
+
+@media only screen and (min-width : 900px)  and (max-width : 1024px){
+
+.services-h1 {
+margin-top: -16%;
+
+}
+}
+
+@media only screen and (min-width : 768px)  and (max-width : 900px){
+
+.services-h1 {
+margin-top: -20%;
+
+}
+
+}
+
+@media only screen and (min-width : 480px)  and (max-width : 600px){
+    
+    .services-h1 {
+
+    
+    margin-top: -28%;
+    margin-bottom: 100px;   
+     
+    
+    }
+    
+ 
+.services-bottom {
+    margin-top: -55px;
+}
+    .services-text-bg {
+        float:none;
+        width: 65%;
+    }
+    
+}     
+
+
+@media only screen and (min-width : 800px)  and (max-width : 900px){
+    
+        .services-h1 {
+
+    
+    margin-top: -19%;
+    margin-bottom: 100px;   
+       
+    
+    }
+}
+
+/* End of Services Responsive CSS */   
 
 .team-section
     background-color: #fff;
@@ -364,6 +476,15 @@ nav a#pull {
     margin-right: auto;
     width: 46%;
     text-align: center;
+    
+@media only screen and (min-width : 600px) and (max-width : 900px) {
+    
+.team-bio{
+    width: 94%;
+    }
+    
+}         
+
 .bio-name
     color: #f2385a;
     font-family: 'LatoWebSemibold';
@@ -475,7 +596,7 @@ nav a#pull {
     p
         padding: 0 30px 0 30px;
         
-@media only screen and (max-width: 550px) {
+@media only screen and (min-width : 320px) and (max-width: 600px) {
     
 
     .first, .second, .third {

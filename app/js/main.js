@@ -31,8 +31,14 @@ $(function() {
         introEl.css('padding', (windowH - introHeadingH)/2 + 'px 0');
         $(document).on('scroll', function() {
           introEl.slideUp(1000, function() { $(document).off('scroll'); });
+          $(window).scrollTop(0);
+
         });
       })();
+
+
+
+
 
 
 

@@ -25,25 +25,21 @@
 	
 
 
-<div class=" services-bg column column-7">
+<div class=" services-bg column column-12">
 
-    </div>
-
-
-<div class="column column-5">
+<div class="services-text-bg">
 <p class="services-text">Over 15 years 
     
 experience delivering high quality, relevant and Fresh design.
 
 </p>  
-       <div class=" column column-12">
-        <div class="logo-only">
+
 <img class="logo-image" src="images/logo-only.png"> 
-</div>  
-    </div>
-     
-   
-    </div>    
+</div>
+
+</div>
+
+
 
 
 
