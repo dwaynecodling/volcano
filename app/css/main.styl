@@ -71,7 +71,7 @@ nav a {
     color: #fff;
     text-decoration: none;
     display: inline-block;
-    width: 130px;
+    width: 100px;
     text-align: center;
     line-height: 40px;
     padding: 10px;
@@ -115,7 +115,7 @@ nav a#pull {
 
 @media screen and (min-width : 600px)and (max-width: 900px) {
     nav { 
-        height: 160px;
+        height: 120px;
     }
     
     .social-menu {
@@ -476,9 +476,25 @@ margin-top: -20%;
     margin-right: auto;
     width: 46%;
     text-align: center;
+
+
+@media only screen and (min-width : 600px) and (max-width : 2000px) {
+    
+
+.content-box {
+    position: relative;
+    height: 620px;  
+    }  
+.content {
+    position: absolute
+    bottom: 0   
+    }
+    
+    }    
     
 @media only screen and (min-width : 600px) and (max-width : 900px) {
     
+
 .team-bio{
     width: 94%;
     }
@@ -640,6 +656,7 @@ address
         font-family: 'LatoWebSemibold'              
 input
     font-size: 14px;
+    font-style: italic;
     margin: 10px;
     padding:10px;
     
@@ -658,7 +675,7 @@ input#email
 
 input[type="submit"] {
     font-family: FontAwesome;
-    font-size: 32px;
+    font-size: 20px;
     color: #39a25c;
     border: 0;
     background-color: #2d2d2d;
@@ -677,3 +694,46 @@ input[type="submit"] {
   margin: 20px auto;
 }
 
+
+/* 
+====== Zoom effect ======
+*/
+.mfp-zoom-in {
+  
+  /* start state */
+  .mfp-with-anim {
+    opacity: 0;
+    transition: all 0.2s ease-in-out; 
+    transform: scale(0.8); 
+  }
+  
+  &.mfp-bg {
+    opacity: 0;
+      transition: all 0.3s ease-out;
+  }
+  
+  /* animate in */
+  &.mfp-ready {
+    .mfp-with-anim {
+      opacity: 1;
+      transform: scale(1); 
+    }
+    &.mfp-bg {
+      opacity: 0.8;
+    }
+  }
+  
+  /* animate out */
+  &.mfp-removing {
+    
+    .mfp-with-anim {
+      transform: scale(0.8); 
+      opacity: 0;
+    }
+    &.mfp-bg {
+      opacity: 0;
+    }
+    
+  }
+  
+}
