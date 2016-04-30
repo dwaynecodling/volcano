@@ -1,6 +1,6 @@
 <!-- navigation-two.nunjucks -->
 
-<header>
+<div class="header-nav">
 <div class="main-logo"> <a href="/"><img class="logo" src="images/svg/volcano_logo.svg"></a></div>
 <nav>
 <ul>
@@ -13,7 +13,7 @@
 	<a class="btn-open" href="#"></a>
 </div>
 </nav>
-</header>
+</div>
 
 <div class="overlay">
 	<div class="main-logo"> <a href="/"><img class="logo" src="images/svg/volcano_logo.svg"></a></div>
