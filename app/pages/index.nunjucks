@@ -6,7 +6,7 @@
 {% include "partials/navigation/opener.nunjucks" %}
 
 <!-- Adds the navigation partial -->
-{% include "partials/navigation/navigation.nunjucks" %}
+{% include "partials/navigation/navigation-two.nunjucks" %}
 {% endblock %}
 
 

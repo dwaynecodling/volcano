@@ -61,20 +61,14 @@ $('.open-popup-link').magnificPopup({
 
 
 
-$(function() {
-    var pull        = $('#pull');
-    var menu        = $('nav ul');
-    var menuHeight  = menu.height();
- 
-    $(pull).on('click', function(e) {
-        e.preventDefault();
-        menu.slideToggle();
+$(document).ready(function(){
+    $(".button a").click(function(){
+        $(".overlay").fadeToggle(200);
+       $(this).toggleClass('btn-open').toggleClass('btn-close');
     });
 });
-var menu        = $('nav ul');
-$(window).resize(function(){
-    var w = $(window).width();
-    if(w > 320 && menu.is(':hidden')) {
-        menu.removeAttr('style');
-    }
-}); 
+$('.overlay').on('click', function(){
+    $(".overlay").fadeToggle(200);   
+    $(".button a").toggleClass('btn-open').toggleClass('btn-close');
+    open = false;
+});

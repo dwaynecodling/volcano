@@ -1,0 +1,79 @@
+<!-- navigation-two.nunjucks -->
+
+<header>
+<div class="main-logo"> <a href="/"><img class="logo" src="images/svg/volcano_logo.svg"></a></div>
+<nav>
+<ul>
+	<li><a class="active" href="#about"><span class="hover">ABOUT</span></a></li>
+        <li><a href="#services"><span class="hover">SERVICES</span></a></li>
+        <li><a href="#contact"><span class="hover">CONTACT</span></a></li>
+        <li><a href="#social-e"><span class="hover">SOCIAL-E</span></a></li>
+</ul>
+<div class="button">
+	<a class="btn-open" href="#"></a>
+</div>
+</nav>
+</header>
+
+<div class="overlay">
+	<div class="main-logo"> <a href="/"><img class="logo" src="images/svg/volcano_logo.svg"></a></div>
+	<div class="wrap">
+		<ul class="wrap-nav">
+			<li><a href="#">About</a>
+			<ul>
+				<li><a href="#">About Company</a></li>
+				<li><a href="#">Designers</a></li>
+				<li><a href="#">Developers</a></li>
+				<li><a href="#">Pets</a></li>
+			</ul>
+			</li>
+			<li><a href="#">Services</a>
+			<ul>
+				<li><a href="https://www.google.hr/">Web Design</a></li>
+				<li><a href="#">Development</a></li>
+				<li><a href="#">Apps</a></li>
+				<li><a href="#">Graphic design</a></li>
+				<li><a href="#">Branding</a></li>
+			</ul>
+			</li>
+			<li><a href="#">Work</a>
+			<ul>
+				<li><a href="#">Web</a></li>
+				<li><a href="#">Graphic</a></li>
+				<li><a href="#">Apps</a></li>
+			</ul>
+			</li>
+		</ul>
+		<div class="social">
+			<a href="#">
+			<div class="social-icon">
+				<i class="fa fa-facebook"></i>
+			</div>
+			</a>
+			<a href="#">
+			<div class="social-icon">
+				<i class="fa fa-twitter"></i>
+			</div>
+			</a>
+			<a href="#">
+			<div class="social-icon">
+				<i class="fa fa-codepen"></i>
+			</div>
+			</a>
+			<a href="#">
+			<div class="social-icon">
+				<i class="fa fa-behance"></i>
+			</div>
+			</a>
+			<a href="#">
+			<div class="social-icon">
+				<i class="fa fa-dribbble"></i>
+			</div>
+			</a>
+
+		</div>
+	</div>
+</div>
+
+
+

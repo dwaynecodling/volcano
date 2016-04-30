@@ -28,191 +28,226 @@ h3
 	background-size: cover;
 	position: relative;
     
+/* Start of Navigation CSS */ 
 	 
+ul {
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style:none;
+}
+li {
+    padding:0;
+    margin:0;
+}
+
 header 
     background: #424242;
-    padding-top: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
-    
-.logo {
-    float: left;
-    z-index: 3;
-    position: relative;
-    width: 222px;
-    margin-top: 5px;
-}
+    padding:15px 30px 5px 30px;
 
+    
+.main-logo {
+    position: absolute;
+    width: 222px;
+    top: 10px;
+    left: 20px;
+    }
+    
 nav {
-    height: 60px;
-    width: 100%;
-    background: #424242;
-    font-size: 17px;
-    font-family: 'LatoWebBold';
-    letter-spacing: 1px;
-    position: relative;
-    border-bottom: 2px solid #283744;
-    
-    
+    text-align:center;
+    width:100%;
+    position:relative;
+    height:auto;
+    overflow:hidden;
+    background:none;
 }
 nav ul {
-    padding: 0;
-    margin: 0 auto;
-    float:left;
-    height: 40px;
+    text-align:center;
 }
-
-.social-menu
-    float: right;
-    margin: 0 auto;
-    a
-        width: 30px;
-        
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
-    width: 100px;
-    text-align: center;
-    line-height: 40px;
-    padding: 10px;
-    text-shadow: 1px 1px 0px #283744;
-    margin-right: -10px;
+nav ul li {
+    display:inline-block;
+}
+nav ul li a {
+    color:#fff;
+    display:inline-block;
+    padding:1em 3em;
+    text-decoration:none;
     
+    transition-property:all .2s linear 0s;
+    -moz-transition:all .2s linear 0s;
+    -webkit-transition:all .2s linear 0s;
+    -o-transition:all .2s linear 0s;
+    font-size:16px;
 }
-
-nav li {
-    display: inline;
-    float: left;
+nav ul li a:hover {
+    color: #f2385a;
 }
 
 nav a span:hover, nav a span:active {
-     border-bottom: 5px #000 solid;
+     border-bottom: 5px #fff solid;
     padding-bottom: 5px;
 }
-
-
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
+/*styling open close button*/
+.button {
+    display:inline;
+    position:absolute;
+    right:50px;
+    top:6px;
+    z-index:999;
+    font-size:30px;
 }
-.clearfix:after {
-    clear: both;
+.button a {
+    text-decoration:none;
 }
-.clearfix {
-    *zoom: 1;
+.btn-open:after {
+    color:#fff;
+    content:"\f0c9";
+    font-family:"FontAwesome";
+    transition-property:all .2s linear 0s;
+    -moz-transition:all .2s linear 0s;
+    -webkit-transition:all .2s linear 0s;
+    -o-transition:all .2s linear 0s;
 }
-
-.social-media a {
-    color: #424242;
+.btn-open:hover:after {
+    color:#f2385a;
 }
-
-nav a#pull {
-    display: none;
-}  
-
-/* Start of Navigation Responsive CSS */  
-
-@media screen and (max-width: 900px) {
-    nav { 
-        height: 145px;
+.btn-close:after {
+    color:#fff;
+    content:"\f00d";
+    font-family:"FontAwesome";
+    transition-property:all .2s linear 0s;
+    -moz-transition:all .2s linear 0s;
+    -webkit-transition:all .2s linear 0s;
+    -o-transition:all .2s linear 0s;
+}
+.btn-close:hover:after {
+    color: #f2385a;
+}
+/*overlay*/
+.overlay {
+    display:none;
+    position:fixed;
+    top:0;
+    height:100%;
+    width:100%;
+    background:#333;
+    overflow:auto;
+    z-index:99;
+}
+.wrap {
+    color:#e9e9e9;
+    text-align:center;
+    max-width:90%;
+    margin:0 auto;
+}
+.wrap ul.wrap-nav {
+    border-bottom:1px solid #575757;
+    text-transform:capitalize;
+    padding:150px 0px 10px;
+}
+.wrap ul.wrap-nav li {
+    font-size:20px;
+    display:inline-block;
+    vertical-align:top;
+    width:24%;
+    position:relative;
+}
+.wrap ul.wrap-nav li a {
+    color:#f2385a;
+    display:block;
+    padding:8px 0;
+    text-decoration:none;
+    transition-property:all .2s linear 0s;
+    -moz-transition:all .2s linear 0s;
+    -webkit-transition:all .2s linear 0s;
+    -o-transition:all .2s linear 0s;
+}
+.wrap ul.wrap-nav li a:hover {
+    color:#fff;
+}
+.wrap ul.wrap-nav ul {
+    padding:20px 0;
+}
+.wrap ul.wrap-nav ul li {
+    display:block;
+    font-size:13px;
+    width:100%;
+    color:#e9e9e9;
+}
+.wrap ul.wrap-nav ul li a {
+    color:#f0f0f0;
+}
+.wrap ul.wrap-nav ul li a:hover {
+    text-decoration: underline;
+}
+.social {
+    font-size:25px;
+    padding:20px;
+}
+.social p {
+    margin:0;
+    padding:20px 0 5px 0;
+    line-height:30px;
+    font-size:13px;
+}
+.social p a {
+    color:#34B484;
+    text-decoration:none;
+    margin:0;
+    padding:0;
+}
+.social-icon {
+    width:80px;
+    height:50px;
+    background:#e9e9e9;
+    color:#333;
+    display:inline-block;
+    margin:0 20px;
+    transition-property:all .2s linear 0s;
+    -moz-transition:all .2s linear 0s;
+    -webkit-transition:all .2s linear 0s;
+    -o-transition:all .2s linear 0s;
+}
+.social-icon:hover {
+    background:#34B484;
+    color:#f0f0f0;
+}
+.social-icon i {
+    margin-top:12px;
+}
+@media screen and (max-width:48em) {
+    .wrap ul.wrap-nav>li {
+        width:100%;
+        padding:20px 0;
+        border-bottom:1px solid #575757;
     }
-    
-    .social-menu {
-        margin-right: 0;        
-    }
-}
-
-@media screen  and (max-width: 600px) {
-    nav { 
-        height: auto;
+    .wrap ul.wrap-nav {
+        padding:30px 0px 0px;
     }
     nav ul {
-        width: 100%;
-        display: block;
-        height: auto;
+        opacity:0;
+        visibility:hidden;
     }
-    nav li {
-        width: 50%;
-        float: left;
-        position: relative;
+    .social {
+        color:#c1c1c1;
+        font-size:25px;
+        padding:15px 0;
     }
-
-    nav a {
-        text-align: left;
-        width: 100%;
-    
+    .social-icon {
+        width:100%;
+        height:50px;
+        background:#fff;
+        color:#333;
+        display:block;
+        margin:5px 0;
     }
-    
-
-    .social-menu {
-        margin: 0 auto;
-        
-    }
-    .social-menu ul{
-    width: 100%;
-        display: block;
-        height: auto;
 }
-.social-menu li {
-    width: 30%;
-    float: left;
-}
-    
-    .social-menu a{
-        width: 62px;
-        text-indent: 0;
-        }
-}
-
-
-
-
-@media only screen and  (max-width : 480px) {
-    
-     nav {
-        border-bottom: 0;
-        
-    }
-    nav ul {
-        display: none;
-        height: auto;
-    }
-    nav a#pull {
-        display: block;
-        background-color: #424242;
-        width: 100%;
-        position: relative;
-    }
-    nav a#pull:after {
-        content:"\f0c9";
-        font-family: 'FontAwesome';
-        
-        width: 30px;
-        height: 30px;
-        display: inline-block;
-        position: absolute;
-        right: 15px;
-        top: 10px;
-    }
-    nav li {
-        display: block;
-        float: none;
-        width: 100%;
-    }
-    
-}
-
-
-@media only screen and (max-width : 320px) {
-    nav li {
-        display: block;
-        float: none;
-        width: 100%;
-    }
-    
+.content {
+    width:100%;
+    margin-top:200px;
+    font-size:20px;
+    color#333;
+    text-align: center;
 }
 
 /* End of Navigation Responsive CSS */  
@@ -257,7 +292,7 @@ nav a#pull {
 	margin-left: 20px;
 	margin-right: 20px;
 	padding: 20px 20px 0 20px;
-	background: #4ad9d9;
+	background: #4ad9d9;width:600px;
     
 	img
 		float: right;
@@ -268,7 +303,7 @@ nav a#pull {
 	margin-left: 20px;
 	margin-right: 20px;
 	padding: 20px 20px 0 20px;
-	background: #4cd87b;
+	background: #4cd87b;width:600px;
 	img
 		float: right;
 			
@@ -277,7 +312,7 @@ nav a#pull {
 	margin-left: 20px;
 	margin-right: 20px;
 	padding: 20px 20px 0 20px;
-	background: #595b59;
+	background: #595b59;width:600px;
 	img
 		float: right;
 					
@@ -285,9 +320,21 @@ nav a#pull {
 	background: #4cd87b;
  
 
- /* Start of Intro Responsive CSS */   
+
+ 
+
+
+/* Start of Intro Responsive CSS */  
+
+@media only screen and (min-width : 320px) and (max-width : 660px){
+    .process,.branding,.web-design {
+        width: auto;
+    }
+    
+    } 
      
 @media only screen and (min-width : 320px) and (max-width : 480px){
+
     
 .process img, .branding img, .web-design img {
     display: none;

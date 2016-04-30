@@ -1,0 +1,184 @@
+header 
+    background: #424242;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+.logo {
+    float: left;
+    z-index: 3;
+    position: relative;
+    width: 222px;
+    margin-top: 5px;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background: #424242;
+    font-size: 17px;
+    font-family: 'LatoWebBold';
+    letter-spacing: 1px;
+    position: relative;
+    border-bottom: 2px solid #283744;
+    
+    
+}
+nav ul {
+    padding: 0;
+    margin: 0 auto;
+    float:left;
+    height: 40px;
+}
+
+.social-menu
+    float: right;
+    margin: 0 auto;
+    a
+        width: 30px;
+        
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    padding: 10px;
+    text-shadow: 1px 1px 0px #283744;
+    margin-right: -10px;
+    
+}
+
+nav li {
+    display: inline;
+    float: left;
+}
+
+nav a span:hover, nav a span:active {
+     border-bottom: 5px #000 solid;
+    padding-bottom: 5px;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+.social-media a {
+    color: #424242;
+}
+
+nav a#pull {
+    display: none;
+}  
+
+/* Start of Navigation Responsive CSS */  
+
+@media screen and (max-width: 900px) {
+    nav { 
+        height: 145px;
+    }
+    
+    .social-menu {
+        margin-right: 0;        
+    }
+}
+
+@media screen  and (max-width: 600px) {
+    nav { 
+        height: auto;
+    }
+    nav ul {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    nav li {
+        width: 50%;
+        float: left;
+        position: relative;
+    }
+
+    nav a {
+        text-align: left;
+        width: 100%;
+    
+    }
+    
+
+    .social-menu {
+        margin: 0 auto;
+        
+    }
+    .social-menu ul{
+    width: 100%;
+        display: block;
+        height: auto;
+}
+.social-menu li {
+    width: 30%;
+    float: left;
+}
+    
+    .social-menu a{
+        width: 62px;
+        text-indent: 0;
+        }
+}
+
+
+
+
+@media only screen and  (max-width : 480px) {
+    
+     nav {
+        border-bottom: 0;
+        
+    }
+    nav ul {
+        display: none;
+        height: auto;
+    }
+    nav a#pull {
+        display: block;
+        background-color: #424242;
+        width: 100%;
+        position: relative;
+    }
+    
+
+    nav a#pull:after {
+        content:"\f0c9";
+        font-family: 'FontAwesome';
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    
+}
+
+
+@media only screen and (max-width : 320px) {
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    
+}
