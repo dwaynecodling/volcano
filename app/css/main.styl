@@ -723,6 +723,11 @@ margin-top: -20%;
     img
         max-width: 100%;
 
+/* 
+====== Start of Footer ======
+*/
+
+
 .footer
     background-color: #2d2d2d;
     color: #fff;
@@ -781,6 +786,64 @@ input[type="submit"] {
 } 
 
 
+@media screen and (max-width: 550px) {
+
+.in-touch-row, .social-media-row, .form-row {
+    width: 100%
+    padding-bottom: 30px; }
+    
+
+    .in-touch-row .column-2, .social-media-row .column-2, .form-row .column-2{
+        float:left;
+        padding-right:10px;
+    }
+    
+        .in-touch-row .column-10, .social-media-row .column-10{
+        float:left;
+        padding-right:10px;
+    }
+      
+
+        
+
+}
+
+
+@media screen and (min-width: 551px) and (max-width: 800px) {
+
+.in-touch-row, .social-media-row,  {
+    width: 45%
+    padding-bottom: 30px; }
+    
+
+    .in-touch-row .column-2, .social-media-row .column-2, .form-row .column-2{
+      
+    }
+    
+        .in-touch-row .column-10, .social-media-row .column-10{
+        
+    }
+    
+    .form-row.column-6 {
+        clear: both;
+        width:100%;
+    }
+      
+
+        
+
+}
+
+
+/* 
+====== End of Footer ======
+*/
+
+
+/* 
+====== Zoom effect ======
+*/
+
 .white-popup {
   position: relative;
   background: #FFF;
@@ -791,9 +854,7 @@ input[type="submit"] {
 }
 
 
-/* 
-====== Zoom effect ======
-*/
+
 .mfp-zoom-in {
   
   /* start state */

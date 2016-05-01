@@ -2,7 +2,7 @@
 <section class=" footer row">
 <div class="footer-container">
 <!-- first -->	
-<div class="column column-3 ">
+<div class=" in-touch-row column column-3 ">
 
 <div class="row">
 	<h3>Get in touch</h3>
@@ -59,7 +59,7 @@
 
 
 <!-- second -->	
-<div class="column column-3">
+<div class="social-media-row column column-3">
 
 <div class="row">
 	<h3>Social Media</h3>
@@ -109,7 +109,8 @@
 
 
 <!-- third-->
-<div class ="column column-6">
+<div class= "form-row column column-6">
+  <div class= "row">
 
 	<form action="action_page.php">
  
@@ -117,9 +118,10 @@
   <input type="text" name="details"  id="details" placeholder="Additional Details"><br>
   <input type="text" name="name" id="contact-name" placeholder="Contact Name"> <input type="tel" name="tel" id="tel" placeholder="Telephone Number" required>
   <input type="email" name="email" id="email" placeholder="Email Address">
-  <input type="submit" class="fa-paper-plane" value="&#xf1d8;" >SUBMIT ENQUIRY 
+  <div class="column column-10"><input type="submit" class="fa-paper-plane" value="&#xf1d8;" >SUBMIT ENQUIRY </div>
 </form>
-	</div>
+  </div>
+</div>
 
 
 </div>	
