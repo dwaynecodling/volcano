@@ -223,20 +223,20 @@
 <!-- services.nunjucks -->
 <section class=" services-top row ">
 	<div class ="services column column-12">
-        
-              <div class="diamond">
-		<div class="diamond-text"> </div>
-	</div>  
-        
-        <div class="services-h1">WHAT WE DO</div>    
-	
-<ul class="services-list no-1">
-<li>Logo Design & Corporate Identity </li><li> &bull; Brand Development</li>
-<br/>
-</li>Broadcast & Print Advertising </li><li> &bull; Motion Graphics </li><li> &bull; Web Animation</li>
-<br/>
-<li>In-Comms & Corporate Presentation </li><li> &bull; Web Design, Hosting & On-site SEO </li>
-</ul>
+
+		<div class="diamond">
+			<div class="diamond-text"> </div>
+		</div>
+
+		<div class="services-h1">WHAT WE DO</div>
+
+		<ul class="services-list no-1">
+			<li>Logo Design & Corporate Identity </li><li> &bull; Brand Development</li>
+			<br/>
+		</li>Broadcast & Print Advertising </li><li> &bull; Motion Graphics </li><li> &bull; Web Animation</li>
+		<br/>
+		<li>In-Comms & Corporate Presentation </li><li> &bull; Web Design, Hosting & On-site SEO </li>
+	</ul>
 
 </div>
 
@@ -244,28 +244,29 @@
 </section>
 
 <section class= "services-bottom row ">
-	
 
 
-<div class=" services-bg column column-12">
 
-<div class="services-text-bg">
-<p class="services-text">Over 15 years 
-    
-experience delivering high quality, relevant and Fresh design.
+	<div class=" services-bg column column-12">
 
-</p>  
+		<div class="services-text-bg">
+			<p class="services-text">Over 15 years
 
-<img class="logo-image" src="images/logo-only.png"> 
-</div>
+				experience delivering high quality, relevant and Fresh design.
 
-</div>
+			</p>
+
+			<img class="logo-image" src="images/logo-only.png">
+		</div>
+
+	</div>
 
 
 
 
 
 </section>
+
 
  
 <!-- Adds the team partial -->
@@ -365,6 +366,11 @@ experience delivering high quality, relevant and Fresh design.
  
 <!-- Adds the graphic design partial -->
 <!-- graphicdesign.nunjucks -->
+<section class="right-drawer">
+<div id="wrapper">
+  <div id="content">
+    <div id="body">
+
 <section class="graphic-design row">
     <div class= "graphic-interior">
 <div class="column column-6">
@@ -383,21 +389,35 @@ experience delivering high quality, relevant and Fresh design.
         <li>360o Start-up Packages</li>
         <li>Powerpoint & Keynote Design</li>
         <li>Mail Merge, B2B Communications... and much more</li>
-        
+
     </ul>
     </div>
     <div>
-    <button>See Our Work</button>
+    <button id="toggle" type="button" onclick="toggleVisibility()">See Our Work</button>
     </div>
 
 </div>
 
 <div class="gif-box column column-6">
-    
 
-    </div> 
-    </div>    
+
+    </div>
+    </div>
 </section>
+</div>
+
+<div id="fauxdal">
+      <span id ="arrow"class="fa fa-arrow-right" onclick="toggleVisibility()"></span>
+      <h2>Fauxdal Title</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ullam rem possimus ipsa, quas reprehenderit cupiditate magni voluptas eum dolorum pariatur sunt minus quam ipsam earum corporis vitae asperiores sapiente?</p>
+    </div>
+    
+</div>
+</div>
+</section>
+
+
+
 
 <section class="graphic-bottom row" >
     <div class="impact-text column column-12">
@@ -409,18 +429,18 @@ experience delivering high quality, relevant and Fresh design.
 <section class="graphic-table row">
     <div class=" first column column-4">
     <h3>Set yourself apart</h3>
-    <p>Volcano specialises in building recognisable and inspiring brands. Adopting a process of creative consultation and collaboration, we get to understand your project needs, company needs and most importantly, the needs of your customers.</p>    
-    
+    <p>Volcano specialises in building recognisable and inspiring brands. Adopting a process of creative consultation and collaboration, we get to understand your project needs, company needs and most importantly, the needs of your customers.</p>
+
     </div>
      <div class="second column column-4">
     <h3>Just starting out?</h3>
-    <p>For start-up businesses, establishing your brand is something you want to get right first time! Volcano can deliver the creative spark needed to get your business off the ground in style, helping you realise your goals and bring your brilliant ideas to life. </p>    
-    
+    <p>For start-up businesses, establishing your brand is something you want to get right first time! Volcano can deliver the creative spark needed to get your business off the ground in style, helping you realise your goals and bring your brilliant ideas to life. </p>
+
     </div>
      <div class="third column column-4">
     <h3>Already established?</h3>
-    <p>If your current business identity is not making the impact it deserves, we can help you re-align and strengthen your visual presence with an injection of fresh new ideas and strategies that will let you do what you do best.... running your business.</p>    
-    
+    <p>If your current business identity is not making the impact it deserves, we can help you re-align and strengthen your visual presence with an injection of fresh new ideas and strategies that will let you do what you do best.... running your business.</p>
+
     </div>
 
 </section>
@@ -429,6 +449,7 @@ experience delivering high quality, relevant and Fresh design.
     <img src="images/graphic-design-bg.jpg"/>
     </div>
 </section>
+
 
  
 <!-- Adds the web design partial -->
@@ -466,7 +487,7 @@ experience delivering high quality, relevant and Fresh design.
     </div> 
     </div>    
 </section>
-  
+
  
 <!-- Adds the footer design partial -->
 <!-- footer.nunjucks -->
@@ -598,7 +619,7 @@ experience delivering high quality, relevant and Fresh design.
 </div>	
 
    </section> 
-     
+
 
   <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -615,13 +636,17 @@ experience delivering high quality, relevant and Fresh design.
         <script src="/bower_components/jquery/dist/jquery.js"></script>
          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="bower_components/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+     <script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js'></script>
 
-     
+
+    <script src="js/index.js"></script>
+
             <script src="js/main.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
-      
-  
+
+
 </body>
 </html>

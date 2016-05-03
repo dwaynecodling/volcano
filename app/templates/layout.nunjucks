@@ -51,8 +51,8 @@
    {% block services %} {% endblock %}
 {% block team %} {% endblock %}
 {% block graphicdesign %} {% endblock %}
-{% block webdesign %} {% endblock %}  
-{% block footer %} {% endblock %}     
+{% block webdesign %} {% endblock %}
+{% block footer %} {% endblock %}
 
   <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -69,13 +69,17 @@
         <script src="/bower_components/jquery/dist/jquery.js"></script>
          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="bower_components/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+     <script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js'></script>
 
-     
+
+    <script src="js/index.js"></script>
+
             <script src="js/main.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
-      
-  
+
+
 </body>
 </html>

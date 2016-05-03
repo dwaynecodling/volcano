@@ -1,20 +1,20 @@
 <!-- services.nunjucks -->
 <section class=" services-top row ">
 	<div class ="services column column-12">
-        
-              <div class="diamond">
-		<div class="diamond-text"> </div>
-	</div>  
-        
-        <div class="services-h1">WHAT WE DO</div>    
-	
-<ul class="services-list no-1">
-<li>Logo Design & Corporate Identity </li><li> &bull; Brand Development</li>
-<br/>
-</li>Broadcast & Print Advertising </li><li> &bull; Motion Graphics </li><li> &bull; Web Animation</li>
-<br/>
-<li>In-Comms & Corporate Presentation </li><li> &bull; Web Design, Hosting & On-site SEO </li>
-</ul>
+
+		<div class="diamond">
+			<div class="diamond-text"> </div>
+		</div>
+
+		<div class="services-h1">WHAT WE DO</div>
+
+		<ul class="services-list no-1">
+			<li>Logo Design & Corporate Identity </li><li> &bull; Brand Development</li>
+			<br/>
+		</li>Broadcast & Print Advertising </li><li> &bull; Motion Graphics </li><li> &bull; Web Animation</li>
+		<br/>
+		<li>In-Comms & Corporate Presentation </li><li> &bull; Web Design, Hosting & On-site SEO </li>
+	</ul>
 
 </div>
 
@@ -22,22 +22,22 @@
 </section>
 
 <section class= "services-bottom row ">
-	
 
 
-<div class=" services-bg column column-12">
 
-<div class="services-text-bg">
-<p class="services-text">Over 15 years 
-    
-experience delivering high quality, relevant and Fresh design.
+	<div class=" services-bg column column-12">
 
-</p>  
+		<div class="services-text-bg">
+			<p class="services-text">Over 15 years
 
-<img class="logo-image" src="images/logo-only.png"> 
-</div>
+				experience delivering high quality, relevant and Fresh design.
 
-</div>
+			</p>
+
+			<img class="logo-image" src="images/logo-only.png">
+		</div>
+
+	</div>
 
 
 

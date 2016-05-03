@@ -1,4 +1,9 @@
 <!-- graphicdesign.nunjucks -->
+<section class="right-drawer">
+<div id="wrapper">
+  <div id="content">
+    <div id="body">
+
 <section class="graphic-design row">
     <div class= "graphic-interior">
 <div class="column column-6">
@@ -17,21 +22,35 @@
         <li>360o Start-up Packages</li>
         <li>Powerpoint & Keynote Design</li>
         <li>Mail Merge, B2B Communications... and much more</li>
-        
+
     </ul>
     </div>
     <div>
-    <button>See Our Work</button>
+    <button id="toggle" type="button" onclick="toggleVisibility()">See Our Work</button>
     </div>
 
 </div>
 
 <div class="gif-box column column-6">
-    
 
-    </div> 
-    </div>    
+
+    </div>
+    </div>
 </section>
+</div>
+
+<div id="fauxdal">
+      <span id ="arrow"class="fa fa-arrow-right" onclick="toggleVisibility()"></span>
+      <h2>Fauxdal Title</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ullam rem possimus ipsa, quas reprehenderit cupiditate magni voluptas eum dolorum pariatur sunt minus quam ipsam earum corporis vitae asperiores sapiente?</p>
+    </div>
+    
+</div>
+</div>
+</section>
+
+
+
 
 <section class="graphic-bottom row" >
     <div class="impact-text column column-12">
@@ -43,18 +62,18 @@
 <section class="graphic-table row">
     <div class=" first column column-4">
     <h3>Set yourself apart</h3>
-    <p>Volcano specialises in building recognisable and inspiring brands. Adopting a process of creative consultation and collaboration, we get to understand your project needs, company needs and most importantly, the needs of your customers.</p>    
-    
+    <p>Volcano specialises in building recognisable and inspiring brands. Adopting a process of creative consultation and collaboration, we get to understand your project needs, company needs and most importantly, the needs of your customers.</p>
+
     </div>
      <div class="second column column-4">
     <h3>Just starting out?</h3>
-    <p>For start-up businesses, establishing your brand is something you want to get right first time! Volcano can deliver the creative spark needed to get your business off the ground in style, helping you realise your goals and bring your brilliant ideas to life. </p>    
-    
+    <p>For start-up businesses, establishing your brand is something you want to get right first time! Volcano can deliver the creative spark needed to get your business off the ground in style, helping you realise your goals and bring your brilliant ideas to life. </p>
+
     </div>
      <div class="third column column-4">
     <h3>Already established?</h3>
-    <p>If your current business identity is not making the impact it deserves, we can help you re-align and strengthen your visual presence with an injection of fresh new ideas and strategies that will let you do what you do best.... running your business.</p>    
-    
+    <p>If your current business identity is not making the impact it deserves, we can help you re-align and strengthen your visual presence with an injection of fresh new ideas and strategies that will let you do what you do best.... running your business.</p>
+
     </div>
 
 </section>

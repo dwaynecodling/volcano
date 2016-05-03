@@ -21,7 +21,7 @@ $(function() {
 
 
 
-// Intro Full Screen page Section  
+// Intro Full Screen page Section
 
 
 (function() {
@@ -68,7 +68,51 @@ $(document).ready(function(){
     });
 });
 $('.overlay').on('click', function(){
-    $(".overlay").fadeToggle(200);   
+    $(".overlay").fadeToggle(200);
     $(".button a").toggleClass('btn-open').toggleClass('btn-close');
     open = false;
 });
+
+
+$("button").click(function(){
+    $(".sf-drawer").toggleClass("out");
+});
+
+
+
+
+$('#loginPanel').click(function(){
+            
+                if ($('#userNav').is(':hidden')) {
+                   
+                   $('#userNav').show('slide',{direction:'left'},1000);
+                } else {
+                   
+                   $('#userNav').hide('slide',{direction:'left'},1000);
+                }
+});
+
+$('#loginPanel1').click(function(){
+            
+                if ($('#userNav').is(':hidden')) {
+                   
+                   $('#userNav').show('slide',{direction:'right'},1000);
+                } else {
+                   
+                   $('#userNav').hide('slide',{direction:'right'},1000);
+                }
+});
+
+
+$('#loginPanel2').click(function(){
+            
+                if ($('#userNav').is(':hidden')) {
+                   
+                   $('#userNav').show('slide',{direction:'left'},1000);
+                } else {
+                   
+                   $('#userNav').hide('slide',{direction:'right'},1000);
+                }
+});
+
+
