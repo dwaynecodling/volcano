@@ -86,29 +86,6 @@ gulp.task('javascript', function () {
     .pipe(gulp.dest('.tmp/js'));
 });
 
-gulp.task('javascript', function () {
-  return gulp.src('app/js/index.js')
-    .pipe(through2.obj(function (file, enc, next){ // workaround for https://github.com/babel/babelify/issues/46
-      browserify({
-        entries: file.path,
-        debug: isDevelopment
-      }).bundle(function(err, res){
-        if (err) { return next(err); }
-
-        file.contents = res;
-        next(null, file);
-      });
-    }))
-    .on('error', function (error) {
-      console.log(error.stack);
-      this.emit('end');
-    })
-    .pipe(gulp.dest('dist/js'))
-    .pipe($.if(isDevelopment, $.sourcemaps.init({loadMaps: true})))
-    .pipe($.if(isDevelopment, $.sourcemaps.write('.')))
-    .pipe(gulp.dest('.tmp/js'));
-});
-
 gulp.task('jshint', function () {
   return gulp.src('app/js/**/*.js')
     .pipe(reload({stream: true, once: true}))
