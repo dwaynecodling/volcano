@@ -39,7 +39,7 @@
 <!-- End of Dwayne Popup -->
 
 <!-- Start of Rudy Popup -->
-<a href="#rudy-popup"  data-effect="mfp-zoom-in" class="open-popup-link"><div class="member-bio column column-4">
+<a href="#rudy-popup"  data-effect="mfp-zoom-in" class="open-popup-link"><div class=" column column-4">
 <img src="images/rudy-profile-img.jpg">	
 <p class="bio-name">Rudy Butler</p>	
     <p class="bio-title">Designer & Project Manager</p>
@@ -48,11 +48,11 @@
 
 
 <div id="rudy-popup" class="white-popup mfp-with-anim mfp-hide row">
-  <div class= "column column-5">
+  <div class= "rudy-member-bio column column-4">
   	
   	<img src="images/rudy-standing-img.jpg">
   </div>
-  <div class="column column-7">
+  <div class="column column-8">
   	<div class="content-box">
   	<div class="content">
   	
