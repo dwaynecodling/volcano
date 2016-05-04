@@ -65,11 +65,13 @@ $(document).ready(function(){
     $(".button a").click(function(){
         $(".overlay").fadeToggle(200);
        $(this).toggleClass('btn-open').toggleClass('btn-close');
+       $("body").css('overflow', 'hidden');
     });
 });
 $('.overlay').on('click', function(){
     $(".overlay").fadeToggle(200);
     $(".button a").toggleClass('btn-open').toggleClass('btn-close');
+     $("body").css('overflow', 'auto');
     open = false;
 });
 
