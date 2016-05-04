@@ -24,6 +24,8 @@ $(function() {
 // Intro Full Screen page Section
 
 
+
+
 (function() {
         var windowH = $(window).height(),
           introEl = $('div.opener'),
