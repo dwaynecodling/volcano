@@ -24,8 +24,6 @@ $(function() {
 // Intro Full Screen page Section
 
 
-
-
 (function() {
         var windowH = $(window).height(),
           introEl = $('div.opener'),
@@ -65,17 +63,30 @@ $('.open-popup-link').magnificPopup({
 
 $(document).ready(function(){
     $(".button a").click(function(){
+
+
+       
         $(".overlay").fadeToggle(200);
        $(this).toggleClass('btn-open').toggleClass('btn-close');
-       $("body").css('overflow', 'hidden');
-    });
+
+       if ($(this).hasClass("btn-close")) {
+        $("body").css('overflow', 'hidden');
+    } else if ($(this).hasClass("btn-open")) {
+        $("body").css('overflow', 'auto');
+    }
+});
+   
 });
 $('.overlay').on('click', function(){
     $(".overlay").fadeToggle(200);
     $(".button a").toggleClass('btn-open').toggleClass('btn-close');
-     $("body").css('overflow', 'auto');
+   $("body").css('overflow', 'auto');
     open = false;
+    
 });
+
+  
+
 
 jQuery(document).ready(function($){
   //open the lateral panel
