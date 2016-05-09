@@ -1094,9 +1094,9 @@ html, body {
   width: 100%;
   height: 50px;
   line-height: 50px;
-  background: rgba(255, 255, 255, 0.96);
+  
   z-index: 5;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+  
   -webkit-transition: top 0.3s 0s;
   -moz-transition: top 0.3s 0s;
   transition: top 0.3s 0s;
@@ -1135,66 +1135,14 @@ html, body {
 .cd-panel-close {
   position: absolute;
   top: 0;
-  right: 0;
+  left: 15px;
   height: 100%;
   width: 60px;
   /* image replacement */
   display: inline-block;
   overflow: hidden;
-  text-indent: 100%;
+  
   white-space: nowrap;
-}
-.cd-panel-close::before, .cd-panel-close::after {
-  /* close icon created in CSS */
-  position: absolute;
-  top: 22px;
-  left: 20px;
-  height: 3px;
-  width: 20px;
-  background-color: #424f5c;
-  /* this fixes a bug where pseudo elements are slighty off position */
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-.cd-panel-close::before {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-.cd-panel-close::after {
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-.no-touch .cd-panel-close:hover {
-  background-color: #424f5c;
-}
-.no-touch .cd-panel-close:hover::before, .no-touch .cd-panel-close:hover::after {
-  background-color: #ffffff;
-  -webkit-transition-property: -webkit-transform;
-  -moz-transition-property: -moz-transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-}
-.no-touch .cd-panel-close:hover::before {
-  -webkit-transform: rotate(220deg);
-  -moz-transform: rotate(220deg);
-  -ms-transform: rotate(220deg);
-  -o-transform: rotate(220deg);
-  transform: rotate(220deg);
-}
-.no-touch .cd-panel-close:hover::after {
-  -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
-  transform: rotate(135deg);
 }
 
 .cd-panel-container {
@@ -1254,7 +1202,7 @@ html, body {
 .cd-panel-content {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
@@ -1522,61 +1470,42 @@ Projects
   transition: opacity 0.5s;
 }
 .cd-projects-previews li:nth-of-type(2) a {
-  -webkit-transform: translateY(-12.5%);
-  -moz-transform: translateY(-12.5%);
-  -ms-transform: translateY(-12.5%);
-  -o-transform: translateY(-12.5%);
-  transform: translateY(-12.5%);
+  -webkit-transform: translateY(-16.66%);
+  -moz-transform: translateY(-16.66%);
+  -ms-transform: translateY(-16.66%);
+  -o-transform: translateY(-16.66%);
+  transform: translateY(-16.66%);
 }
 .cd-projects-previews li:nth-of-type(3) a {
-  -webkit-transform: translateY(-25%);
-  -moz-transform: translateY(-25%);
-  -ms-transform: translateY(-25%);
-  -o-transform: translateY(-25%);
-  transform: translateY(-25%);
+  -webkit-transform: translateY(-33.32%);
+  -moz-transform: translateY(-33.32%);
+  -ms-transform: translateY(-33.32%);
+  -o-transform: translateY(-33.32%);
+  transform: translateY(-33.32%);
 }
 .cd-projects-previews li:nth-of-type(4) a {
-  -webkit-transform: translateY(-37.0%);
-  -moz-transform: translateY(-37.5%);
-  -ms-transform: translateY(-37.5%);
-  -o-transform: translateY(-37.5%);
-  transform: translateY(-37.5%);
+  -webkit-transform: translateY(-49.98%);
+  -moz-transform: translateY(-49.98%);
+  -ms-transform: translateY(-49.98%);
+  -o-transform: translateY(-49.98%);
+  transform: translateY(-49.98%);
 }
 
 .cd-projects-previews li:nth-of-type(5) a {
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-66.64%);
+  -moz-transform: translateY(-66.64%);
+  -ms-transform: translateY(-66.64%);
+  -o-transform: translateY(-66.64%);
+  transform: translateY(-66.64%);
 }
 
 .cd-projects-previews li:nth-of-type(6) a {
-  -webkit-transform: translateY(-62.5%);
-  -moz-transform: translateY(-62.5%);
-  -ms-transform: translateY(-62.5%);
-  -o-transform: translateY(-62.5%);
-  transform: translateY(-62.5%);
-}
-
-.cd-projects-previews li:nth-of-type(7) a {
   -webkit-transform: translateY(-75%);
   -moz-transform: translateY(-75%);
   -ms-transform: translateY(-75%);
   -o-transform: translateY(-75%);
   transform: translateY(-75%);
 }
-
-.cd-projects-previews li:nth-of-type(8) a {
-  -webkit-transform: translateY(-0%);
-  -moz-transform: translateY(-0%);
-  -ms-transform: translateY(-0%);
-  -o-transform: translateY(-0%);
-  transform: translateY(0%);
-}
-
-
-
 .cd-projects-previews .bg-loaded a {
   opacity: 1;
 }
@@ -1584,7 +1513,7 @@ Projects
   .cd-projects-previews li {
     display: inline-block;
     height: 100%;
-    width: 12.5%;
+    width: 16.666%;
     float: left;
   }
   .cd-projects-previews li.selected {
@@ -1603,60 +1532,44 @@ Projects
   }
   .cd-projects-previews a {
     /* width equal to window width */
-    width: 400%;
+    width: 600%;
   }
   .cd-projects-previews li:nth-of-type(2) a {
-    -webkit-transform: translateX(-12.5%);
-    -moz-transform: translateX(-12.5%);
-    -ms-transform: translateX(-12.5%);
-    -o-transform: translateX(-12.5%);
-    transform: translateX(-12.5%);
+    -webkit-transform: translateX(-16.66%);
+    -moz-transform: translateX(-16.66%);
+    -ms-transform: translateX(-16.66%);
+    -o-transform: translateX(-16.66%);
+    transform: translateX(-16.66%);
   }
   .cd-projects-previews li:nth-of-type(3) a {
-    -webkit-transform: translateX(-25%);
-    -moz-transform: translateX(-25%);
-    -ms-transform: translateX(-25%);
-    -o-transform: translateX(-25%);
-    transform: translateX(-25%);
+    -webkit-transform: translateX(-33.32%);
+    -moz-transform: translateX(-33.32%);
+    -ms-transform: translateX(-33.32%);
+    -o-transform: translateX(-33.32%);
+    transform: translateX(-33.32%);
   }
   .cd-projects-previews li:nth-of-type(4) a {
-    -webkit-transform: translateX(-37.5%);
-    -moz-transform: translateX(-37.5%);
-    -ms-transform: translateX(-37.5%);
-    -o-transform: translateX(-37.5%);
-    transform: translateX(-37.5%);
+    -webkit-transform: translateX(-49.98%);
+    -moz-transform: translateX(-49.98%);
+    -ms-transform: translateX(-49.98%);
+    -o-transform: translateX(-49.98%);
+    transform: translateX(-49.98%);
   }
   
-   .cd-projects-previews li:nth-of-type(5) a {
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
+    .cd-projects-previews li:nth-of-type(5) a {
+    -webkit-transform: translateX(-66.64%);
+    -moz-transform: translateX(-66.64%);
+    -ms-transform: translateX(-66.64%);
+    -o-transform: translateX(-66.64%);
+    transform: translateX(-66.64%);
   }
   
-   .cd-projects-previews li:nth-of-type(6) a {
-    -webkit-transform: translateX(-62.5%);
-    -moz-transform: translateX(-62.5%);
-    -ms-transform: translateX(-62.5%);
-    -o-transform: translateX(-62.5%);
-    transform: translateX(-62.5%);
-  }
-  
-     .cd-projects-previews li:nth-of-type(7) a {
-    -webkit-transform: translateX(-75%);
-    -moz-transform: translateX(-75%);
-    -ms-transform: translateX(-75%);
-    -o-transform: translateX(-75%);
-    transform: translateX(-75%);
-  }
-  
-    .cd-projects-previews li:nth-of-type(8) a {
-    -webkit-transform: translateX(-0%);
-    -moz-transform: translateX(-0%);
-    -ms-transform: translateX(-0%);
-    -o-transform: translateX(-0%);
-    transform: translateX(-0%);
+    .cd-projects-previews li:nth-of-type(6) a {
+    -webkit-transform: translateX(-83.3%);
+    -moz-transform: translateX(-83.3%);
+    -ms-transform: translateX(-83.3%);
+    -o-transform: translateX(-83.3%);
+    transform: translateX(-83.3%);
   }
 }
 
@@ -1718,25 +1631,13 @@ Projects
 
 .cd-projects-previews li:nth-of-type(5) a,
 .cd-projects > li:nth-of-type(5) .preview-image {
-  background: #835531 url(../images/img-5.jpg) no-repeat center center;
+  background: #835534 url(../images/img-5.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .cd-projects-previews li:nth-of-type(6) a,
 .cd-projects > li:nth-of-type(6) .preview-image {
-  background: #835531 url(../images/img-6.jpg) no-repeat center center;
-  background-size: cover;
-}
-
-.cd-projects-previews li:nth-of-type(7) a,
-.cd-projects > li:nth-of-type(7) .preview-image {
-  background: #835531 url(../images/img-7.jpg) no-repeat center center;
-  background-size: cover;
-}
-
-.cd-projects-previews li:nth-of-type(8) a,
-.cd-projects > li:nth-of-type(8) .preview-image {
-  background: #835531 url(../images/img-8.jpg) no-repeat center center;
+  background: #835536 url(../images/img-6.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -1746,11 +1647,11 @@ Projects
   top: calc(50% - 20px);
   left: 0;
   color: #ffffff;
-  -webkit-transform: translateY(-37.5vh);
-  -moz-transform: translateY(-37.5vh);
-  -ms-transform: translateY(-37.5vh);
-  -o-transform: translateY(-37.5vh);
-  transform: translateY(-37.5vh);
+  -webkit-transform: translateY(-45vh);
+  -moz-transform: translateY(-45vh);
+  -ms-transform: translateY(-45vh);
+  -o-transform: translateY(-45vh);
+  transform: translateY(-45vh);
   -webkit-transition: -webkit-transform 0.6s 0.2s;
   -moz-transition: -moz-transform 0.6s 0.2s;
   transition: transform 0.6s 0.2s;
@@ -1808,7 +1709,7 @@ Projects
 }
 @media only screen and (min-width: 1024px) {
   .cd-project-title {
-    width: 25%;
+    width: 16.66%;
     top: 50vh;
     -webkit-transform: translateX(0%);
     -moz-transform: translateX(0%);
@@ -1820,20 +1721,20 @@ Projects
 
 .cd-projects-previews li:nth-of-type(2) .cd-project-title,
 .cd-projects > li:nth-of-type(2) .cd-project-title {
-  -webkit-transform: translateY(-12.5vh);
-  -moz-transform: translateY(-25vh);
-  -ms-transform: translateY(-25vh);
-  -o-transform: translateY(-25vh);
-  transform: translateY(-25vh);
+  -webkit-transform: translateY(-28vh);
+  -moz-transform: translateY(-28vh);
+  -ms-transform: translateY(-28vh);
+  -o-transform: translateY(-28vh);
+  transform: translateY(-28vh);
 }
 @media only screen and (min-width: 1024px) {
   .cd-projects-previews li:nth-of-type(2) .cd-project-title,
   .cd-projects > li:nth-of-type(2) .cd-project-title {
-    -webkit-transform: translateX(50%);
-    -moz-transform: translateX(50%);
-    -ms-transform: translateX(50%);
-    -o-transform: translateX(50%);
-    transform: translateX(50%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%);
   }
 }
 
@@ -1849,44 +1750,6 @@ Projects
   .cd-projects-previews li:nth-of-type(3) .cd-project-title,
   .cd-projects > li:nth-of-type(3) .cd-project-title {
     -webkit-transform: translateX(200%);
-    -moz-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    -o-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-}
-
-.cd-projects-previews li:nth-of-type(4) a .cd-project-title,
-.cd-projects > li:nth-of-type(4) .cd-project-title {
-  -webkit-transform: translateY(0vh);
-  -moz-transform: translateY(0vh);
-  -ms-transform: translateY(0vh);
-  -o-transform: translateY(0vh);
-  transform: translateY(0vh);
-}
-@media only screen and (min-width: 1024px) {
-  .cd-projects-previews li:nth-of-type(4) a .cd-project-title,
-  .cd-projects > li:nth-of-type(4) .cd-project-title {
-    -webkit-transform: translateX(150%);
-    -moz-transform: translateX(150%);
-    -ms-transform: translateX(150%);
-    -o-transform: translateX(150%);
-    transform: translateX(150%);
-  }
-}
-
-.cd-projects-previews li:nth-of-type(5) a .cd-project-title,
-.cd-projects > li:nth-of-type(5) .cd-project-title {
-  -webkit-transform: translateY(12.5vh);
-  -moz-transform: translateY(12.5vh);
-  -ms-transform: translateY(12.5vh);
-  -o-transform: translateY(12.5vh);
-  transform: translateY(12.5vh);
-}
-@media only screen and (min-width: 1024px) {
-  .cd-projects-previews li:nth-of-type(5) a .cd-project-title,
-  .cd-projects > li:nth-of-type(5) .cd-project-title {
-    -webkit-transform: translateX(200%);
     -moz-transform: translateX(200%);
     -ms-transform: translateX(200%);
     -o-transform: translateX(200%);
@@ -1894,36 +1757,17 @@ Projects
   }
 }
 
-.cd-projects-previews li:nth-of-type(6) a .cd-project-title,
-.cd-projects > li:nth-of-type(6) .cd-project-title {
-  -webkit-transform: translateY(25vh);
-  -moz-transform: translateY(25vh);
-  -ms-transform: translateY(25vh);
-  -o-transform: translateY(25vh);
-  transform: translateY(25vh);
+.cd-projects-previews li:nth-of-type(4) .cd-project-title,
+.cd-projects > li:nth-of-type(4) .cd-project-title {
+  -webkit-transform: translateY(4.5vh);
+  -moz-transform: translateY(4.5vh);
+  -ms-transform: translateY(4.5vh);
+  -o-transform: translateY(4.5vh);
+  transform: translateY(4.5vh);
 }
 @media only screen and (min-width: 1024px) {
-  .cd-projects-previews li:nth-of-type(6) a .cd-project-title,
-  .cd-projects > li:nth-of-type(6) .cd-project-title {
-    -webkit-transform: translateX(250%);
-    -moz-transform: translateX(250%);
-    -ms-transform: translateX(250%);
-    -o-transform: translateX(250%);
-    transform: translateX(250%);
-  }
-}
-
-.cd-projects-previews li:nth-of-type(7) a .cd-project-title,
-.cd-projects > li:nth-of-type(7) .cd-project-title {
-  -webkit-transform: translateY(37.5vh);
-  -moz-transform: translateY(37.5vh);
-  -ms-transform: translateY(37.5vh);
-  -o-transform: translateY(37.5vh);
-  transform: translateY(37.5vh);
-}
-@media only screen and (min-width: 1024px) {
-  .cd-projects-previews li:nth-of-type(7) a .cd-project-title,
-  .cd-projects > li:nth-of-type(7) .cd-project-title {
+  .cd-projects-previews li:nth-of-type(4) .cd-project-title,
+  .cd-projects > li:nth-of-type(4) .cd-project-title {
     -webkit-transform: translateX(300%);
     -moz-transform: translateX(300%);
     -ms-transform: translateX(300%);
@@ -1932,38 +1776,50 @@ Projects
   }
 }
 
-.cd-projects-previews li:nth-of-type(8) a .cd-project-title,
-.cd-projects > li:nth-of-type(8) .cd-project-title {
-  -webkit-transform: translateY(-37.5vh);
-  -moz-transform: translateY(-37.5vh);
-  -ms-transform: translateY(-37.5vh);
-  -o-transform: translateY(-37.5vh);
-  transform: translateY(-37.5vh);
+.cd-projects-previews li:nth-of-type(5) .cd-project-title,
+.cd-projects > li:nth-of-type(5) .cd-project-title {
+  -webkit-transform: translateY(20vh);
+  -moz-transform: translateY(20vh);
+  -ms-transform: translateY(20vh);
+  -o-transform: translateY(20vh);
+  transform: translateY(20vh);
 }
 @media only screen and (min-width: 1024px) {
-  .cd-projects-previews li:nth-of-type(8) a .cd-project-title,
-  .cd-projects > li:nth-of-type(8) .cd-project-title {
-    -webkit-transform: translateX(0%);
-    -moz-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    -o-transform: translateX(0%);
-    transform: translateX(0%);
+  .cd-projects-previews li:nth-of-type(5) .cd-project-title,
+  .cd-projects > li:nth-of-type(5) .cd-project-title {
+    -webkit-transform: translateX(400%);
+    -moz-transform: translateX(400%);
+    -ms-transform: translateX(400%);
+    -o-transform: translateX(400%);
+    transform: translateX(400%);
   }
 }
 
-
-
-
-
+.cd-projects-previews li:nth-of-type(6) a .cd-project-title,
+.cd-projects > li:nth-of-type(6) .cd-project-title {
+  -webkit-transform: translateY(28vh);
+  -moz-transform: translateY(28vh);
+  -ms-transform: translateY(28vh);
+  -o-transform: translateY(28vh);
+  transform: translateY(28vh);
+}
+@media only screen and (min-width: 1024px) {
+  .cd-projects-previews li:nth-of-type(6) a .cd-project-title,
+  .cd-projects > li:nth-of-type(6) .cd-project-title {
+    -webkit-transform: translateX(500%);
+    -moz-transform: translateX(500%);
+    -ms-transform: translateX(500%);
+    -o-transform: translateX(500%);
+    transform: translateX(500%);
+  }
+}
 
 li.selected .cd-project-title,
 .cd-projects > li:nth-of-type(2).selected .cd-project-title,
 .cd-projects > li:nth-of-type(3).selected .cd-project-title,
 .cd-projects > li:nth-of-type(4).selected .cd-project-title
 .cd-projects > li:nth-of-type(5).selected .cd-project-title
-.cd-projects > li:nth-of-type(6).selected .cd-project-title
-.cd-projects > li:nth-of-type(7).selected .cd-project-title
-.cd-projects > li:nth-of-type(8).selected .cd-project-title {
+.cd-projects > li:nth-of-type(6).selected .cd-project-title         {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
   -ms-transform: translateY(0);
@@ -1974,16 +1830,14 @@ li.selected .cd-project-title,
   li.selected .cd-project-title,
   .cd-projects > li:nth-of-type(2).selected .cd-project-title,
   .cd-projects > li:nth-of-type(3).selected .cd-project-title,
-  .cd-projects > li:nth-of-type(4).selected .cd-project-title 
+  .cd-projects > li:nth-of-type(4).selected .cd-project-title
   .cd-projects > li:nth-of-type(5).selected .cd-project-title
-  .cd-projects > li:nth-of-type(6).selected .cd-project-title
-  .cd-projects > li:nth-of-type(7).selected .cd-project-title
-  .cd-projects > li:nth-of-type(8).selected .cd-project-title{
-    -webkit-transform: translateX(150%);
-    -moz-transform: translateX(150%);
-    -ms-transform: translateX(150%);
-    -o-transform: translateX(150%);
-    transform: translateX(150%);
+  .cd-projects > li:nth-of-type(6).selected .cd-project-title {
+    -webkit-transform: translateX(250%);
+    -moz-transform: translateX(250%);
+    -ms-transform: translateX(250%);
+    -o-transform: translateX(250%);
+    transform: translateX(250%);
   }
 }
 
