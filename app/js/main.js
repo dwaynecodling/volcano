@@ -95,7 +95,12 @@ jQuery(document).ready(function($){
     event.preventDefault();
     $('.cd-panel').addClass('is-visible');
      $("body").css('overflow', 'hidden');
-      $('.cd-panel-close').css({display: "inline-block"});
+      $('.cd-panel-close').css({
+        "display": "inline-block", 
+        "transition": "all ease-in 5s", 
+        "transition-delay" : ".5s"
+      });
+
   });
   //close the lateral panel
   $('.cd-panel').on('click', function(event){
