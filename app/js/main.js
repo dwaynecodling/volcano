@@ -85,7 +85,8 @@ $('.overlay').on('click', function(){
     
 });
 
-  
+
+
 
 
 jQuery(document).ready(function($){
@@ -104,6 +105,7 @@ jQuery(document).ready(function($){
     }
   });
 });
+
 
 
 
@@ -130,6 +132,7 @@ jQuery(document).ready(function($){
       animating = true;
       navigationTrigger.add(projectsContainer).addClass('project-open');
       openProject($(this).parent('li'));
+      $('.cd-panel-close').css({display: "none"});
     }
   });
 
@@ -139,9 +142,11 @@ jQuery(document).ready(function($){
     if( animating == false ) {
       animating = true;
       if( navigationTrigger.hasClass('project-open') ) {
+
         //close visible project
         navigationTrigger.add(projectsContainer).removeClass('project-open');
         closeProject();
+        $('.cd-panel-close').css({display: "inline-block"});
       } else if( navigationTrigger.hasClass('nav-visible') ) {
         //close main navigation
         navigationTrigger.removeClass('nav-visible');
@@ -159,6 +164,9 @@ jQuery(document).ready(function($){
 
     if(transitionsNotSupported) animating = false;
   });
+
+
+
 
   //scroll down to project info
   projectsContainer.on('click', '.scroll', function(){
@@ -292,3 +300,9 @@ jQuery(document).ready(function($){
     });
   };
 })(jQuery);
+
+
+
+
+
+ 
