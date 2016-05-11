@@ -95,13 +95,16 @@ jQuery(document).ready(function($){
     event.preventDefault();
     $('.cd-panel').addClass('is-visible');
      $("body").css('overflow', 'hidden');
+      $('.cd-panel-close').css({display: "inline-block"});
   });
-  //clode the lateral panel
+  //close the lateral panel
   $('.cd-panel').on('click', function(event){
     if( $(event.target).is('.cd-panel') || $(event.target).is('.cd-panel-close') ) { 
       $('.cd-panel').removeClass('is-visible');
       event.preventDefault();
+
       $("body").css('overflow', 'auto');
+       $('.cd-panel-close').css({display: "none"});
     }
   });
 });
