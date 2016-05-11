@@ -323,5 +323,14 @@ new ScrollMagic.Scene({
     .addTo(controller); // assign the scene to the controller
 
 
- 
+$('.content-bg').parallax({imageSrc: 'images/content-bg.jpg'});
 
+
+$(window).scroll(function(){ $(window).trigger('resize'); });
+
+
+$(window).resize(function() {
+  $(window).trigger('resize.px.parallax');
+});
+
+ 

@@ -126,7 +126,7 @@
     }
 
     this.$mirror.addClass('parallax-mirror').css({
-      visibility: 'hidden',
+      
       zIndex: this.zIndex,
       position: 'fixed',
       top: 0,
