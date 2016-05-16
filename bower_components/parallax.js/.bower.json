@@ -30,5 +30,6 @@
   },
   "_source": "https://github.com/pixelcog/parallax.js.git",
   "_target": "^1.4.2",
-  "_originalSource": "parallax.js"
+  "_originalSource": "parallax.js",
+  "_direct": true
 }
