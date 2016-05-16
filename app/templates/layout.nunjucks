@@ -16,7 +16,7 @@
        <link rel="stylesheet" href="bower_components/Lato/latofonts.css">
       <link rel="stylesheet" href="bower_components/Lato/latostyle.css">
      <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
+<link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
 <link rel="stylesheet" href="bower_components/grid-system/grid-system.css">
 <link rel="stylesheet" href="bower_components/magnific-popup/dist/magnific-popup.css">
 <link rel="stylesheet" href="bower_components/classie-js/component.css">
