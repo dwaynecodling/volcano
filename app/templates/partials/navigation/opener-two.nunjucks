@@ -8,7 +8,7 @@
 				<div class="bg-img"><img src="images/splash-screen-1.jpg" alt="Background Image"/></div>
 				
 			</header>
-			<button class="trigger cd-projects-container.project-open scroll" data-info="Click Here To Scroll Down"><span>Trigger</span></button>
+			<button class="trigger cd-projects-container.project-open scroll" data-info="Click Here to Scroll Down"><span>Trigger</span></button>
 
 
 		
