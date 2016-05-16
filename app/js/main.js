@@ -19,6 +19,12 @@ $(function() {
 
 
 
+
+
+
+
+
+
 // Example 1: From an element in DOM
 $('.open-popup-link').magnificPopup({
   type:'inline',
