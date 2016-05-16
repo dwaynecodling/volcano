@@ -64,7 +64,6 @@
       ga('create','UA-XXXXX-X');ga('send','pageview');
     </script>
 
-
   <!-- build:js js/vendor.js -->
     <!-- bower:js -->
    
@@ -80,12 +79,12 @@
     <script type="text/javascript" src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
      <script src="bower_components/classie-js/classie.js"></script>
 
-    
+     <!-- endbower -->
   
 
               <script src="js/main.js"></script>
 
-    <!-- endbower -->
+   
     <!-- endbuild -->
 
 
