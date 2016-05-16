@@ -67,10 +67,10 @@
 
   <!-- build:js js/vendor.js -->
     <!-- bower:js -->
-    <script src="bower_components/classie-js/classie.js"></script>
+   
         <script src="bower_components/jquery/dist/jquery.js"></script>
          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-         <script src="bower_components/classie-js/classie.js"></script>
+ 
          <script src="bower_components/parallax.js/parallax.js"></script>         
 
          <script src="bower_components/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
@@ -78,6 +78,7 @@
 
     <script src="bower_components/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
+     <script src="bower_components/classie-js/classie.js"></script>
 
     
   
