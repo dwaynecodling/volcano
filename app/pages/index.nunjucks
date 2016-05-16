@@ -3,12 +3,11 @@
 
 {% block navigation %} 
 <!-- Adds the opener partial -->
-{% include "partials/navigation/opener.nunjucks" %}
+{% include "partials/navigation/opener-two.nunjucks" %}
 
 <!-- Adds the navigation partial -->
 {% include "partials/navigation/navigation-two.nunjucks" %}
 {% endblock %}
-
 
 
 {% block content %} 
