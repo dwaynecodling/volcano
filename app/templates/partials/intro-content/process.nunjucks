@@ -1,5 +1,5 @@
 <!-- process.nunjucks -->
-<div class="welcome-div">
+<div class="header">
 <section class=" process-top row ">
 
 	<div class="process column column-5">
