@@ -87,8 +87,8 @@ button.trigger {
 	color: transparent;
 	font-size: 2em;
 	cursor: pointer;
-	background: url("/images/cd-icon-arrow.svg") no-repeat center center;
-	  visibility: visible;
+	background: url('../images/cd-icon-arrow.svg') no-repeat center center;
+	visibility: visible;
   -webkit-transform: translateX(-50%) scale(1);
   -moz-transform: translateX(-50%) scale(1);
   -ms-transform: translateX(-50%) scale(1);
