@@ -327,7 +327,7 @@ new ScrollMagic.Scene({
           }
 
           return ((rv > -1) ? rv : undef);
-        }());
+        }());400
 
 
         // disable/enable scroll (mousewheel and keys) from http://stackoverflow.com/a/4770179          
