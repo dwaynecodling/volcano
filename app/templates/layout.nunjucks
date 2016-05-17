@@ -74,7 +74,8 @@
 
     <script src="bower_components/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
     <script src="bower_components/parallax.js/parallax.min.js"></script>
-                  <script src="js/main.js"></script>
+
+              <script src="js/main.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
