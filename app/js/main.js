@@ -19,29 +19,6 @@ $(function() {
 
 
 
-
-
-// Intro Full Screen page Section
-
-
-(function() {
-        var windowH = $(window).height(),
-          introEl = $('div.opener'),
-          introHeadingH = introEl.find('h1').height();
-        introEl.css('padding', (windowH - introHeadingH)/2 + 'px 0');
-        $(document).on('scroll', function() {
-          introEl.slideUp(1000, function() { $(document).off('scroll'); });
-          $(window).scrollTop(0);
-
-        });
-      })();
-
-
-
-
-
-
-
 // Example 1: From an element in DOM
 $('.open-popup-link').magnificPopup({
   type:'inline',
@@ -316,10 +293,10 @@ var controller = new ScrollMagic.Controller();
 
 // create a scene
 new ScrollMagic.Scene({
-        duration: 175,  // the scene should last for a scroll distance of 100px
-        offset: 220      // start this scene after scrolling for 50px
+        duration: 400,  // the scene should last for a scroll distance of 100px
+        offset: 500      // start this scene after scrolling for 50px
     })
-    .setPin(".header") // pins the element for the the scene's duration
+    .setPin(".welcome-div") // pins the element for the the scene's duration
     .addTo(controller); // assign the scene to the controller
 
 
