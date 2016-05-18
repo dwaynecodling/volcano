@@ -38,7 +38,7 @@
 
 {% block team %} 
 <!-- Adds the team partial -->
-{% include "partials/services/meet-the-team.nunjucks" %}
+{% include "partials/services/team.nunjucks" %}
 {% endblock %}
 
 {% block graphicdesign %} 
