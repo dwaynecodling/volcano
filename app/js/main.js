@@ -448,12 +448,14 @@ new ScrollMagic.Scene({
 
      $(function() {
   $('.dwayne-meet-the-team').hover(function() {
+    $('.dwayne-meet-the-team').css('cursor', 'pointer');
     $('.dwayne-profile-image').css('opacity', '.1');
     $('.dwayne-profile-text').css('opacity', '1');
-    $('.dwayne-profile-text').css('top', '100px');
+    $('.dwayne-profile-text').css('top', '10px');
 
   }, function() {
     // on mouseout, reset the background colour
+    $('.dwayne-meet-the-team').css('cursor', '');
     $('.dwayne-profile-image').css('opacity', '');
      $('.dwayne-profile-text').css('opacity', '');
      $('.dwayne-profile-text').css('top', '');
@@ -463,12 +465,14 @@ new ScrollMagic.Scene({
 
      $(function() {
   $('.rudy-meet-the-team').hover(function() {
+    $('.rudy-meet-the-team').css('cursor', 'pointer');
     $('.rudy-profile-image').css('opacity', '.1');
     $('.rudy-profile-text').css('opacity', '1');
-    $('.rudy-profile-text').css('top', '100px');
+    $('.rudy-profile-text').css('top', '10px');
 
   }, function() {
     // on mouseout, reset the background colour
+    $('.rudy-meet-the-team').css('cursor', '');
     $('.rudy-profile-image').css('opacity', '');
      $('.rudy-profile-text').css('opacity', '');
      $('.rudy-profile-text').css('top', '');
@@ -478,12 +482,14 @@ new ScrollMagic.Scene({
 
      $(function() {
   $('.liam-meet-the-team').hover(function() {
+    $('.liam-meet-the-team').css('cursor', 'pointer');
     $('.liam-profile-image').css('opacity', '.1');
     $('.liam-profile-text').css('opacity', '1');
-    $('.liam-profile-text').css('top', '100px');
+    $('.liam-profile-text').css('top', '10px');
 
   }, function() {
     // on mouseout, reset the background colour
+    $('.liam-meet-the-team').css('cursor', '');
     $('.liam-profile-image').css('opacity', '');
      $('.liam-profile-text').css('opacity', '');
      $('.liam-profile-text').css('top', '');
