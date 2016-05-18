@@ -442,3 +442,50 @@ new ScrollMagic.Scene({
         window.addEventListener( 'scroll', scrollPage );
         trigger.addEventListener( 'click', function() { toggle( 'reveal' ); } );
       })();
+
+
+
+
+     $(function() {
+  $('.dwayne-meet-the-team').hover(function() {
+    $('.dwayne-profile-image').css('opacity', '.1');
+    $('.dwayne-profile-text').css('opacity', '1');
+    $('.dwayne-profile-text').css('top', '100px');
+
+  }, function() {
+    // on mouseout, reset the background colour
+    $('.dwayne-profile-image').css('opacity', '');
+     $('.dwayne-profile-text').css('opacity', '');
+     $('.dwayne-profile-text').css('top', '');
+  });
+});
+
+
+     $(function() {
+  $('.rudy-meet-the-team').hover(function() {
+    $('.rudy-profile-image').css('opacity', '.1');
+    $('.rudy-profile-text').css('opacity', '1');
+    $('.rudy-profile-text').css('top', '100px');
+
+  }, function() {
+    // on mouseout, reset the background colour
+    $('.rudy-profile-image').css('opacity', '');
+     $('.rudy-profile-text').css('opacity', '');
+     $('.rudy-profile-text').css('top', '');
+  });
+});     
+
+
+     $(function() {
+  $('.liam-meet-the-team').hover(function() {
+    $('.liam-profile-image').css('opacity', '.1');
+    $('.liam-profile-text').css('opacity', '1');
+    $('.liam-profile-text').css('top', '100px');
+
+  }, function() {
+    // on mouseout, reset the background colour
+    $('.liam-profile-image').css('opacity', '');
+     $('.liam-profile-text').css('opacity', '');
+     $('.liam-profile-text').css('top', '');
+  });
+});     

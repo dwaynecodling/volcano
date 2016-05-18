@@ -513,12 +513,20 @@ margin-top: -20%;
 
 /* End of Services Responsive CSS */
 
+.team-section {
+    /* The old syntax, deprecated and prefixed, for old browsers */
+background: -prefix-linear-gradient(top, #fff, #c6c5c5); 
+
+/* The new syntax needed by standard-compliant browsers (Opera 12.1,
+   IE 10, Firefox 16, Chrome 26, Safari 6.1), without prefix */
+background: linear-gradient(to bottom, #fff, #c6c5c5);
+}
+
+
+
 .team-section
-    background-color: #fff;
-    background-image: url("../images/diamond-bg-25.png");
-    background-size: 100px 100px;
-    padding-top: 56px;
-    padding-bottom: 56px;
+ 
+    
     h2
         font-size: 53px;
         line-height: 82px;
@@ -548,6 +556,59 @@ margin-top: -20%;
     a
         text-decoration: none;
 
+
+.dwayne-meet-the-team, .rudy-meet-the-team, .liam-meet-the-team
+    height:500px
+    position: relative;
+    text-align: center;
+        
+.dwayne-profile-image
+    background-image: url("../images/dwayne-profile-img.png")
+    position:absolute;
+    width:100%;
+    height: 500px;
+    display:block;
+    background-repeat: no-repeat
+    background-position: center bottom
+    -webkit-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+    opacity: 1;
+    
+   
+.dwayne-profile-text, .rudy-profile-text, .liam-profile-text
+    position: absolute
+    top: 170px 
+    padding: 0 20%
+    color: #000;
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;   
+
+          
+.rudy-profile-image
+    background-image: url("../images/rudy-profile-img.png")
+    position:absolute;
+    width:100%;
+    height: 500px;
+    display:block;
+    background-repeat: no-repeat
+    background-position: center bottom
+    -webkit-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+    opacity: 1;       
+    
+.liam-profile-image
+    background-image: url("../images/liam-profile-img.png")
+    position:absolute;
+    width:100%;
+    height: 500px;
+    display:block;
+    background-repeat: no-repeat
+    background-position: center bottom
+    -webkit-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+    opacity: 1;       
+    
 
 @media only screen and (min-width : 901px) and (max-width : 2000px) {
 
