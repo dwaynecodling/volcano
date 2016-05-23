@@ -1,6 +1,9 @@
 
 html
    font-family: 'LatoWeb', sans-serif;
+   -webkit-font-smoothing: antialiased;
+   moz-osx-font-smoothing: antialiased;
+   font-smoothing: antialiased;
 p
     font-size: 16px;
     line-height: 26px;
@@ -514,15 +517,21 @@ margin-top: -20%;
 /* End of Services Responsive CSS */
 
 .team-section {
-    /* The old syntax, deprecated and prefixed, for old browsers */
-background: -prefix-linear-gradient(top, #fff, #c6c5c5); 
-
-/* The new syntax needed by standard-compliant browsers (Opera 12.1,
-   IE 10, Firefox 16, Chrome 26, Safari 6.1), without prefix */
-background: linear-gradient(to bottom, #fff, #c6c5c5);
+   background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 69%, #f2f2f2 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 69%,#f2f2f2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 69%,#f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 
+.team-section-interior {
+    margin-top: 28px;
+}
+
+.team-top
+    margin-bottom: 28px;
+    margin-top: 28px;
+    
 
 .team-section
  
@@ -558,15 +567,16 @@ background: linear-gradient(to bottom, #fff, #c6c5c5);
 
 
 .dwayne-meet-the-team, .rudy-meet-the-team, .liam-meet-the-team
-    height:500px
+    height:600px
     position: relative;
     text-align: center;
         
 .dwayne-profile-image
-    background-image: url("../images/dwayne-profile-img.png")
+    background-image: url("../images/dwayne-profile-img-2.png");
+    background-size: contain;
     position:absolute;
     width:100%;
-    height: 500px;
+    height: 600px;
     display:block;
     background-repeat: no-repeat
     background-position: center bottom
@@ -586,10 +596,11 @@ background: linear-gradient(to bottom, #fff, #c6c5c5);
 
           
 .rudy-profile-image
-    background-image: url("../images/rudy-profile-img.png")
+    background-image: url("../images/rudy-profile-img-2.png");
+    background-size: contain;
     position:absolute;
     width:100%;
-    height: 500px;
+    height: 600px;
     display:block;
     background-repeat: no-repeat
     background-position: center bottom
@@ -598,10 +609,11 @@ background: linear-gradient(to bottom, #fff, #c6c5c5);
     opacity: 1;       
     
 .liam-profile-image
-    background-image: url("../images/liam-profile-img.png")
+    background-image: url("../images/liam-profile-img-2.png")
+    background-size: contain;
     position:absolute;
     width:100%;
-    height: 500px;
+    height: 600px;
     display:block;
     background-repeat: no-repeat
     background-position: center bottom
