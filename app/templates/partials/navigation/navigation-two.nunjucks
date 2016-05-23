@@ -7,7 +7,7 @@
 	<li><a class="active" href="#about"><span class="hover">ABOUT</span></a></li>
         <li><a href="#services"><span class="hover">SERVICES</span></a></li>
         <li><a href="#contact"><span class="hover">CONTACT</span></a></li>
-        <li><a href="#social-e"><span class="hover">SOCIAL-E</span></a></li>
+ 
 </ul>
 <div class="button">
 	<a class="btn-open" href="#"></a>
