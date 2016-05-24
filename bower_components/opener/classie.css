@@ -917,8 +917,8 @@ button.trigger span::before {
 }
 
 .intro-effect-push:not(.notrans) .header {
-	-webkit-transition-timing-function: cubic-bezier(0,0,0,0);
-	transition-timing-function: cubic-bezier(0,0,0,0);
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 	-webkit-transition-duration: 1.8s;
 	transition-duration: 1.8s;
 }
