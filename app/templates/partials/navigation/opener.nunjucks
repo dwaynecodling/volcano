@@ -2,7 +2,13 @@
 <div class= "demo-1">
 	<div id="container" class="container intro-effect-push">
 		<!-- Top Navigation -->
+
+		
 		<header class="header">
-			<div class="bg-img"><img src="images/splash-screen-1.jpg" alt ="background image"/></div>
+			<div class="bg-img"><img src="images/splash-screen-1.jpg" alt ="background image"/>
+
+<div class="splash-screen-logo"></div>
+			</div>
+
 		</header>
 		<button class="trigger" data-info="Click here to Scroll Down"><span>Trigger</span></button>

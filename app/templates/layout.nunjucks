@@ -73,7 +73,7 @@
         <script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
         
          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="bower_components/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+  
     <script type="text/javascript" src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
     <script src="bower_components/parallax.js/parallax.min.js"></script>
     <script src="bower_components/opener/classie.js"></script>
