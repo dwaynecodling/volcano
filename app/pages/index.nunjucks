@@ -2,8 +2,6 @@
 {% extends "layout.nunjucks" %}
 
 {% block navigation %} 
-<!-- Adds the opener partial -->
-{% include "partials/navigation/opener.nunjucks" %}
 
 <!-- Adds the navigation partial -->
 {% include "partials/navigation/navigation-two.nunjucks" %}
