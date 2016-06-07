@@ -7,7 +7,9 @@
 		
 
 		<ul class="services-list no-1">
-			<div class="services-h1">WHAT WE DO</div>
+
+<div class="services-img"> <img class="services" src="images/what-we-do.png"></div>
+
 			<li>Logo Design & Corporate Identity </li><li> &bull; Brand Development</li>
 			<br/>
 		</li>Broadcast & Print Advertising </li><li> &bull; Motion Graphics </li><li> &bull; Web Animation</li>
