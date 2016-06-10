@@ -382,7 +382,6 @@ button.trigger
     background-image: url("../images/services-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 80vh;
 
 .services ul
 	text-align: center;color: #fff;
@@ -961,6 +960,12 @@ input[type="submit"] {
 
 body {
   font-size: 100%;
+      -webkit-transition: padding .3s ease;
+    transition: padding .3s ease;
+    line-height: 1.5;
+    overflow-y: visible;
+    position: relative;
+  
   
   }
 
@@ -986,6 +991,10 @@ a {
 
 html, body {
   height: 100%;
+  overflow-x: hidden;
+    max-width: 100%;
+    width: 100%;
+  
 }
 
 
