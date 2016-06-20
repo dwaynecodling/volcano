@@ -35,6 +35,9 @@ h3
     background-size: contain;
     margin: 0 auto;
     
+img {
+    max-width: 100%;
+}    
 
 /* Start of Navigation CSS */
 
@@ -52,6 +55,8 @@ li {
 
 .header-nav
     background: #424242;
+    padding-top: 8px
+    padding-bottom: 8px;
 
  .logo {
     float: left;
@@ -287,8 +292,10 @@ button.trigger
             margin-left: 30px;
 
 .welcome h1 {
-    font-size: 33px;
+    font-size: 27px;
     font-weight: 400;
+    color: #444
+    margin-left: 10px
 }
 
 .welcome
@@ -297,14 +304,14 @@ button.trigger
 
 	h2
 		word-break: keep-all;
-		font-weight: 300;font-size: 30px;line-height:50px;margin-bottom: 30px;
+		font-weight: 300;font-size: 24px;line-height:43px;margin-bottom: 30px; margin-left: 10px; color:#444;
 
 
 .process
 	margin-left: 30px;
 	margin-right: 20px;
 	padding: 20px 15px 10px 20px;
-	background: #4ad9d9;width:600px;
+	background: #37cccc;width:600px;
 
 	img
 		float: right; margin-top: -30px;
@@ -482,7 +489,7 @@ background: linear-gradient(to bottom,  #ffffff 69%,#f2f2f2 100%); /* W3C, IE10+
 
 
 .dwayne-meet-the-team, .rudy-meet-the-team, .liam-meet-the-team
-    height:600px
+    height:450px
     position: relative;
     text-align: center;
         
@@ -491,7 +498,7 @@ background: linear-gradient(to bottom,  #ffffff 69%,#f2f2f2 100%); /* W3C, IE10+
     background-size: contain;
     position:absolute;
     width:100%;
-    height: 600px;
+    height: 450px;
     display:block;
     background-repeat: no-repeat
     background-position: center bottom
@@ -517,7 +524,7 @@ background: linear-gradient(to bottom,  #ffffff 69%,#f2f2f2 100%); /* W3C, IE10+
     background-size: contain;
     position:absolute;
     width:100%;
-    height: 600px;
+    height: 450px;
     display:block;
     background-repeat: no-repeat
     background-position: center bottom
@@ -530,7 +537,7 @@ background: linear-gradient(to bottom,  #ffffff 69%,#f2f2f2 100%); /* W3C, IE10+
     background-size: contain;
     position:absolute;
     width:100%;
-    height: 600px;
+    height: 450px;
     display:block;
     background-repeat: no-repeat
     background-position: center bottom
@@ -742,22 +749,27 @@ background: linear-gradient(to bottom,  #ffffff 69%,#f2f2f2 100%); /* W3C, IE10+
 */
 
 
-
+.web-design-text
+    padding-bottom: 28px;
 
 .iphone-6
-    z-index: 2
-    background-image: url('../images/iphone.png')
-    background-repeat: no-repeat;
-    left: 18%;
-    margin-top: 10% !important;
+    position: absolute;
+    width: 188px;
+    height: 360px;
+    top: 80px;
+    left: 18px;
+    z-index: 2;
+   
     
     ul
         width: 280px
-        height: 420px;-2px
+        height: 420px;
 .macbook-pro
-    z-index: 1
-    background-image: url('../images/macbook-pro.png')
-    background-repeat: no-repeat;
+    position: absolute;
+    width: 719px;
+    left: 60px;
+    z-index: 1;
+
     
     ul
         width: 560px
@@ -776,10 +788,25 @@ background: linear-gradient(to bottom,  #ffffff 69%,#f2f2f2 100%); /* W3C, IE10+
     
 }
         
+.macbook-hardware
+    position: absolute;
+.mobile-hardware
+    position: absolute;
+
+@media only screen and (min-width : 0px) and (max-width : 600px) {
+
+.macbook-pro {
+    position: relative;
+    }
+    
+.web-graphics {
+ overflow: hidden;
+ }
+
+}
 
 
-
-
+  
 
 /*
 ====== Start of Footer ======
@@ -1199,7 +1226,7 @@ body {
 
 .cd-panel-close {
     position: absolute;
-    top: 65px;
+    top: 66px;
     /* left: 15px; */
     height: 100%;
     width: 60px;
@@ -1207,7 +1234,7 @@ body {
     overflow: hidden;
     text-indent: 100%;
     /* white-space: nowrap; */
-    left: 1%;
+    left: 1.09%;
     height: 52px;
     width: 52px;
     border-radius: 50%;
@@ -1756,9 +1783,11 @@ Projects
 
 .cd-projects-previews li:nth-of-type(5) a,
 .cd-projects > li:nth-of-type(5) .preview-image {
-  background: #835534 url(../images/legal-and-general-bg.png) no-repeat center center;
+  background: #835534 url(../images/legal-and-general-sticker.png) no-repeat center center;
   background-size: cover;
 }
+
+
 
 .cd-projects-previews li:nth-of-type(6) a,
 .cd-projects > li:nth-of-type(6) .preview-image {
