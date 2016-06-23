@@ -9,7 +9,7 @@
 
 
 
-{% block content %} 
+{% block introcontent %} 
 
 <!-- Adds the intro partial -->
 {% include "partials/intro-content/intro.nunjucks" %}
@@ -23,8 +23,6 @@
 <!-- Adds the design partial -->
 {% include "partials/intro-content/design.nunjucks" %}
 
-<!-- Adds the footer partial -->
-{% include "partials/intro-content/footer.nunjucks" %}
 {% endblock %}
 
 

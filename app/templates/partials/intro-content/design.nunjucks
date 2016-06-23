@@ -1,5 +1,5 @@
 <!-- design.nunjucks -->
-<section class="design row">
+<section class="design row ">
 	
 	<div class="web-design column column-5">
       <h3>Web Design + Development 
@@ -12,3 +12,10 @@
 
     </section>
 </div>
+
+</div>
+</div>
+
+<div class="vol-fixed-bg vol-bg-2">
+			<h2>Lorem ipsum dolor sit amet.</h2>
+		</div> <!-- vol-fixed-bg -->

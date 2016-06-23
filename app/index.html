@@ -135,20 +135,28 @@
 
 
 
-  <div class="content-bg" data-parallax="scroll" data-image-src="images/content-bg.jpg"><div class="content-top" > 
+   
 
 <!-- Adds the intro partial -->
  <!-- intro.nunjucks -->
-<section class="intro row">
-	<div class="welcome column column-9">
+
+ <main class="vol-main-content">
+		<div class="vol-fixed-bg vol-bg-1">
+
+<section class="intro">
+	<div class="welcome">
     <h1>Welcome to Volcano </h1>
     <h2>We’re a UK design partnership based in the </br> East-Midlands, 
     creating nice things to make you look awesome.  </h2>
      </div>
     </section>
 
+    </div> <!-- vol-fixed-bg -->
+
 <!-- Adds the process partial -->
 <!-- process.nunjucks -->
+<div class="vol-scrolling-bg vol-color-2">
+			<div class="vol-container">
 <div class="welcome-div">
 <section class=" process-top row ">
 
@@ -180,7 +188,7 @@
 
 <!-- Adds the design partial -->
 <!-- design.nunjucks -->
-<section class="design row">
+<section class="design row ">
 	
 	<div class="web-design column column-5">
       <h3>Web Design + Development 
@@ -194,33 +202,20 @@
     </section>
 </div>
 
-<!-- Adds the footer partial -->
-<!-- footer.nunjucks -->
 </div>
-<section class="intro-footer row">
-	<div class="column column-12">
-	
-    
-    <div class="part">
- 
-    <div class="losange">
-      <div class="los1">
-     
-        
-      </div>
-    </div>
-    </div>   
-    
-   
-	
-    </div>
-	
-	
-</section>	
-</div></div>
+</div>
+
+<div class="vol-fixed-bg vol-bg-2">
+			<h2>Lorem ipsum dolor sit amet.</h2>
+		</div> <!-- vol-fixed-bg -->
+
+
     
 <!-- Adds the services partial -->
 <!-- services.nunjucks -->
+
+
+
 <section class=" services-top row ">
 	<div class ="services column column-12">
 
@@ -265,6 +260,8 @@
 
 
 </section>
+
+
 
 
  
@@ -924,6 +921,7 @@
 
    </section> 
  </div>
+</main>
 
 
   <script>
@@ -939,12 +937,11 @@
   <!-- build:js js/vendor.js -->
     <!-- bower:js -->
         <script src="/bower_components/jquery/dist/jquery.js"></script>
-        <script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+
         
          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   
     <script type="text/javascript" src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
-    <script src="bower_components/parallax.js/parallax.min.js"></script>
 
 
     <script src="bower_components/unslider/dist/js/unslider-min.js"></script>
