@@ -17,5 +17,6 @@
 </div>
 
 <div class="vol-fixed-bg vol-bg-2">
-			<h2>Lorem ipsum dolor sit amet.</h2>
+			
+			 <img class="services-header" src="images/svg/what-we-do-svg.svg"></div>
 		</div> <!-- vol-fixed-bg -->
