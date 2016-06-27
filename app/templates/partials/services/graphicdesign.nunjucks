@@ -221,21 +221,22 @@
 
                      <p>PrBranding for Team China Motorsports</p>
 
-                                         <h2 class="team-china">Team China Shirt</h2>
+                                         <h2 class="team-china">Team China Paddock</h2>
+                                         <img class="narrow" src="images/team-china-startline.jpg"/> 
 
-                     <img class="narrow" src="images/team-china-paddock.png"/>  
+                     <img class="narrow" src="images/team-china-paddock.jpg"/>  
 
                      <p>Praesentium non, impedit accusantium consequatur officia architecto, mollitia placeat aperiam tenetur pariatur voluptatibus corrupti vitae deserunt! Nostrum non mollitia deserunt ipsam.</p>
 
                     <h2 class="team-china">Team China Shirt</h2>
 
-                     <img class="narrow" src="images/team-china-shirt.png"/>  
+                     <img class="narrow" src="images/team-china-shirt.jpg"/>  
 
                      <p>Praesentium non, impedit accusantium consequatur officia architecto, mollitia placeat aperiam tenetur pariatur voluptatibus corrupti vitae deserunt! Nostrum non mollitia deserunt ipsam.</p>
 
                     <h2 class="team-china">Team China Bike</h2>
 
-                     <img class="narrow" src="images/team-china-bike.png"/>  
+                     <img class="narrow" src="images/team-china-bike.jpg"/>  
 
                      <p>Praesentium non, impedit accusantium consequatur officia architecto, mollitia placeat aperiam tenetur pariatur voluptatibus corrupti vitae deserunt! Nostrum non mollitia deserunt ipsam.</p>
 
