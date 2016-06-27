@@ -52,10 +52,9 @@
     {% block navigation %} {% endblock %}
   {% block introcontent %} {% endblock %}
    {% block services %} {% endblock %}
-{% block graphicdesign %} {% endblock %}
-{% block impact %} {% endblock %}
-{% block webdesign %} {% endblock %}
 {% block team %} {% endblock %}
+{% block graphicdesign %} {% endblock %}
+{% block webdesign %} {% endblock %}
 {% block footer %} {% endblock %}
 
   <script>
