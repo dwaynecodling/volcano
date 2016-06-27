@@ -36,7 +36,7 @@
 {% endblock %}
 
 {% block impact %} 
-<!-- Adds the graphic design partial -->
+<!-- Adds the impact partial -->
 {% include "partials/services/impact.nunjucks" %}
 {% endblock %}
 
