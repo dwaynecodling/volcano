@@ -1,7 +1,7 @@
 <!-- services.nunjucks -->
 
 
-<div class="vol-fixed-bg vol-bg-2">
+<div class="vol-fixed-bg vol-bg-4">
 <section class=" services-top row ">
 	<div class ="services column column-12">
 
@@ -25,13 +25,13 @@
 
 </section>
 
-<section class= "services-bottom row ">
+<section class= "services-bottom row "
 
 
 
 	<div class=" services-bg column column-12">
 
-		<div class="services-text-bg column column-4">
+		<div class="services-text-bg column column-6">
 			<p class="services-text">OVER 15 YEARS EXPERIENCE PRODUCING HIGH QUALITY AND ENGAGING DESIGN.
 
 			</p>

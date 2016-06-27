@@ -25,16 +25,9 @@
 
 {% endblock %}
 
-
-
 {% block services %} 
 <!-- Adds the services partial -->
 {% include "partials/services/services.nunjucks" %}
-{% endblock %}
-
-{% block team %} 
-<!-- Adds the team partial -->
-{% include "partials/services/team.nunjucks" %}
 {% endblock %}
 
 {% block graphicdesign %} 
@@ -42,9 +35,19 @@
 {% include "partials/services/graphicdesign.nunjucks" %}
 {% endblock %}
 
+{% block impact %} 
+<!-- Adds the graphic design partial -->
+{% include "partials/services/impact.nunjucks" %}
+{% endblock %}
+
 {% block webdesign %} 
 <!-- Adds the web design partial -->
 {% include "partials/services/webdesign.nunjucks" %}
+{% endblock %}
+
+{% block team %} 
+<!-- Adds the team partial -->
+{% include "partials/services/team.nunjucks" %}
 {% endblock %}
 
 {% block footer %} 

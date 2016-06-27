@@ -341,4 +341,5 @@ animation: 'fade', autoplay: true, speed: 2000, delay: 4000, arrows: false, nav:
 });
 
 
-jQuery(window).trigger('resize').trigger('scroll');
+
+
