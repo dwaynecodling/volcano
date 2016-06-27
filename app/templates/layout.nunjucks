@@ -54,6 +54,7 @@
    {% block services %} {% endblock %}
 {% block team %} {% endblock %}
 {% block graphicdesign %} {% endblock %}
+{% block impact%} {% endblock%}
 {% block webdesign %} {% endblock %}
 {% block footer %} {% endblock %}
 
