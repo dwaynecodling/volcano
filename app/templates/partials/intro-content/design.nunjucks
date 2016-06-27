@@ -17,5 +17,29 @@
 
 <div class="vol-fixed-bg vol-bg-2">
 			
-			 <img class="services-header" src="images/svg/what-we-do-svg.svg"></div>
+			 <img class="services-header" src="images/svg/what-we-do-svg.svg">
+
+			 <section class=" services-top row ">
+	<div class ="services column column-12">
+
+		
+
+		
+
+		<ul class="services-list no-1">
+
+
+
+			<li>Logo Design & Corporate Identity </li><li> &bull; Brand Development</li>
+			<br/>
+		</li>Broadcast & Print Advertising </li><li> &bull; Motion Graphics </li><li> &bull; Web Animation</li>
+		<br/>
+		<li>In-Comms & Corporate Presentation </li><li> &bull; Web Design, Hosting & On-site SEO </li>
+	</ul>
+
+</div>
+
+
+</section>
+
 		</div> <!-- vol-fixed-bg -->

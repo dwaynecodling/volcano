@@ -346,7 +346,7 @@
 
 <!-- impact.nunjucks -->
 
-<div class="vol-fixed-bg vol-bg-3">
+<div class="vol-fixed-bg vol-bg-4">
 
 <section class="graphic-bottom row" >
     <div class="impact-text column column-12">
@@ -375,6 +375,28 @@
 <div class="clear"> </div>
 </section>
 <section class="row">
+
+    <section class= "services-bottom row ">
+
+
+
+  <div class=" services-bg column column-12">
+
+    <div class="services-text-bg column column-4">
+      <p class="services-text">OVER 15 YEARS EXPERIENCE PRODUCING HIGH QUALITY AND ENGAGING DESIGN.
+
+      </p>
+
+      <img class="logo-image" src="images/logo-only.png">
+    </div>
+
+  </div>
+
+
+
+
+
+</section>
 
 
 </div>
