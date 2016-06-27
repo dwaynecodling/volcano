@@ -18,8 +18,12 @@
      <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
 <link rel="stylesheet" href="bower_components/grid-system/grid-system.css">
+
+
 <link rel="stylesheet" href="bower_components/unslider/dist/css/unslider.css">
 <link rel="stylesheet" href="bower_components/unslider/dist/css/unslider-dots.css">
+
+
     <!-- endbuild -->
 
 
@@ -30,6 +34,10 @@
 
     <!-- build:js js/vendor/modernizr.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
+
+
+
+
     <!-- endbuild -->
 
   </head>
@@ -62,10 +70,16 @@
 
   <!-- build:js js/vendor.js -->
     <!-- bower:js -->
-        <script src="/bower_components/jquery/dist/jquery.js"></script>        
-         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>  
+        <script src="/bower_components/jquery/dist/jquery.js"></script>
+
+        
+         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  
     <script type="text/javascript" src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+
+
     <script src="bower_components/unslider/dist/js/unslider-min.js"></script>
+
               <script src="js/main.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
