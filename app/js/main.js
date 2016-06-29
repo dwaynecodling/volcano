@@ -337,7 +337,7 @@ jQuery(document).ready(function($){
 
 
 $('.fading-slider-1, .fading-slider-2, .fading-slider-3').unslider({
-animation: 'fade', autoplay: true, speed: 2000, delay: 4000, arrows: false, nav: false
+animation: 'fade', autoplay: true, speed: 4000, delay: 9000, arrows: false, nav: false
 });
 
 

@@ -1,5 +1,28 @@
 <!-- meet-the-team.nunjucks -->
 
+
+<section class="row">
+
+    <section class= "services-bottom row ">
+
+
+
+  
+
+    <div class="services-text-bg column column-12">
+      <p class="services-text">OVER 15 YEARS EXPERIENCE PRODUCING HIGH QUALITY AND ENGAGING DESIGN.
+
+      </p>
+
+      <img class="logo-image" src="images/logo-only.png">
+    </div>
+
+
+
+
+
+</section>
+
 <section class= "team-section ">
   <div class= "team-section-interior">
     <div class="row">
@@ -26,6 +49,7 @@
 </div>
 
 </div>  
+
 
 
 <div class ="rudy-meet-the-team column column-4">
