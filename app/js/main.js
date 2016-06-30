@@ -341,5 +341,23 @@ animation: 'fade', autoplay: true, speed: 4000, delay: 9000, arrows: false, nav:
 });
 
 
+jQuery(document).ready(function() {
+jQuery('.post').addClass("bt_hidden").viewportChecker({
+classToAdd: 'bt_visible animated fadeInUp', 
+offset: 100, 
+repeat: true, 
+callbackFunction: function(elem, action){},
+scrollHorizontal: false 
+});
+});
 
 
+jQuery(document).ready(function() {
+jQuery('.leftfade').addClass("bt_hidden").viewportChecker({
+classToAdd: 'bt_visible animated fadeInUp', 
+offset: 200, 
+repeat: true, 
+callbackFunction: function(elem, action){},
+scrollHorizontal: false 
+});
+});
