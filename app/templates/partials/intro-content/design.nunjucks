@@ -15,10 +15,9 @@
 
  </div> <!-- vol-fixed-bg -->
 
-<div class="vol-fixed-bg vol-bg-2">
+<div class=" scroll vol-fixed-bg vol-bg-2">
 			
 			 <img class="services-header" src="images/svg/what-we-do-svg.svg">
-
 			 <section class=" services-top row ">
 	<div class ="services column column-12">
 
@@ -43,6 +42,3 @@
 </section>
 
 		</div> <!-- vol-fixed-bg -->
-
-
-		

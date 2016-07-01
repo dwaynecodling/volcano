@@ -341,3 +341,18 @@ animation: 'fade', autoplay: true, speed: 4000, delay: 9000, arrows: false, nav:
 });
 
 
+
+
+
+
+
+
+
+
+
+$(window).load( function(){
+  $('.services-header').animateCSS('fadeInUp');
+
+    $('.services-list').animateCSS('fadeInUp', {delay:500});
+
+});
