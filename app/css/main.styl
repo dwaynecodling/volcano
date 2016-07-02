@@ -677,9 +677,7 @@ background: linear-gradient(to bottom,  #ffffff 69%,#f2f2f2 100%); /* W3C, IE10+
      margin-top: 20px;       
     
 
-
-
-
+@media only screen and (max-width : 600px)  {
 
 
 .gif-box {
@@ -689,7 +687,19 @@ background: linear-gradient(to bottom,  #ffffff 69%,#f2f2f2 100%); /* W3C, IE10+
     background-position: center center;
     }
 
+}
 
+@media only screen and (min-width : 601px) and (max-width : 1980px)   {
+
+
+.gif-box {
+    background: url('../images/gifs/main-size-graphic-design.gif')
+    background-repeat: no-repeat;
+    height: 375px;
+    background-position: center center;
+    }
+
+}
 
 .graphic-bottom
     background-color: #f2385a;
@@ -2335,5 +2345,3 @@ JavaScript Disabled
 .services-header, .services-list {
   visibility:hidden;
 }
-
-
