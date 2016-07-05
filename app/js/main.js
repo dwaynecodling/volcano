@@ -75,7 +75,8 @@ jQuery(document).ready(function($){
       $('.cd-panel').removeClass('is-visible');
       event.preventDefault();
 
-      $("body").css('overflow', 'auto');
+      $("body").css('overflow-x', 'hidden');
+      $("body").css('overflow-y', 'visible');
        $('.cd-panel-close').css({display: "none"});
     }
   });
