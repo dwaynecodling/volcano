@@ -357,14 +357,14 @@ button.trigger
 
 /* Start of Intro Responsive CSS */
 
-@media only screen and (min-width : 320px) and (max-width : 660px){
+@media only screen and (min-width : 0px) and (max-width : 660px){
     .process,.branding,.web-design {
         width: auto;
     }
 
     }
 
-@media only screen and (min-width : 320px) and (max-width : 480px){
+@media only screen and (min-width : 0px) and (max-width : 480px){
 
 
 .process img, .branding img, .web-design img {
@@ -410,7 +410,13 @@ button.trigger
     text-align: center;
     
 
+@media only screen and (min-width : 0px) and (max-width : 480px){ 
     
+    .services-header {
+        width: 100%;
+    }
+    
+    }    
 
 
 .services ul
@@ -519,7 +525,19 @@ background: linear-gradient(to bottom,  #ffffff 69%,#f2f2f2 100%); /* W3C, IE10+
 .dwayne-meet-the-team.column.column-4 
     left: 10%
 .liam-meet-the-team.column.column-4
-    right: 10%       
+    right: 10%  
+    
+
+@media only screen and (min-width : 0px) and (max-width : 480px) {
+
+.dwayne-meet-the-team.column.column-4 {
+    left: 0
+    }
+.liam-meet-the-team.column.column-4 {
+    right: 0 
+    } 
+
+}         
 
 
 .dwayne-meet-the-team, .rudy-meet-the-team, .liam-meet-the-team
