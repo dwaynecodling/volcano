@@ -1,7 +1,7 @@
 <!-- webdesign.nunjucks -->
 <section class="web-section row">
     <div class= "web-section-interior">
-<div class="web-design-text column column-6">
+<div class="web-design-text column column-5">
     <h2>Website Design</h2>
     <div>
     <p>Your website is the most effective and powerful way of communicating your brand to your customers, but to make sure you get it right, your website needs to do more than just look good. We will build your site to be both eye-catching and engaging to potential customer experience, whilst always adhering to the most up-to date of web standards, back-end systems and social media utilisation.</p>
@@ -27,7 +27,7 @@
 
 
 
-<div class="web-graphics column column-6">
+<div class="web-graphics column column-7">
             <div class="macbook-pro">
                 <img class="macbook-hardware" src="images/macbook-pro.png" alt="Laptop">
                  <div class= "macbook-screenshots fading-slider-3"> 
