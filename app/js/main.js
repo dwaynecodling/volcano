@@ -296,6 +296,7 @@ jQuery(document).ready(function($){
     $('.dwayne-profile-image').css('opacity', '');
      $('.dwayne-profile-text').css('opacity', '');
      $('.dwayne-profile-text').css('top', '');
+     $('.profile').show();
   });
 });
 
@@ -313,6 +314,7 @@ jQuery(document).ready(function($){
     $('.rudy-profile-image').css('opacity', '');
      $('.rudy-profile-text').css('opacity', '');
      $('.rudy-profile-text').css('top', '');
+     $('.profile').show();
   });
 });     
 
@@ -330,10 +332,16 @@ jQuery(document).ready(function($){
     $('.liam-profile-image').css('opacity', '');
      $('.liam-profile-text').css('opacity', '');
      $('.liam-profile-text').css('top', '');
+     $('.profile').show();
   });
 });     
 
 
+$(".team-button a").click(function(){
+
+  $('.profile').hide();
+   
+});
 
 
 $('.fading-slider-1, .fading-slider-2, .fading-slider-3').unslider({
