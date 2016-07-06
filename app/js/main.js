@@ -350,5 +350,13 @@ $(window).on('load', function() {
 
     $('.services-list').animateCSS('fadeInUp', {delay:1600});
 
+
+     $('.impact-text').animateCSS('fadeInUp', {delay:4600});
+
+      $('.services-text').animateCSS('fadeInUp', {delay:7600});
+
+
+     
+
 });
 
