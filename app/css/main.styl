@@ -771,14 +771,14 @@ background: linear-gradient(to bottom,  #ffffff 69%,#f2f2f2 100%); /* W3C, IE10+
 */
 
 
+
+
 .web-design-text
     margin-bottom: 82px;
 
 .iphone-6
-    position: absolute;
-    width: 188px;
-    height: 360px;
-    top: 80px;
+    position: absolute;    
+    top: 225px;
     left: 18px;
     z-index: 2;
    
@@ -789,6 +789,7 @@ background: linear-gradient(to bottom,  #ffffff 69%,#f2f2f2 100%); /* W3C, IE10+
 .macbook-pro
     position: absolute;
     width: 719px;
+    top: 150px;
     left: 60px;
     z-index: 1;
 
@@ -828,11 +829,17 @@ background: linear-gradient(to bottom,  #ffffff 69%,#f2f2f2 100%); /* W3C, IE10+
     position: relative;
     }
     
-
-
 }
 
+@media only screen and (min-width : 0px) and (max-width : 600px) {
 
+ html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+    
+}
   
 
 /*
@@ -2347,4 +2354,19 @@ JavaScript Disabled
 
 .services-header, .services-list {
   visibility:hidden;
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
 }
