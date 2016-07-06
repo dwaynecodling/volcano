@@ -16,33 +16,28 @@
 </div>
 
 <div class="overlay">
-	<div class="main-logo"> <a href="/"><img class="logo" src="images/svg/volcano_logo.svg"></a></div>
+	<div class="main-logo"> <a href="/"><img class="overlay-logo" src="images/svg/volcano_logo.svg"></a></div>
 	<div class="wrap">
 		<ul class="wrap-nav">
-			<li><a href="#">About</a>
+			<li><a href="#">ABOUT</a>
 			<ul>
-				<li><a href="#">About Company</a></li>
-				<li><a href="#">Designers</a></li>
-				<li><a href="#">Developers</a></li>
-				<li><a href="#">Pets</a></li>
+				<li><a href="#">What we do</a></li>
+				<li><a href="#">Meet the team</a></li>
 			</ul>
 			</li>
-			<li><a href="#">Services</a>
+			<li><a href="#">SERVICES</a>
 			<ul>
-				<li><a href="https://www.google.hr/">Web Design</a></li>
-				<li><a href="#">Development</a></li>
-				<li><a href="#">Apps</a></li>
-				<li><a href="#">Graphic design</a></li>
+				<li><a href="#">Graphic Design</a></li>
+				<li><a href="#">Web Design</a></li>
 				<li><a href="#">Branding</a></li>
 			</ul>
 			</li>
-			<li><a href="#">Work</a>
+			<li><a href="#">CONTACT</a>
 			<ul>
-				<li><a href="#">Web</a></li>
-				<li><a href="#">Graphic</a></li>
-				<li><a href="#">Apps</a></li>
+				<li><a href="#">Phone</a></li>
+				<li><a href="#">Email</a></li>
+				<li><a href="#">Location</a></li>
 			</ul>
-			</li>
 		</ul>
 		<div class="social">
 			<a href="#">
@@ -57,19 +52,10 @@
 			</a>
 			<a href="#">
 			<div class="social-icon">
-				<i class="fa fa-codepen"></i>
-			</div>
-			</a>
-			<a href="#">
-			<div class="social-icon">
 				<i class="fa fa-behance"></i>
 			</div>
 			</a>
-			<a href="#">
-			<div class="social-icon">
-				<i class="fa fa-dribbble"></i>
-			</div>
-			</a>
+			
 
 		</div>
 	</div>
