@@ -19,24 +19,24 @@
 	<div class="main-logo"> <a href="/"><img class="overlay-logo" src="images/svg/volcano_logo.svg"></a></div>
 	<div class="wrap">
 		<ul class="wrap-nav">
-			<li><a href="#">ABOUT</a>
+			<li><a href="#about">ABOUT</a>
 			<ul>
-				<li><a href="#">What we do</a></li>
-				<li><a href="#">Meet the team</a></li>
+				<li><a href="#what-we-do">What we do</a></li>
+				<li><a href="#meet-the-team">Meet the team</a></li>
 			</ul>
 			</li>
-			<li><a href="#">SERVICES</a>
+			<li><a href="#services">SERVICES</a>
 			<ul>
-				<li><a href="#">Graphic Design</a></li>
-				<li><a href="#">Web Design</a></li>
-				<li><a href="#">Branding</a></li>
+				<li><a href="#graphic-design">Graphic Design</a></li>
+				<li><a href="#web-design">Web Design</a></li>
+				<li><a href="#branding">Branding</a></li>
 			</ul>
 			</li>
-			<li><a href="#">CONTACT</a>
+			<li><a href="#contact">CONTACT</a>
 			<ul>
-				<li><a href="#">Phone</a></li>
-				<li><a href="#">Email</a></li>
-				<li><a href="#">Location</a></li>
+				<li><a href="#phone">Phone</a></li>
+				<li><a href="#email">Email</a></li>
+				<li><a href="#location">Location</a></li>
 			</ul>
 		</ul>
 		<div class="social">

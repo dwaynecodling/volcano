@@ -1,5 +1,6 @@
 <!-- footer.nunjucks -->
-<section class=" footer row">
+
+<section id="contact" class=" footer row">
 <div class="footer-container">
 <!-- first -->	
 <div class=" in-touch-row column column-3 ">

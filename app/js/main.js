@@ -27,6 +27,17 @@ $(function() {
 // responsive navigation
 
 
+$(".wrap-nav a").click(function(){
+    $(".overlay").fadeToggle(200);
+    $("body").css('overflow-x', 'hidden');
+        $("body").css('overflow-y', 'visible');
+    open = false;
+});
+
+
+
+
+
 
 $(document).ready(function(){
     $(".button a").click(function(){
@@ -39,7 +50,8 @@ $(document).ready(function(){
        if ($(this).hasClass("btn-close")) {
         $("body").css('overflow', 'hidden');
     } else if ($(this).hasClass("btn-open")) {
-        $("body").css('overflow', 'auto');
+                $("body").css('overflow-x', 'hidden');
+        $("body").css('overflow-y', 'visible');
     }
 });
    
@@ -47,7 +59,8 @@ $(document).ready(function(){
 $('.overlay').on('click', function(){
     $(".overlay").fadeToggle(200);
     $(".button a").toggleClass('btn-open').toggleClass('btn-close');
-   $("body").css('overflow', 'auto');
+           $("body").css('overflow-x', 'hidden');
+        $("body").css('overflow-y', 'visible');
     open = false;
     
 });

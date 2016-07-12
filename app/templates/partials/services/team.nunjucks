@@ -23,7 +23,7 @@
 
 </section>
 
-<section class= "team-section ">
+<section id="meet-the-team" class= "team-section ">
   <div class= "team-section-interior">
     <div class="row">
 

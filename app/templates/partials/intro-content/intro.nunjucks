@@ -3,7 +3,7 @@
  <main class="vol-main-content">
 		<div class="vol-fixed-bg vol-bg-1">
 
-<section class="intro row">
+<section id="about" class="intro row">
 	<div class="welcome column column-9">
     <h1>Welcome to Volcano </h1>
     <h2>We’re a UK design partnership based in the </br> East-Midlands, 
