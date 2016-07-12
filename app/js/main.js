@@ -29,9 +29,10 @@ $(function() {
 
 $(".wrap-nav a").click(function(){
     $(".overlay").fadeToggle(200);
+    $(".button a").toggleClass('btn-close').toggleClass('btn-open');
     $("body").css('overflow-x', 'hidden');
         $("body").css('overflow-y', 'visible');
-    open = false;
+   
 });
 
 
