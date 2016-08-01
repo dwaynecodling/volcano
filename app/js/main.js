@@ -371,12 +371,9 @@ animation: 'fade', autoplay: true, speed: 4000, delay: 9000, arrows: false, nav:
 $(window).on('load', function() {
   $('.services-header').animateCSS('fadeInUp' , {delay:1200});
 
-    $('.services-list').animateCSS('fadeInUp', {delay:1600});
+      $('.impact-text').animateCSS('fadeInUp', {delay:3600});
 
-
-     $('.impact-text').animateCSS('fadeInUp', {delay:4600});
-
-      $('.services-text').animateCSS('fadeInUp', {delay:7600});
+      $('.services-text').animateCSS('fadeInUp', {delay:5600});
 
 
      
