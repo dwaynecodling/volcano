@@ -270,7 +270,7 @@ $.fn.extend({
 				// This makes behavior of this function consistent across browsers
 				// WebKit always returns auto if the element is positioned
 				position = elem.css( "position" );
-				if ( position === "absolute" || position === "relative" || position === "fixed" ) {
+				if ( position === "fixed" || position === "relative" || position === "fixed" ) {
 					// IE returns 0 when zIndex is not specified
 					// other browsers return a string
 					// we ignore the case of nested elements with an explicit value of 0
