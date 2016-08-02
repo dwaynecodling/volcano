@@ -3,7 +3,7 @@ console.log('Look at app/js/main.js');
 
 
 $(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
+  $('a[href*="#"]:not([href="#"])').on('click', function(event){
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -27,7 +27,7 @@ $(function() {
 // responsive navigation
 
 
-$(".wrap-nav a").click(function(){
+$(".wrap-nav a").on('click', function(event){
     $(".overlay").fadeToggle(200);
     $(".button a").toggleClass('btn-close').toggleClass('btn-open');
     $("body").css('overflow-x', 'hidden');
@@ -41,7 +41,7 @@ $(".wrap-nav a").click(function(){
 
 
 $(document).ready(function(){
-    $(".button a").click(function(){
+    $(".button a").on('click', function(event){
 
 
        
@@ -57,7 +57,7 @@ $(document).ready(function(){
 });
    
 });
-$('.overlay').on('click', function(){
+$('.overlay').on('click', function(event){
     $(".overlay").fadeToggle(200);
     $(".button a").toggleClass('btn-open').toggleClass('btn-close');
            $("body").css('overflow-x', 'hidden');
@@ -369,7 +369,7 @@ animation: 'fade', autoplay: true, speed: 8000, delay: 9000, arrows: false, nav:
 $(window).on('load', function() {
   $('.services-header').animateCSS('fadeInUp' , {delay:1200});
 
-      $('.impact-text').animateCSS('fadeInUp', {delay:3600});
+      $('.impact-text').animateCSS('fadeInUp', {delay:3500});
 
       $('.services-text').animateCSS('fadeInUp', {delay:5600});
 
@@ -377,4 +377,6 @@ $(window).on('load', function() {
      
 
 });
+
+
 
