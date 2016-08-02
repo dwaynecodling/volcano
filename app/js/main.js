@@ -360,7 +360,7 @@ $(".team-button a").click(function(){
 
 
 $('.fading-slider-1, .fading-slider-2, .fading-slider-3').unslider({
-animation: 'fade', autoplay: true, speed: 4000, delay: 9000, arrows: false, nav: false
+animation: 'fade', autoplay: true, speed: 8000, delay: 9000, arrows: false, nav: false
 });
 
 
