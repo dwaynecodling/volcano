@@ -375,7 +375,12 @@ button.trigger
 
 }
 
+
+
  /* End of Intro Responsive CSS */
+     
+// Reveal on scroll
+.revealOnScroll { opacity: 0; }     
 
 .services-h1
     position: relative;    
@@ -389,26 +394,19 @@ button.trigger
 
 
 .services-top
-
 	font-size: 29px;
 	font-weight: 300;font-family: 'LatoWebLight';
 
 .services
- 
     padding-top: 50px;
     padding-bottom: 50px;
 
 .services-header
-    
-    
-    
-    width: 37%;
-    
-    
+    width: 37%;   
     margin: 0 auto
     display: block;
     text-align: center;
-    
+
 
 @media only screen and (min-width : 0px) and (max-width : 480px){ 
     
@@ -985,8 +983,12 @@ input[type="submit"] {
 
 }
 
+.ui-body-inherit {
+    margin-bottom: -10px;
+}
+
 .submit
-    padding-top: 10px;
+    padding-top: 20px;
 
 
 @media screen and (max-width: 550px) {
@@ -2432,8 +2434,10 @@ JavaScript Disabled
 }
 
 
-.services-header, .services-list, .impact-text, .services-text {
-  visibility:hidden;
+.hidden{
+     opacity:0;
 }
-
+.visible{
+     opacity:1;
+}
 

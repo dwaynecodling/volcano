@@ -364,19 +364,11 @@ animation: 'fade', autoplay: true, speed: 8000, delay: 9000, arrows: false, nav:
 });
 
 
-
-
-$(window).on('load', function() {
-  $('.services-header').animateCSS('fadeInUp' , {delay:1200});
-
-      $('.impact-text').animateCSS('fadeInUp', {delay:3500});
-
-      $('.services-text').animateCSS('fadeInUp', {delay:5600});
-
-
-     
-
+jQuery(document).ready(function() {
+    jQuery('.services-header').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated fadeInUp',
+        offset: 600
+       });
 });
-
 
 
