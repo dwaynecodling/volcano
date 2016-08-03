@@ -367,23 +367,7 @@ animation: 'fade', autoplay: true, speed: 8000, delay: 9000, arrows: false, nav:
 jQuery(document).ready(function() {
     jQuery('.services-header').addClass("hidden").viewportChecker({
         classToAdd: 'visible animated fadeInUp',
-        offset: 600
+        offset: 250
        });
 });
 
-
-jQuery(document).ready(function() {
-    jQuery('.impact-text').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated fadeInUp',
-        offset: 600
-       });
-});
-
-
-
-jQuery(document).ready(function() {
-    jQuery('.services-text').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated fadeInUp',
-        offset: 600
-       });
-});
