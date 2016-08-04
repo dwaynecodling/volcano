@@ -371,3 +371,8 @@ jQuery(document).ready(function() {
        });
 });
 
+var first = "yourname";
+var last = "yoursite.com";
+
+
+document.write('<a href="mailto:'+first + '@' + last+'">'+first + '@' + last+'<\/a>');
