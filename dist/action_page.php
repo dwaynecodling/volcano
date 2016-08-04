@@ -15,13 +15,13 @@ $message = "A Visitor from WEAREVOLCANO.COM has submitted the following requirem
 
 if ($security=="10") {
 	mail($to,$subject,$message);
-	header("Location:wearevolcano.com/dev/dist/index.html?s=1")
+	header("Location:wearevolcano.com/dev/dist/index.html?s=1");
 
 
 }
 
 else {
-	header("Location:wearevolcano.com/dev/dist/index.html?s=2")
+	header("Location:wearevolcano.com/dev/dist/index.html?s=2");
 }
 
 
