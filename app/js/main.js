@@ -32,7 +32,7 @@ $(".wrap-nav a").on('click', function(event){
     $(".button a").toggleClass('btn-close').toggleClass('btn-open');
     $("body").css('overflow-x', 'hidden');
         $("body").css('overflow-y', 'visible');
-   
+
 });
 
 
@@ -44,7 +44,7 @@ $(document).ready(function(){
     $(".button a").on('click', function(event){
 
 
-       
+
         $(".overlay").fadeToggle(200);
        $(this).toggleClass('btn-open').toggleClass('btn-close');
 
@@ -55,7 +55,7 @@ $(document).ready(function(){
         $("body").css('overflow-y', 'visible');
     }
 });
-   
+
 });
 $('.overlay').on('click', function(event){
     $(".overlay").fadeToggle(200);
@@ -63,7 +63,7 @@ $('.overlay').on('click', function(event){
            $("body").css('overflow-x', 'hidden');
         $("body").css('overflow-y', 'visible');
     open = false;
-    
+
 });
 
 
@@ -77,15 +77,15 @@ jQuery(document).ready(function($){
     $('.cd-panel').addClass('is-visible');
      $("body").css('overflow', 'hidden');
       $('.cd-panel-close').css({
-        "display": "inline-block", 
-        "transition": "all ease-in 5s", 
+        "display": "inline-block",
+        "transition": "all ease-in 5s",
         "transition-delay" : ".5s"
       });
 
   });
   //close the lateral panel
   $('.cd-panel').on('click', function(event){
-    if( $(event.target).is('.cd-panel') || $(event.target).is('.cd-panel-close') ) { 
+    if( $(event.target).is('.cd-panel') || $(event.target).is('.cd-panel-close') ) {
       $('.cd-panel').removeClass('is-visible');
       event.preventDefault();
 
@@ -112,7 +112,7 @@ jQuery(document).ready(function($){
 
   var animating = false,
     //will be used to extract random numbers for projects slide up/slide down effect
-    numRandoms = projects.find('li').length, 
+    numRandoms = projects.find('li').length,
     uniqueRandoms = [];
 
   //open project
@@ -128,7 +128,7 @@ jQuery(document).ready(function($){
 
   navigationTrigger.on('click', function(event){
     event.preventDefault();
-    
+
     if( animating == false ) {
       animating = true;
       if( navigationTrigger.hasClass('project-open') ) {
@@ -150,7 +150,7 @@ jQuery(document).ready(function($){
         if(transitionsNotSupported) projectPreviews.addClass('slide-out');
         else slideToggleProjects(projectsPreviewWrapper.children('li'), -1, 0, true);
       }
-    } 
+    }
 
     if(transitionsNotSupported) animating = false;
   });
@@ -160,7 +160,7 @@ jQuery(document).ready(function($){
 
   //scroll down to project info
   projectsContainer.on('click', '.scroll', function(){
-    projectsContainer.animate({'scrollTop':$(window).height()}, 500); 
+    projectsContainer.animate({'scrollTop':$(window).height()}, 500);
   });
 
   //check if background-images have been loaded and show project previews
@@ -182,12 +182,12 @@ jQuery(document).ready(function($){
   function openProject(projectPreview) {
     var projectIndex = projectPreview.index();
     projects.children('li').eq(projectIndex).add(projectPreview).addClass('selected');
-    
+
     if( transitionsNotSupported ) {
       projectPreviews.addClass('slide-out').removeClass('selected');
       projects.children('li').eq(projectIndex).addClass('content-visible');
       animating = false;
-    } else { 
+    } else {
       slideToggleProjects(projectPreviews, projectIndex, 0, true);
     }
   }
@@ -212,7 +212,7 @@ jQuery(document).ready(function($){
 
     var randomProjectIndex = makeUniqueRandom();
     if( randomProjectIndex == projectIndex ) randomProjectIndex = makeUniqueRandom();
-    
+
     if( index < numRandoms - 1 ) {
       projectsPreviewWrapper.eq(randomProjectIndex).toggleClass('slide-out', bool);
       setTimeout( function(){
@@ -220,7 +220,7 @@ jQuery(document).ready(function($){
         slideToggleProjects(projectsPreviewWrapper, projectIndex, index + 1, bool);
       }, 150);
     } else if ( index == numRandoms - 1 ) {
-      //this is the last project preview to be animated 
+      //this is the last project preview to be animated
       projectsPreviewWrapper.eq(randomProjectIndex).toggleClass('slide-out', bool).one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
         if( projectIndex != -1) {
           projects.children('li.selected').addClass('content-visible');
@@ -292,9 +292,13 @@ jQuery(document).ready(function($){
 })(jQuery);
 
 
+function myStopFunction() {
+    clearTimeout(slideToggleProjects);
+}
 
-
-
+function myStopFunction() {
+    clearTimeout(projectPreview);
+}
 
 
 
@@ -331,7 +335,7 @@ jQuery(document).ready(function($){
      $('.rudy-profile-text').css('top', '');
      $('.profile').show();
   });
-});     
+});
 
 
      $(function() {
@@ -349,13 +353,13 @@ jQuery(document).ready(function($){
      $('.liam-profile-text').css('top', '');
      $('.profile').show();
   });
-});     
+});
 
 
 $(".team-button a").click(function(){
 
   $('.profile').hide();
-   
+
 });
 
 
@@ -370,4 +374,3 @@ jQuery(document).ready(function() {
         offset: 250
        });
 });
-
