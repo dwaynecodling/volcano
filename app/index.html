@@ -821,23 +821,11 @@
   <div class= "row">
 
 
+<?php include ("init.php"); ?>
 
 
-<?php
 
-$s=$_GET['s'];
-
-if ($s=="1") {
-  echo ('<span class = "success"> Success! Your enquiry have been sent to the Volcano Team. Please allow 24hours for a response.</span>');
-}
-
-else if ($s=="2") {
-  echo ('<span class = "fail"> Sorry! Your enquiry have not been sent to the Volcano Team. Please ensure you have filled in the form correctly.</span>');
-}
-
-?>
-
-	<form action="action_page.php">
+	<form action="action_page.php" method="post">
  
   <input type="text" name="services"  id="services" placeholder="What service are you interested in?">
   <input type="text" name="details"  id="details" placeholder="Additional Details">
