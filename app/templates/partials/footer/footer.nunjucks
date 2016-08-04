@@ -37,7 +37,8 @@
       <div class="row">
 
   <div class= "column column-2">
-  <a href="map@wearevolcano.com">
+  <a href="https://www.google.com/maps/place/Devonshire+Dr,+Stapleford,+Nottingham+NG9+8GY,+UK/@52.9424764,-1.2757843,17z/data=!3m1!4b1!4m5!3m4!1s0x4879e967df357957:0xe35c85d8aa404da3!8m2!3d52.9425327!4d-1.2734806"
+  target="_blank">
     <span class="fa-stack fa-1x">
             <i class="fa fa-circle-thin fa-stack-2x fa-inverse"></i>
             <i class="fa fa-map-marker fa-2 fa-stack-1x "></i>
@@ -45,12 +46,16 @@
          </a>
        </div>
        <div id="location" class= "column column-10">
+         <a href="https://www.google.com/maps/place/Devonshire+Dr,+Stapleford,+Nottingham+NG9+8GY,+UK/@52.9424764,-1.2757843,17z/data=!3m1!4b1!4m5!3m4!1s0x4879e967df357957:0xe35c85d8aa404da3!8m2!3d52.9425327!4d-1.2734806"
+         target="_blank">
+
         <address>
           <span class="bold">Volcano</span></br>
           12, Devonshire Drive <br>
           Stapleford, Nottingham <br>
           United Kingdon, NG98GY <br>
         </address>
+      </a>
         </div>
    </div>
 
