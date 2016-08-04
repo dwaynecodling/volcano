@@ -7,7 +7,7 @@
 
 
 
-  
+
 
     <div class="services-text-bg column column-12">
       <p class="services-text">OVER 15 YEARS EXPERIENCE PRODUCING HIGH QUALITY DESIGN.
@@ -37,10 +37,10 @@
 <div class="row">
 <div class ="dwayne-meet-the-team column column-4">
 <div class="dwayne-profile-image"> </div>
-<div class="profile dwayne-profile-text"> 
+<div class="profile dwayne-profile-text">
   <h3>Dwayne Codling</h3>
   <p class="role">Designer & Web Developer</p>
-  <p class="blurb">Web design is my passion and I love to help clients to realise their business goals by having a responsive site. I have been a freelance designer for over 5 years.</p>
+  <p class="blurb">I am a ideas person and a approachable communicator. Web Design is my passion and I strive on obtaining innovative and creative methods. That can be implemented on a client's projects, so they can achieve their ideal business goals. I have 5 years experience of building optimise, responsive and modern websites that are filled with the latest technologies and standards.</p>
 
   <div class="team-button">
   <a class="team-btn-close" href="#"></a>
@@ -48,14 +48,14 @@
 
 </div>
 
-</div>  
+</div>
 
 
 
 <div class ="rudy-meet-the-team column column-4">
 
 <div class="rudy-profile-image"> </div>
-<div class=" profile rudy-profile-text"> 
+<div class=" profile rudy-profile-text">
   <h3>Rudy Butler</h3>
   <p class="role">Designer & Project Manager</p>
   <p class="blurb">I’m a graphic and motion graphic specialist and all around creative enthusiast.  Before starting Volcano, I worked for 12 years as a design lecturer and freelance designer; producing a range of work for clients such as Zizzis, Pizza Express, HSBC, and Legal & General. </p>
@@ -66,7 +66,7 @@
 
 </div>
 
-</div>  
+</div>
 
 
 
@@ -74,7 +74,7 @@
 
 
   <div class="liam-profile-image"> </div>
-<div class=" profile liam-profile-text"> 
+<div class=" profile liam-profile-text">
   <h3>Liam Sheppard</h3>
   <p class="role">Illustrator & Photographer</p>
   <p class="blurb"> I love to come up with visual solutions, producing commercial & corporate photography, illustrative design and original artwork. I have 15 years of producing visual designs for clients and lecturing in Photography. </p>
@@ -83,7 +83,7 @@
   <a class="team-btn-close" href="#"></a>
 </div>
 </div>
-</div>  
+</div>
 
 
 
