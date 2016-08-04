@@ -138,7 +138,12 @@ else if ($s=="2") {
   <input type="tel" name="tel" id="tel" placeholder="Telephone" required>
   <input type="email" name="email" id="email" placeholder="Email">
   <input type="security" name="security" id="security" placeholder="5 + 5 =">
-  <div class="submit column column-10"><input type="submit" class="fa-paper-plane" value="&#xf1d8; SUBMIT ENQUIRY " ></div>
+  
+  <div class="submit column column-10">
+    <input type="submit" class="fa-paper-plane" value="&#xf1d8;" alt"submit enquiry" >
+    <submit2> SUBMIT ENQUIRY </submit2>
+
+  </div>
 </form>
   </div>
 </div>
