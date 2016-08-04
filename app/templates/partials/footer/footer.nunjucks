@@ -117,11 +117,11 @@
 
   <form action="action_page.php" method="post">
  
-  <input type="text" name="services"  id="services" placeholder="What service are you interested in?">
+  <input type="text" name="services"  id="services" placeholder="What service are you interested in?" required>
   <input type="text" name="details"  id="details" placeholder="Additional Details">
-  <input type="text" name="name" id="contact-name" placeholder="Name"> 
+  <input type="text" name="name" id="contact-name" placeholder="Name" required> 
   <input type="tel" name="tel" id="tel" placeholder="Telephone" required>
-  <input type="email" name="email" id="email" placeholder="Email">
+  <input type="email" name="email" id="email" placeholder="Email" required>
   <p class="antispam">Leave this empty:
     <br /><input name="url" /></p>
   
