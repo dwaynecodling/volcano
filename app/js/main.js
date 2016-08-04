@@ -302,6 +302,7 @@ function myStopFunction() {
 
 
 
+
      $(function() {
   $('.dwayne-meet-the-team').hover(function() {
     $('.dwayne-meet-the-team').css('cursor', 'pointer');
