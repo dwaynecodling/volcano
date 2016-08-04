@@ -2,14 +2,14 @@
 
 <section id="contact" class=" footer row">
 <div class="footer-container">
-<!-- first -->	
+<!-- first -->  
 <div class=" in-touch-row column column-3 ">
 
 <div class="row">
-	<h3>Get in touch</h3>
-	<div class= "column column-2">
-	<a href="tel:07921397893">
-		<span class="fa-stack fa-1x">
+  <h3>Get in touch</h3>
+  <div class= "column column-2">
+  <a href="tel:07921397893">
+    <span class="fa-stack fa-1x">
             <i class="fa fa-circle-thin fa-stack-2x fa-inverse"></i>
             <i class="fa fa-phone fa-2 fa-stack-1x "></i>
         </span>
@@ -20,10 +20,10 @@
         </div>    
    </div>
    <div class="row">
-	
-	<div class= "column column-2">
-	<a href="mailto:hello@wearevolcano.com">
-		<span class="fa-stack fa-1x">
+  
+  <div class= "column column-2">
+  <a href="mailto:hello@wearevolcano.com">
+    <span class="fa-stack fa-1x">
             <i class="fa fa-circle-thin fa-stack-2x fa-inverse"></i>
             <i class="fa fa-envelope fa-2 fa-stack-1x "></i>
         </span>
@@ -35,21 +35,21 @@
    </div>
 
       <div class="row">
-	
-	<div class= "column column-2">
-	<a href="map@wearevolcano.com">
-		<span class="fa-stack fa-1x">
+  
+  <div class= "column column-2">
+  <a href="map@wearevolcano.com">
+    <span class="fa-stack fa-1x">
             <i class="fa fa-circle-thin fa-stack-2x fa-inverse"></i>
             <i class="fa fa-map-marker fa-2 fa-stack-1x "></i>
         </span>
          </a>
        </div>
        <div class= "column column-10">
-       	<address>
-       		<span class="bold">Volcano</span></br>        
-        	12, Devonshire Drive <br>
-        	Stapleford, Nottingham <br>
-        	United Kingdon, NG98GY <br>
+        <address>
+          <span class="bold">Volcano</span></br>        
+          12, Devonshire Drive <br>
+          Stapleford, Nottingham <br>
+          United Kingdon, NG98GY <br>
         </address>
         </div>    
    </div>
@@ -59,14 +59,14 @@
 
 
 
-<!-- second -->	
+<!-- second --> 
 <div class="social-media-row column column-3">
 
 <div class="row">
-	<h3>Social Media</h3>
-	<div class= "column column-2">
-	<a href="#facebook">
-		<span class="fa-stack fa-1x">
+  <h3>Social Media</h3>
+  <div class= "column column-2">
+  <a href="#facebook">
+    <span class="fa-stack fa-1x">
             <i class="fa fa-circle-thin fa-stack-2x fa-inverse"></i>
             <i class="fa fa-facebook fa-2 fa-stack-1x "></i>
         </span>
@@ -77,10 +77,10 @@
         </div>    
    </div>
    <div class="row">
-	
-	<div class= "column column-2">
-	<a href="#twitter">
-		<span class="fa-stack fa-1x">
+  
+  <div class= "column column-2">
+  <a href="#twitter">
+    <span class="fa-stack fa-1x">
             <i class="fa fa-circle-thin fa-stack-2x fa-inverse"></i>
             <i class="fa fa-twitter fa-2 fa-stack-1x "></i>
         </span>
@@ -92,10 +92,10 @@
    </div>
 
       <div class="row">
-	
-	<div class= "column column-2">
-	<a href="#linkedin">
-		<span class="fa-stack fa-1x">
+  
+  <div class= "column column-2">
+  <a href="#linkedin">
+    <span class="fa-stack fa-1x">
             <i class="fa fa-circle-thin fa-stack-2x fa-inverse"></i>
             <i class="fa fa-linkedin fa-2 fa-stack-1x "></i>
         </span>
@@ -115,7 +115,7 @@
 
 
 
-	<form action="action_page.php" method="post">
+  <form action="action_page.php" method="post">
  
   <input type="text" name="services"  id="services" placeholder="What service are you interested in?">
   <input type="text" name="details"  id="details" placeholder="Additional Details">
@@ -136,7 +136,7 @@
 </div>
 
 
-</div>	
+</div>  
 
    </section> 
  </div>

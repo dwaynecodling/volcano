@@ -39,5 +39,3 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 
 </body>
 </html>
-
-
