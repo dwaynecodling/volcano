@@ -2,7 +2,7 @@
 
 <section id="contact" class=" footer row">
 <div class="footer-container">
-<!-- first -->  
+<!-- first -->
 <div class=" in-touch-row column column-3 ">
 
 <div class="row">
@@ -17,10 +17,10 @@
        </div>
        <div class= "column column-10">
         <a href="tel:07921397893">07921397893 </a>
-        </div>    
+        </div>
    </div>
    <div class="row">
-  
+
   <div class= "column column-2">
   <a href="mailto:hello@wearevolcano.com">
     <span class="fa-stack fa-1x">
@@ -31,11 +31,11 @@
        </div>
        <div class= "column column-10">
         <a href="mailto:hello@wearevolcano.com">hello@wearevolcano.com </a>
-        </div>    
+        </div>
    </div>
 
       <div class="row">
-  
+
   <div class= "column column-2">
   <a href="map@wearevolcano.com">
     <span class="fa-stack fa-1x">
@@ -44,22 +44,22 @@
         </span>
          </a>
        </div>
-       <div class= "column column-10">
+       <div id="location" class= "column column-10">
         <address>
-          <span class="bold">Volcano</span></br>        
+          <span class="bold">Volcano</span></br>
           12, Devonshire Drive <br>
           Stapleford, Nottingham <br>
           United Kingdon, NG98GY <br>
         </address>
-        </div>    
+        </div>
    </div>
-  
+
     </div>
 
 
 
 
-<!-- second --> 
+<!-- second -->
 <div class="social-media-row column column-3">
 
 <div class="row">
@@ -74,10 +74,10 @@
        </div>
        <div class= "column column-10">
         <a href="#facebook">Like us on Facebook</a>
-        </div>    
+        </div>
    </div>
    <div class="row">
-  
+
   <div class= "column column-2">
   <a href="#twitter">
     <span class="fa-stack fa-1x">
@@ -88,11 +88,11 @@
        </div>
        <div class= "column column-10">
         <a href="#twitter">Follow us on Twitter </a>
-        </div>    
+        </div>
    </div>
 
       <div class="row">
-  
+
   <div class= "column column-2">
   <a href="#linkedin">
     <span class="fa-stack fa-1x">
@@ -103,9 +103,9 @@
        </div>
        <div class= "column column-10">
         <a href="#linkedin">Find us on Linkedin</a>
-        </div>    
+        </div>
    </div>
-  
+
     </div>
 
 
@@ -116,16 +116,16 @@
 
 
   <form action="action_page.php" method="post">
- 
+
   <input type="text" name="services"  id="services" placeholder="What service are you interested in?" required>
   <input type="text" name="details"  id="details" placeholder="Additional Details">
-  <input type="text" name="name" id="contact-name" placeholder="Name" required> 
+  <input type="text" name="name" id="contact-name" placeholder="Name" required>
   <input type="tel" name="tel" id="tel" placeholder="Telephone" required>
   <input type="email" name="email" id="email" placeholder="Email" required>
   <p class="antispam">Leave this empty:
     <br /><input name="url" /></p>
-  
-  
+
+
   <div class="submit column column-10">
     <button type="submit" class="submit-btn">
                     <i class="fa fa-paper-plane"></i> SUBMIT ENQUIRY
@@ -137,8 +137,8 @@
 </div>
 
 
-</div>  
+</div>
 
-   </section> 
+   </section>
  </div>
 </main>
