@@ -1,7 +1,7 @@
 <?php
 $services = $_POST['services'];
 $details = $_POST['details'];
-$sname = $_POST['name'];
+$name = $_POST['name'];
 $tel = $_POST['tel'];
 $email = $_POST['email'];
 $security = $_POST['security'];
