@@ -127,8 +127,9 @@
   
   
   <div class="submit column column-10">
-    <input type="submit" class="fa-paper-plane" value="&#xf1d8;" alt"submit enquiry" >
-    <submit2> SUBMIT ENQUIRY </submit2>
+    <button type="submit" class="submit-btn">
+                    <i class="fa fa-paper-plane"></i> SUBMIT ENQUIRY
+                </button>
 
   </div>
 </form>
