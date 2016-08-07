@@ -23,7 +23,7 @@
 <link rel="stylesheet" href="bower_components/unslider/dist/css/unslider-dots.css">
 <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
 <link rel="stylesheet" href="bower_components/jquery-mobile-bower/css/jquery.mobile-1.4.5.css">
-
+<link rel="stylesheet" href="bower_components/magnific-popup/dist/magnific-popup.css">
 
     <!-- endbuild -->
 
@@ -78,6 +78,7 @@
     <script src="bower_components/unslider/dist/js/unslider-min.js"></script>
     <script src="/bower_components/viewportchecker/viewportchecker.js"></script>  
      <script src="bower_components/animateCSS/dist/jquery.animatecss.js"></script>
+      <script src="bower_components/magnific-popup/dist/jquery.magnific-popup.js"></script>
                   <script src="js/main.js"></script>
 
     <!-- endbower -->
