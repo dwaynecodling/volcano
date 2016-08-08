@@ -380,12 +380,12 @@ jQuery(document).ready(function() {
 
 
 
-function popupwindow(url, title, w, h) {
-    var w = 200;
-    var h = 200;
-    var left = Number((screen.width/2)-(w/2));
-    var tops = Number((screen.height/2)-(h/2));
-
-window.open("action_page.php", '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+tops+', left='+left);
-}
-
+$(document).ready(function(){
+        $('#myform').on('submit',function(e){
+            e.preventDefault();
+            $.post('action_page.php', $(this).serialize(), function(response){
+                $('#result').html(response);
+                $('#popUpDiv').fadeIn();
+            });
+        });
+    });
