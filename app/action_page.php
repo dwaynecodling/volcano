@@ -33,7 +33,7 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 
 </head>
 <body>
-	<div id="test-popup" class="white-popup mfp-hide">
+	<div id="" class="">
 <img class="contact-form" src="images/svg/contact-form-graphic.svg"/>
 <h1>Thanks for your Enquiry</h1>
 <p>We'll get back to you as soon as possible.</p>
