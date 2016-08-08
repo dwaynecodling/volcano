@@ -380,12 +380,12 @@ jQuery(document).ready(function() {
 
 
 
-$(document).ready(function(){
-        $('#myform').on('submit',function(e){
-            e.preventDefault();
-            $.post('action_page.php', $(this).serialize(), function(response){
-                $('#result').html(response);
-                $('#popUpDiv').fadeIn();
-            });
-        });
+
+$(document).ready(function() {
+    $('#myform').submit(function() {
+        window.open('', 'formpopup', 'width=400,height=400,resizeable,scrollbars');
+        this.target = 'formpopup';
     });
+});
+
+
