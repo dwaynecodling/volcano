@@ -24,6 +24,11 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 	mail($youremail, 'Contact Form', $body, $headers );
 }
 // otherwise, let the spammer think that they got their message through
+
+header('Location: http://www.wearevolcano.com');
+exit('Redirecting you to http://www.wearevolcano.com');
+
+
 ?>
 
 
