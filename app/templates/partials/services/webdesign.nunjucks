@@ -31,7 +31,7 @@
 
     <div class="web-graphics-position">
             <div class="macbook-pro">
-                <img class="macbook-hardware" src="images/macbook-pro.png" alt="Laptop">
+                <img class="macbook-hardware" src="images/macbook-pro.png" alt="Laptop" width="863px">
                  <div class= "macbook-screenshots fading-slider-3"> 
                   <ul>
                      <li><img class="macbook-web" src="images/hunter-web-macbook.png"></li>
