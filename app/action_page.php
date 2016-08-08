@@ -25,6 +25,8 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 }
 // otherwise, let the spammer think that they got their message through
 ?>
+
+
 <!DOCTYPE HTML>
 <html>
 <head>
