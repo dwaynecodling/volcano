@@ -20,8 +20,10 @@
                
     </ul>
     </div>
-
-
+  <div>
+    <h4 class="web-contact">Contact our team to talk about your project</h4>
+    <h3 class="web-contact-number">(+44) 07950 384677</h3>
+</div>
 </div>
 
 
@@ -52,6 +54,7 @@
                     <li><img class="iphone-web" src="images/hunter-web-iphone.png"></li>
         <li><img class="iphone-web" src="images/jayson-web-iphone.png"></li>
         <li><img class="iphone-web" src="images/jonjon-web-iphone.png"></li>
+
        
          </ul>
          </div>
