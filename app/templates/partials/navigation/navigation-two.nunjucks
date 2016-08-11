@@ -14,7 +14,7 @@
 
 <div class="nav-tel">
 	<div class="tel-icon">  <a class="tel-align" href="tel:07950384677">
-	<i class="fa fa-phone" aria-hidden="true"></i> </a>
+	<i class=" top-phone fa fa-phone" aria-hidden="true"></i> </a>
 </div>
 <div class="tel-number">
 	<a class="tel-align" href="tel:07950384677"><span class="hover">(+44) 07950 384677</span></a>
