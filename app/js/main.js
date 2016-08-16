@@ -389,3 +389,26 @@ $(document).ready(function() {
 });
 
 
+function testSubmit()
+{
+  var v = document.forms["myForm"]["services"];
+  var w = document.forms["myForm"]["details"];
+  var x =document.forms["myForm"]["contact-name"];
+  var y =document.forms["myForm"]["tel"];
+  var z =document.forms["myForm"]["email"];
+  if(z.value =="" || y.value =="" || x.value=="" || w.value =="" ||  v.value =="")
+  {
+    alert('Not allowed!!');
+    return false;
+  }
+  return true;
+}
+function submitForm()
+{
+  if(testSubmit())
+  {
+    document.forms["myForm"].submit(); //first submit
+    document.forms["myForm"].reset(); //and then reset the form values
+  }
+}
+
