@@ -855,15 +855,11 @@
 
   <form id="myform" action="action_page.php" target="_blank" method="post" >
 
-  <input type="text" name="services" value"" id="services" placeholder="What service are you interested in?" required>
-  <span class="error"><?php echo $servicesError;?></span> 
-  <input type="text" name="details" value""  id="details" placeholder="Additional Details">
-  <input type="text" name="name" value"" id="contact-name" placeholder="Name" required>
-  <span class="error"><?php echo $nameError;?></span> 
-  <input type="tel" name="tel" value"" id="tel" placeholder="Telephone" required>
-  <span class="error"><?php echo $telError;?></span> 
-  <input type="email" name="email" value"" id="email" placeholder="Email" required>
-  <span class="error"><?php echo $emailError;?></span> 
+  <input type="text" name="services"  id="services" placeholder="What service are you interested in?" required>
+  <input type="text" name="details"  id="details" placeholder="Additional Details">
+  <input type="text" name="name" id="contact-name" placeholder="Name" required>
+  <input type="tel" name="tel" id="tel" placeholder="Telephone" required>
+  <input type="email" name="email" id="email" placeholder="Email" required>
   <p class="antispam">Leave this empty:
     <br /><input name="url" /></p>
 
