@@ -1,42 +1,80 @@
-<?php
-// if the url field is empty
-if(isset($_POST['url']) && $_POST['url'] == ''){
-	// put your email address here
-	$youremail = 'dwayneandrecodling@gmail.com';
-	// prepare a "pretty" version of the message
-	// Important: if you added any form fields to the HTML, you will need to add them here also
+<?php // Initialize variables to null.
+$services =""; 
+$name =""; 
+$tel =""; 
+$email =""; 
+$servicesError ="";
+$nameError ="";
+$telError ="";
+$emailError ="";
 
-	$body = "This is the form that was just submitted:
-	Name:  $_POST[name]
-	E-Mail: $_POST[email]
-	Telephone: $_POST[tel]
-	Services: $_POST[services]
-	Message: $_POST[details]";
-	// Use the submitters email if they supplied one
-	// (and it isn't trying to hack your form).
-	// Otherwise send from your email address.
-	if( $_POST['email'] && !preg_match( "/[\r\n]/", $_POST['email']) ) {
-	  $headers = "From: $_POST[email]";
-	} else {
-	  $headers = "From: $youremail";
-	}
-	// finally, send the message
-	mail($youremail, 'Contact Form', $body, $headers );
+$successMessage =""; 
+if(isset($_POST['submit'])) { 
+if (empty($_POST["name"])){
+$servicesError = "A short description is required";
 }
-// otherwise, let the spammer think that they got their message through
+else
+ {
+$services = test_input($_POST["services"]); 
+if (!preg_match("/^[a-zA-Z ]*$/",$services))
+{
+$servicesError = "Only letters and white space allowed";
+}
+} 
+if (empty($_POST["email"]))
+{
+$nameError = "Contact Name required";
+}
+else
+ {
+$name = test_input($_POST["name"]);
+} if (empty($_POST["tel"]))
+{
+$telError = "Contact number required";
+}
+else
+{
+$tel = test_input($_POST["tel"]);
+}
+if (empty($_POST["email"]))
+{
+$emailError = "Valid email is required";
+}
+else
+ {
+$email = test_input($_POST["email"]);
+} 
+if( !($services=='') && !($name=='') && !($tel=='') &&!($email=='') )
+{ 
+if (preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$email))
+{
+$header= $name."<". $email .">";
+$headers = "FormGet.com"; /* Let's prepare the message for the e-mail */
+$msg = "Hello! $name Thank you...! For Contacting Us.
+Name: $name
+E-mail: $email
+Purpose: $purpose
+Message: $message
+This is a Contact Confirmation mail. We Will contact You as soon as possible.";
+$msg1 = " $name Contacted Us. Here is some information about $name.
+Name: $name
+E-mail: $email
+Purpose: $purpose
+Message: $message "; /* Send the message using mail() function */
+if(mail($email, $headers, $msg ) && mail("dwayneandrecodling@gmail.com", $header, $msg1 ))
+{
+$successMessage = "Message sent successfully.......";
+}
+}
+else
+{ $emailError = "Invalid Email";
+ }
+ }
+} {
+$data = trim($data);
+$data =stripslashes($data);
+$data =htmlspecialchars($data);
+return $data;
+}
+?>
 
-<!DOCTYPE HTML>
-<html>
-<head>
-
-<title>Thanks!</title>
-
-</head>
-<body>
-	<div id="" class="">
-<img class="contact-form" src="images/svg/contact-form-graphic.svg"/>
-<h1>Thanks for your Enquiry</h1>
-<p>We'll get back to you as soon as possible.</p>
-</div>
-</body>
-</html>
