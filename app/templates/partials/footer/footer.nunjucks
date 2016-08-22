@@ -132,7 +132,7 @@
 
 
   <div class="submit column column-10">
-    <button type="submit" class="submit-btn">
+    <button type="submit" class="submit-btn cd-popup-trigger">
                     <i class="fa fa-paper-plane"></i> SUBMIT ENQUIRY
                 </button>
 

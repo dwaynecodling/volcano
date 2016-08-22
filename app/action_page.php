@@ -35,10 +35,32 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 
 </head>
 <body>
-	<div id="" class="">
+
+<header>
+	<h1>Simple Confirmation Popup</h1>
+</header>
+
+<a href="#0" class="cd-popup-trigger">View Pop-up</a>
+
+<div class="cd-popup" role="alert">
+	<div class="cd-popup-container">
+
+
+	
 <img class="contact-form" src="images/svg/contact-form-graphic.svg"/>
 <h1>Thanks for your Enquiry</h1>
 <p>We'll get back to you as soon as possible.</p>
-</div>
+
+
+		<p>Are you sure you want to delete this element?</p>
+		<ul class="cd-buttons">
+			<li><a href="#0">Yes</a></li>
+			<li><a href="#0">No</a></li>
+		</ul>
+		<a href="#0" class="cd-popup-close img-replace">Close</a>
+	</div> <!-- cd-popup-container -->
+</div> <!-- cd-popup -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
 </html>
