@@ -2671,40 +2671,15 @@ Modules - reusable parts of our design
   white-space: nowrap;
 }
 
-/* -------------------------------- 
-
-Main components 
-
--------------------------------- */
-header {
-  height: 200px;
-  line-height: 200px;
-  text-align: center;
-  background-color: #5e6e8d;
-  color: #FFF;
-}
-header h1 {
-  font-size: 20px;
-  font-size: 1.25rem;
-}
 
 
-@media only screen and (min-width: 1170px) {
-
-}
-
-/* -------------------------------- 
-
-xpopup 
-
--------------------------------- */
 .cd-popup {
   position: fixed;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(94, 110, 141, 0.9);
+  background-color: rgba(0, 0, 0, 0.63);
   opacity: 0;
   visibility: hidden;
   -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
@@ -2714,6 +2689,7 @@ xpopup
 .cd-popup.is-visible {
   opacity: 1;
   visibility: visible;
+  z-index: 2;
   -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
   -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
   transition: opacity 0.3s 0s, visibility 0s 0s;
@@ -2722,6 +2698,7 @@ xpopup
 .cd-popup-container {
   position: relative;
   width: 90%;
+  color: #444444;
   max-width: 400px;
   margin: 4em auto;
   background: #FFF;
@@ -2820,4 +2797,8 @@ xpopup
   .cd-popup-container {
     margin: 8em auto;
   }
+}
+
+img.contact-form {
+    margin-top: 4em;
 }
