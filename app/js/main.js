@@ -377,6 +377,15 @@ jQuery(document).ready(function() {
 });
 
 
+//Submit Form
+
+
+    // split your email into two parts and remove the @ symbol
+    var first = "dwayneandrecodling";
+    var last = "gmail.com";
+
+    document.write('<a href="mailto:'+first + '@' + last+'">'+first + '@' + last+'<\/a>');
+ 
 
 
 

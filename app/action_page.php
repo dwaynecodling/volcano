@@ -6,7 +6,6 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 	$youremail = 'dwayneandrecodling@gmail.com';
 	// prepare a "pretty" version of the message
 	// Important: if you added any form fields to the HTML, you will need to add them here also
-
 	$body = "This is the form that was just submitted:
 	Name:  $_POST[name]
 	E-Mail: $_POST[email]
@@ -25,7 +24,5 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 	mail($youremail, 'Contact Form', $body, $headers );
 }
 // otherwise, let the spammer think that they got their message through
-
 ?>
-
 
