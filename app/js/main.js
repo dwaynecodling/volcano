@@ -384,7 +384,7 @@ jQuery(document).ready(function() {
     var first = "dwayneandrecodling";
     var last = "gmail.com";
 
-    document.write('<a href="mailto:'+first + '@' + last+'">'+first + '@' + last+'<\/a>');
+  
  
 
 
