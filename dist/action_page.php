@@ -26,6 +26,8 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 }
 // otherwise, let the spammer think that they got their message through
 
+?>
+
 
 <!DOCTYPE HTML>
 <html>
@@ -60,7 +62,6 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 		<a href="#0" class="cd-popup-close img-replace">Close</a>
 	</div> <!-- cd-popup-container -->
 </div> <!-- cd-popup -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+
 </body>
 </html>

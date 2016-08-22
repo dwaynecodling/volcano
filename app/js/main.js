@@ -380,16 +380,6 @@ jQuery(document).ready(function() {
 
 
 
-
-$(document).ready(function() {
-    $('#myform').submit(function() {
-        window.open('', 'formpopup', 'width=400,height=400,resizeable,scrollbars');
-        this.target = 'formpopup';
-    });
-});
-
-
-
 jQuery(document).ready(function($){
   //open popup
   $('.cd-popup-trigger').on('click', function(event){
