@@ -23,7 +23,12 @@ if (empty($_POST["telephone"])) {
     $telephone = $_POST["telephone"];
 }
 
-
+// SERVICES 
+if (empty($_POST["service"])) {
+    $errorMSG .= "Service is required ";
+} else {
+    $services = $_POST["service"];
+}
 
 // DETAILS
 if (empty($_POST["details"])) {
@@ -57,8 +62,8 @@ $Body .= $telephone;
 $Body .= "\n";
 $Body .= "\n";
 
-$Body .= "Services: ";
-$Body .= $services;
+$Body .= "Service: ";
+$Body .= $service;
 $Body .= "\n";
 $Body .= "\n";
 
