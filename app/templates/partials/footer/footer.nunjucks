@@ -120,10 +120,10 @@
 
 
 
-  <form id ="form" method="post" action="action_page.php" >
+  <form id ="form" method="post" action="action_page.php" data-toggle="validator" class="shake">
 
   <input type="text" name="services"  id="services" placeholder="What service are you interested in?" required>
-  <input type="text" name="details"  id="details" placeholder="Additional Details">
+  <input type="text" name="message"  id="message" placeholder="Additional Details">
   <input type="text" name="name" id="contact-name" placeholder="Name" required>
   <input type="tel" name="tel" id="tel" placeholder="Telephone" required>
   <input type="email" name="email" id="email" placeholder="Email" required>
@@ -144,7 +144,8 @@
 
                     <i class="fa fa-paper-plane"></i> SUBMIT ENQUIRY
                 </button>
-
+<div id="msgSubmit" class="h3 text-center hidden"></div>
+        <div class="clearfix"></div>
 
   </div>
     <noscript>
