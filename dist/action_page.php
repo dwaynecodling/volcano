@@ -23,14 +23,14 @@ if (empty($_POST["telephone"])) {
     $telephone = $_POST["telephone"];
 }
 
-// SERVICES MESSAGE
+// SERVICES 
 if (empty($_POST["services"])) {
     $errorMSG .= "Services is required ";
 } else {
     $services = $_POST["services"];
 }
 
-// MESSAGE
+// DETAILS
 if (empty($_POST["details"])) {
     $errorMSG .= "Details is required ";
 } else {
@@ -59,6 +59,7 @@ $Body .= $services;
 $Body .= "\n";
 $Body .= "Details: ";
 $Body .= $details;
+$Body .= "\n";
 $Body .= "\n";
 $Body .= "Please respond to this enquiry within 24 hours.";
 $Body .= "\n";
