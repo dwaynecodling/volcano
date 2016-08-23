@@ -384,7 +384,16 @@ jQuery(document).ready(function() {
     var first = "dwayneandrecodling";
     var last = "gmail.com";
 
-
+$(document).ready( function() {
+    $('.submit-btn').click(function(){
+        var f = $('#form');
+        $.ajax({
+          type: "POST",
+          url: "action_page.php",
+          data: f.serialize()
+        });
+    });
+});
 
 
 
