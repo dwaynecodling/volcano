@@ -393,6 +393,28 @@ $("#form").on("submit", function (event) {
 });
 
 
+function submitForm(){
+    // Initiate Variables With Form Content
+    var name = $("#name").val();
+    var email = $("#email").val();
+    var message = $("#message").val();
+
+    $.ajax({
+        type: "POST",
+        url: "action_page.php",
+        data: "name=" + name + "&email=" + email + "&message=" + message,
+        success : function(text){
+            if (text == "success"){
+                formSuccess();
+            } else {
+                formError();
+                submitMSG(false,text);
+            }
+        }
+    });
+}
+
+
     // split your email into two parts and remove the @ symbol
     var first = "dwayneandrecodling";
     var last = "gmail.com";
