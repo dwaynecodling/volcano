@@ -422,7 +422,8 @@ function submitForm(){
 
 function formSuccess(){
     $("#form")[0].reset();
-    submitMSG(true, "Message Submitted!")
+    submitMSG(true, "Message Submitted!");
+    $('.cd-popup').addClass('is-visible');
 }
 
 function formError(){
