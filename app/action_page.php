@@ -39,10 +39,11 @@ if (empty($_POST["details"])) {
 
 
 $EmailTo = "dwayneandrecodling@gmail.com";
-$Subject = "Wearevolcano Contact Form";
+$Subject = "New Contact Form Submission";
 
 // prepare email body text
-$Body = "";
+$Body = "A Visitor from WEAREVOLCANO.COM has submitted the following requirements.";
+$Body .= "\n";
 $Body .= "Name: ";
 $Body .= $name;
 $Body .= "\n";
@@ -58,6 +59,12 @@ $Body .= "\n";
 $Body .= "Details: ";
 $Body .= $details;
 $Body .= "\n";
+$Body .= "Please respond to this enquiry within 24 hours.";
+$Body .= "\n";
+$Body .= "Kind regards";
+$Body .= "\n";
+$Body .= "\n";
+$Body .= "WEAREVOLCANO.COM TEAM";
 
 // send email
 $success = mail($EmailTo, $Subject, $Body, "From:".$email);
