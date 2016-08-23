@@ -403,7 +403,7 @@ function submitForm(){
     var name = $("#name").val();
     var email = $("#email").val();
     var telephone = $("#telephone").val();
-    var services = $("#services").val();
+   
     var details = $("#details").val();
 
     $.ajax({
