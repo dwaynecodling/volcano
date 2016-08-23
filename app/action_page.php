@@ -42,7 +42,8 @@ $EmailTo = "dwayneandrecodling@gmail.com";
 $Subject = "New Contact Form Submission";
 
 // prepare email body text
-$Body = "A Visitor from WEAREVOLCANO.COM has submitted the following requirements.";
+$Body = "A Visitor from WEAREVOLCANO.COM has submitted the following requirements:";
+$Body .= "\n";
 $Body .= "\n";
 $Body .= "Name: ";
 $Body .= $name;
@@ -60,6 +61,7 @@ $Body .= "Details: ";
 $Body .= $details;
 $Body .= "\n";
 $Body .= "Please respond to this enquiry within 24 hours.";
+$Body .= "\n";
 $Body .= "\n";
 $Body .= "Kind regards";
 $Body .= "\n";
