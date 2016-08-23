@@ -380,7 +380,7 @@ jQuery(document).ready(function() {
 //Submit Form
 
 
-$("#form").validator().on("submit", function (event) {
+$("#form").on("submit", function (event) {
     if (event.isDefaultPrevented()) {
         // handle the invalid form...
         formError();
@@ -399,7 +399,7 @@ $("#form").validator().on("submit", function (event) {
 
 
 function formSuccess(){
-  $("#contactForm")[0].reset();
+  $("#form")[0].reset();
     $("#form").removeClass().addClass('cd-popup-trigger').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
         $(this).removeClass();
     });
