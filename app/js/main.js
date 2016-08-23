@@ -402,7 +402,9 @@ function submitForm(){
     // Initiate Variables With Form Content
     var name = $("#name").val();
     var email = $("#email").val();
-    var message = $("#message").val();
+    var telephone = $("#telephone").val();
+    var services = $("#services").val();
+    var details = $("#details").val();
 
     $.ajax({
         type: "POST",

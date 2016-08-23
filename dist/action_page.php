@@ -39,7 +39,7 @@ if (empty($_POST["details"])) {
 
 
 $EmailTo = "dwayneandrecodling@gmail.com";
-$Subject = "New Message Received";
+$Subject = "Wearevolcano Contact Form";
 
 // prepare email body text
 $Body = "";
