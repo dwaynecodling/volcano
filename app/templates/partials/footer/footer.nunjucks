@@ -122,8 +122,8 @@
 
   <form id ="form" method="post" action="" data-toggle="validator" class="shake" >
 
-  <input type="text" name="services"  id="services" placeholder="What service are you interested in?" required>
-  <input type="text" name="details"  id="details" placeholder="Additional Details" required>
+  <input type="text" name="services" id="services" placeholder="What service are you interested in?" required>
+  <input type="text" name="details" id="details" placeholder="Additional Details" required>
   <input type="text" name="name" id="name" placeholder="Name" required>
   <input type="tel" name="telephone" id="telephone" placeholder="Telephone" required>
   <input type="email" name="email" id="email" placeholder="Email" required>

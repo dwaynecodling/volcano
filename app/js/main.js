@@ -403,13 +403,13 @@ function submitForm(){
     var name = $("#name").val();
     var email = $("#email").val();
     var telephone = $("#telephone").val();
-    var services = $("#services").val();
+    
     var details = $("#details").val();
 
     $.ajax({
         type: "POST",
         url: "action_page.php",
-        data: "name=" + name + "&email=" + email + "&telephone=" + telephone + "&services=" + services + "&details=" + details,
+        data: "name=" + name + "&email=" + email + "&telephone=" + telephone +  "&details=" + details,
         success : function(text){
             if (text == "success"){
                 formSuccess();
