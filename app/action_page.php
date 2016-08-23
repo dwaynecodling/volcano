@@ -32,7 +32,7 @@ if (empty($_POST["services"])) {
 
 // MESSAGE
 if (empty($_POST["details"])) {
-    $errorMSG .= "Message is required ";
+    $errorMSG .= "Details is required ";
 } else {
     $details = $_POST["details"];
 }
@@ -55,7 +55,7 @@ $Body .= "\n";
 $Body .= "Services: ";
 $Body .= $services;
 $Body .= "\n";
-$Body .= "Message: ";
+$Body .= "Details: ";
 $Body .= $details;
 $Body .= "\n";
 
