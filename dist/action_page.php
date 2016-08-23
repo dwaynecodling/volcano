@@ -43,30 +43,43 @@ $Subject = "New Contact Form Submission";
 
 // prepare email body text
 $Body = "A Visitor from WEAREVOLCANO.COM has submitted the following requirements:";
+
 $Body .= "\n";
 $Body .= "\n";
+
 $Body .= "Name: ";
 $Body .= $name;
 $Body .= "\n";
+$Body .= "\n";
+
 $Body .= "Email: ";
 $Body .= $email;
 $Body .= "\n";
+$Body .= "\n";
+
 $Body .= "Telephone: ";
 $Body .= $telephone;
 $Body .= "\n";
+$Body .= "\n";
+
 $Body .= "Services: ";
 $Body .= $services;
 $Body .= "\n";
+$Body .= "\n";
+
 $Body .= "Details: ";
 $Body .= $details;
 $Body .= "\n";
 $Body .= "\n";
+
 $Body .= "Please respond to this enquiry within 24 hours.";
 $Body .= "\n";
 $Body .= "\n";
+
 $Body .= "Kind regards";
 $Body .= "\n";
 $Body .= "\n";
+
 $Body .= "WEAREVOLCANO.COM TEAM";
 
 // send email
