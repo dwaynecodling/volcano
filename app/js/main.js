@@ -383,18 +383,22 @@ jQuery(document).ready(function() {
     // split your email into two parts and remove the @ symbol
     var first = "dwayneandrecodling";
     var last = "gmail.com";
+    
 
-$(document).ready( function() {
-    $('.submit-btn').click(function(){
-        var f = $('#form');
-        $.ajax({
-          type: "POST",
-          url: "action_page.php",
-          data: f.serialize()
-        });
-    });
-});
+function verify() 
+{
+  if(document.getElementById("name").value=="" ||document.getElementById("email").value=="") 
+  {
+    alert("Please enter a name and an email.");
 
+  } 
+  else 
+  {
+    alert("Looks good, sending email");
+    document.getElementById('form').submit();
+    return false;
+  }
+}
 
 
 
