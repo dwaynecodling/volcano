@@ -853,12 +853,12 @@
 
 
 
-  <form id ="form" method="post" action="" >
+  <form id ="form" method="post" action="" data-toggle="validator" class="shake" >
 
   <input type="text" name="services"  id="services" placeholder="What service are you interested in?" required>
   <input type="text" name="details"  id="details" placeholder="Additional Details">
-  <input type="text" name="name" id="contact-name" placeholder="Name" required>
-  <input type="tel" name="tel" id="tel" placeholder="Telephone" required>
+  <input type="text" name="name" id="name" placeholder="Name" required>
+  <input type="tel" name="telephone" id="telephone" placeholder="Telephone" required>
   <input type="email" name="email" id="email" placeholder="Email" required>
   <p class="antispam">Leave this empty:
     <br /><input name="url" /></p>
@@ -873,10 +873,12 @@
 </div> <!-- cd-popup -->
 
   <div class="submit column column-10">
-    <button type="submit" class=" submit-btn " onClick="verify()" >
+    <button type="submit" id="form-submit" class="submit-btn" >
 
                     <i class="fa fa-paper-plane"></i> SUBMIT ENQUIRY
                 </button>
+    <div id="msgSubmit" class="h3 text-center hidden"></div> 
+    <div class="clearfix"></div>           
 
   </div>
     <noscript>
@@ -917,6 +919,7 @@
     <script src="bower_components/unslider/dist/js/unslider-min.js"></script>
     <script src="/bower_components/viewportchecker/viewportchecker.js"></script>  
      <script src="bower_components/animateCSS/dist/jquery.animatecss.js"></script>
+      <script src="bower_components/jquery-validator/validator.min.js"></script>
                   <script src="js/main.js"></script>
 
     <!-- endbower -->
