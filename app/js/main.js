@@ -380,12 +380,30 @@ jQuery(document).ready(function() {
 //Submit Form
 
 
+$("#form").validator().on("submit", function (event) {
+    if (event.isDefaultPrevented()) {
+        // handle the invalid form...
+        formError();
+        submitMSG(false, "Did you fill in the form properly?");
+    } else {
+        // everything looks good!
+        event.preventDefault();
+        submitForm();
+    }
+});
+
+
     // split your email into two parts and remove the @ symbol
     var first = "dwayneandrecodling";
     var last = "gmail.com";
 
 
-
+function formSuccess(){
+  $("#contactForm")[0].reset();
+    $("#form").removeClass().addClass('cd-popup-trigger').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+        $(this).removeClass();
+    });
+}
 
 
 

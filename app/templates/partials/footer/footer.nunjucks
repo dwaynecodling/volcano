@@ -120,12 +120,12 @@
 
 
 
-  <form role="form" id="contactForm" data-toggle="validator" class="shake" >
+  <form id ="form" method="post" action="action_page.php" >
 
   <input type="text" name="services"  id="services" placeholder="What service are you interested in?" required>
-  <input type="text" name="details"  id="details" placeholder="Additional Details" required>
+  <input type="text" name="details"  id="details" placeholder="Additional Details">
   <input type="text" name="name" id="contact-name" placeholder="Name" required>
-  <input type="tel" name="telephone" id="tel" placeholder="Telephone" required>
+  <input type="tel" name="tel" id="tel" placeholder="Telephone" required>
   <input type="email" name="email" id="email" placeholder="Email" required>
   <p class="antispam">Leave this empty:
     <br /><input name="url" /></p>
@@ -140,11 +140,11 @@
 </div> <!-- cd-popup -->
 
   <div class="submit column column-10">
-    <button type="submit" id="form-submit" class="submit-btn ">
+    <button type="submit" id="form-submit" class="cd-popup-trigger submit-btn ">
 
                     <i class="fa fa-paper-plane"></i> SUBMIT ENQUIRY
                 </button>
-                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                
 
   </div>
     <noscript>
