@@ -78,7 +78,6 @@
     <script src="bower_components/unslider/dist/js/unslider-min.js"></script>
     <script src="/bower_components/viewportchecker/viewportchecker.js"></script>  
      <script src="bower_components/animateCSS/dist/jquery.animatecss.js"></script>
-      <script src="bower_components/validator/validator.min.js"></script>
                   <script src="js/main.js"></script>
 
     <!-- endbower -->
