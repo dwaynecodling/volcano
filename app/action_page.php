@@ -32,7 +32,7 @@ if (empty($_POST["details"])) {
 }
 
 
-$EmailTo = "dwayneandrecodling@gmail.com";
+$EmailTo = "hello@wearevolcano.com";
 $Subject = "New Contact Form Submission";
 
 // prepare email body text
