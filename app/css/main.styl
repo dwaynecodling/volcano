@@ -1,5 +1,5 @@
 
-html
+html, body
    font-family: 'LatoWeb', sans-serif;
    -webkit-font-smoothing: antialiased;
    moz-osx-font-smoothing: antialiased;
@@ -834,20 +834,24 @@ p.role {
 
 }
     .web-contact-number{
-    font-size: 22px;
+    width: 260px;
+    padding: 1em 1em;
+    background-color: transparent;
     color: #fff;
-    width: 265px;
-    border-box: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 16px;
-    background-color: #f2385a;
-    font-weight: 200;
-    line-height: 10px;
-    font-family: 'LatoWebLight';
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: LatoWebLight;
+    letter-spacing: 0.1rem;
+    border: 2px solid #fff;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), 0 0 5px rgba(0,0,0,0.1);
+    transition: all 0.2s;
+}
 
-    }
-    
+.web-contact-number:hover{
+
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 0 20px rgba(0, 0, 0, 0.5);
+ }   
     
 
 .graphic-interior, .web-section-interior
@@ -942,7 +946,7 @@ img.column-icon
     opacity: 0.8;
        
 
-@media only screen and (min-width : 320px) and (max-width: 600px) {
+@media only screen and  (max-width: 600px) {
 
 
     .first, .second, .third {
