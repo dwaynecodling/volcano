@@ -36,9 +36,9 @@
                 <img class="macbook-hardware" src="images/macbook-pro.png" alt="Laptop" width="863px">
                  <div class= "macbook-screenshots fading-slider-3"> 
                   <ul>
-                     <li><img class="macbook-web" src="images/hunter-web-macbook.png"></li>
-        <li><img class="macbook-web" src="images/jayson-web-macbook.png"></li>
-        <li><img class="macbook-web" src="images/jonjon-web-macbook.png"></li>
+                     <li><img class="macbook-web" src="images/hunter-web-macbook.jpg"></li>
+        <li><img class="macbook-web" src="images/jayson-web-macbook.jpg"></li>
+        <li><img class="macbook-web" src="images/jonjon-web-macbook.jpg"></li>
     </div>
         
          </ul>
