@@ -375,6 +375,30 @@ jQuery(document).ready(function() {
         offset: 250
        });
 });
+jQuery(document).ready(function() {
+    jQuery('#about').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated fadeIn',
+        offset: 50
+       });
+
+        jQuery('.process-top').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated fadeInRight',
+        offset: 50
+       });
+
+         jQuery('#branding').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated fadeInRight',
+        offset: 50
+       });
+         
+         jQuery('#services').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated fadeInRight',
+        offset: 50
+       });
+});
+
+
+
 
 
 //Submit Form
