@@ -6,6 +6,8 @@ var path = require('path');
 
 var gulp = require('gulp'),
     useref = require('gulp-useref');
+var gutil = require( 'gulp-util' );
+var ftp = require( 'vinyl-ftp' );
 var $ = require('gulp-load-plugins')();
 var nunjucksRender = require('gulp-nunjucks-render');
 var browserSync = require('browser-sync');
@@ -218,3 +220,33 @@ gulp.task('default', ['clean'], function () {
   gulp.start('build');
 });
 
+
+
+
+
+gulp.task( 'deploy', function () {
+ 
+    var conn = ftp.create( {
+        host:     'ftp.wearevolcano.com',
+        user:     'deploy@wearevolcano.com',
+        password: 'fembnUym!',
+        parallel: 10,
+        log:      gutil.log
+    } );
+ 
+    var globs = [
+        'src/**',
+        'css/**',
+        'js/**',
+        'fonts/**',
+        'index.html'
+    ];
+ 
+    // using base = '.' will transfer everything to /public_html correctly 
+    // turn off buffering in gulp.src for best performance 
+ 
+    return gulp.src( globs, { base: '.', buffer: false } )
+        .pipe( conn.newer( '/public_html' ) ) // only upload newer files 
+        .pipe( conn.dest( '/public_html' ) );
+ 
+} );
