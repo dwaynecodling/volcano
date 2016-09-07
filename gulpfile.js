@@ -4,7 +4,8 @@
 var fs = require('fs');
 var path = require('path');
 
-var gulp = require('gulp');
+var gulp = require('gulp'),
+    useref = require('gulp-useref');
 var $ = require('gulp-load-plugins')();
 var nunjucksRender = require('gulp-nunjucks-render');
 var browserSync = require('browser-sync');
@@ -28,7 +29,7 @@ gulp.task('stylesheet', ['sprites'], function () {
       this.emit('end');
     })
     .pipe($.postcss([
-      require('autoprefixer-core')({browsers: ['last 1 version']})
+      require('autoprefixer')({browsers: ['last 1 version']})
     ]))
     .pipe($.if(isDevelopment, $.sourcemaps.write()))
     .pipe(gulp.dest('.tmp/css'))
@@ -95,16 +96,16 @@ gulp.task('jshint', function () {
 });
 
 gulp.task('html', ['javascript', 'stylesheet'], function () {
-  var assets = $.useref.assets({searchPath: ['.tmp', 'app/*.html', '.']});
+
 
   return gulp.src('app/*.html')
-    .pipe(assets)
+   
     .pipe($.if('*.js', $.uglify()))
     .pipe($.if('*.css', $.csso()))
-    .pipe(assets.restore())
+
     .pipe($.useref())
-    .pipe($.if('*.html', $.minifyHtml({conditionals: true, loose: true})))
-    .pipe(gulp.dest('dist'));
+    .pipe(useref({searchPath: ['.tmp', 'app/*.html', '.']}))
+    .pipe(gulp.dest('dist'))
 });
 
 gulp.task('images', function () {
