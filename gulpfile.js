@@ -6,8 +6,8 @@ var path = require('path');
 
 var gulp = require('gulp'),
     useref = require('gulp-useref');
-var gutil = require( 'gulp-util' );
-var ftp = require( 'vinyl-ftp' );
+    var gutil        = require('gulp-util');
+var ftp          = require('vinyl-ftp');
 var $ = require('gulp-load-plugins')();
 var nunjucksRender = require('gulp-nunjucks-render');
 var browserSync = require('browser-sync');
@@ -216,6 +216,8 @@ gulp.task('build', ['html', 'images', 'fonts', 'extras'], function () {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
+
+
 gulp.task('default', ['clean'], function () {
   gulp.start('build');
 });
@@ -223,30 +225,63 @@ gulp.task('default', ['clean'], function () {
 
 
 
+// ## Globals
 
-gulp.task( 'deploy', function () {
- 
-    var conn = ftp.create( {
-        host:     'ftp.wearevolcano.com',
-        user:     'deploy@wearevolcano.com',
-        password: 'fembnUym!',
-        parallel: 10,
-        log:      gutil.log
-    } );
- 
-    var globs = [
-        'src/**',
-        'css/**',
-        'js/**',
-        'fonts/**',
-        'index.html'
-    ];
- 
-    // using base = '.' will transfer everything to /public_html correctly 
-    // turn off buffering in gulp.src for best performance 
- 
-    return gulp.src( globs, { base: '.', buffer: false } )
-        .pipe( conn.newer( '/public_html' ) ) // only upload newer files 
-        .pipe( conn.dest( '/public_html' ) );
- 
-} );
+// ### Vinyl FTP
+gulp.task('deploy', function() {
+  var conn = ftp.create( {
+    host:     'ftp.wearevolcano.com',
+    user:     'wearevolcano.com',
+    password: '7GFYg!j9x',
+    parallel: 10,
+    log:      gutil.log
+  });
+  var globs = [
+    'dist/*.php',
+    'dist/index.html',
+    'dist/css/**',
+    'dist/js/**',
+    'dist/fonts/**',
+    'dist/images/**',
+    'dist/fonts/**',
+    'dist/**',
+    '!.git',
+    '!app',
+    '!*.json',
+    '!.tmp',
+    '!*.md',
+    '!*.xml',
+    '!assets',
+    '!collaboration_documents',
+    '!bower_components',
+    '!dist/scripts/jquery.js',
+    '!dist/scripts/jquery.js.map',
+    '!dist/scripts/main.js',
+    '!dist/scripts/main.js.map',
+    '!dist/scripts/modernizr.js',
+    '!dist/scripts/modernizr.js.map',
+    '!dist/styles/editor-style.css',
+    '!dist/styles/editor-style.css.map',
+    '!dist/styles/main.css',
+    '!dist/styles/main.css.map',
+    '!gulpfile.js',
+    '!node_modules',
+    '!node_modules/**',
+  ];
+  // using base = '.' will transfer everything to /public_html correctly
+  // turn off buffering in gulp.src for best performance
+  return gulp.src( globs, { base: './dist/', buffer: false } )
+    .pipe( conn.newer( '/public_html' ) ) // only upload newer files
+    .pipe( conn.dest( '/public_html' ) );
+});
+
+// ### Build
+// `gulp build` - Run all the build tasks but don't clean up beforehand.
+// Generally you should be running `gulp` instead of `gulp build`.
+gulp.task('build', function(callback) {
+  runSequence('styles',
+              'scripts',
+              ['fonts', 'images'],
+              'deploy',
+              callback);
+});
