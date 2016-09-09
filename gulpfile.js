@@ -104,9 +104,11 @@ gulp.task('html', ['javascript', 'stylesheet'], function () {
    
     .pipe($.if('*.js', $.uglify()))
     .pipe($.if('*.css', $.csso()))
+    
 
     .pipe($.useref())
     .pipe(useref({searchPath: ['.tmp', 'app/*.html', '.']}))
+    .pipe($.if('*.html', $.minifyHtml({conditionals: true, loose: true})))
     .pipe(gulp.dest('dist'))
 });
 
@@ -275,13 +277,3 @@ gulp.task('deploy', function() {
     .pipe( conn.dest( '/public_html' ) );
 });
 
-// ### Build
-// `gulp build` - Run all the build tasks but don't clean up beforehand.
-// Generally you should be running `gulp` instead of `gulp build`.
-gulp.task('build', function(callback) {
-  runSequence('styles',
-              'scripts',
-              ['fonts', 'images'],
-              'deploy',
-              callback);
-});
