@@ -1,7 +1,7 @@
 <!-- navigation-two.nunjucks -->
 
 <div class="header-nav">
-<div class="main-logo"> <a href="/"><img class="logo" src="images/svg/volcano_logo.svg"></a></div>
+<div class="main-logo"> <a href="/"><img class="logo" src="images/svg/volcano_logo.svg" alt="branding and identity image" alt=" Volcano Logo"></a></div>
 <nav>
 <ul>
         <li><a href="#graphic-design"><span class="hover">SERVICES</span></a></li>
@@ -38,7 +38,7 @@
 
 
 <div class="overlay">
-	<div class="main-logo"> <a href="/"><img class="overlay-logo" src="images/svg/volcano_logo.svg"></a></div>
+	<div class="main-logo"> <a href="/"><img class="overlay-logo" src="images/svg/volcano_logo.svg" alt=" Volcano Logo"></a></div>
 	<div class="wrap">
 		<ul class="wrap-nav">
 			<li><a href="#graphic-design">SERVICES</a>
