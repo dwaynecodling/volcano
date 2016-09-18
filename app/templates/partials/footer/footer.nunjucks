@@ -70,7 +70,7 @@
 <div class="row">
   <h3>Social Media</h3>
   <div class= "column column-2">
-  <a href="#facebook">
+  <a href="http://www.facebook.com/volcanonottingham/" target="_blank">
     <span class="fa-stack fa-1x">
             <i class="fa fa-circle-thin fa-stack-2x fa-inverse"></i>
             <i class="fa fa-facebook fa-2 fa-stack-1x "></i>
@@ -78,7 +78,7 @@
          </a>
        </div>
        <div class= "column column-10">
-        <a href="#facebook">Like us on Facebook</a>
+        <a href="http://www.facebook.com/volcanonottingham/" target="_blank">Like us on Facebook</a>
         </div>
    </div>
    <div class="row">

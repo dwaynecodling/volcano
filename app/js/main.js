@@ -382,17 +382,17 @@ jQuery(document).ready(function() {
        });
 
         jQuery('.process-top').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated fadeInRight',
+        classToAdd: 'visible animated fadeInLeft',
         offset: 50
        });
 
          jQuery('#branding').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated fadeInRight',
+        classToAdd: 'visible animated fadeInLeft',
         offset: 50
        });
          
          jQuery('#services').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated fadeInRight',
+        classToAdd: 'visible animated fadeInLeft',
         offset: 50
        });
 });
